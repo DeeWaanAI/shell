@@ -1,0 +1,13 @@
+{
+  "found": true,
+  "id": "mdl_179372773372600021",
+  "locus": "local",
+  "privacy_class": "private",
+  "problems": [
+    "missing_env:L6_SHELL_CP2_F8_BROKEN_KEY_ABSENT"
+  ],
+  "status": "active",
+  "superseded_by": null,
+  "usable": false,
+  "warnings": []
+}

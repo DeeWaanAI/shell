@@ -1,0 +1,56 @@
+{
+  "action_id": "a_18e4996cc74e9a384679f0aa",
+  "actor": {
+    "agent_id": "e2",
+    "session_id": "s_1793727244077ca209b"
+  },
+  "authority": {
+    "grant_id": "g_18e4996cc748cdd800f7fd16",
+    "user_id": "e2"
+  },
+  "confirmations": [],
+  "created_at": "2026-11-03T17:34:04.079638+00:00",
+  "data_inputs": [],
+  "execution_log": [
+    {
+      "result": "refused",
+      "step": "gate: target_out_of_scope:e2/refused.txt",
+      "ts": "2026-11-03T17:34:04.079868+00:00"
+    }
+  ],
+  "id": "a_18e4996cc74e9a384679f0aa",
+  "intent": {
+    "normalized": {
+      "action_type": "file.create",
+      "params": {
+        "content": "never written\n",
+        "path": "e2/refused.txt"
+      }
+    },
+    "parser": "scripted",
+    "parser_version": "0.1",
+    "verbatim": "E2 refuse: create a file outside the grant"
+  },
+  "outcome": {
+    "reason": "target_out_of_scope:e2/refused.txt",
+    "status": "refused"
+  },
+  "permission_scope": {
+    "_id": "g_18e4996cc748cdd800f7fd16",
+    "_ts": "2026-11-03T17:34:04.079266+00:00",
+    "action_types": [
+      "file.create"
+    ],
+    "constraints": {},
+    "expires_at": null,
+    "not_before": null,
+    "requires_confirmation": [],
+    "target_pattern": "e2/allowed.txt",
+    "type": "permission_grant",
+    "user_id": "e2"
+  },
+  "preconditions": [],
+  "reversibility_class": null,
+  "undo_recipe": null,
+  "undo_status": "not_requested"
+}

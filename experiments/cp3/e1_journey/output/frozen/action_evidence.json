@@ -1,0 +1,92 @@
+{
+  "action_ref": "a_18e498fbe42cbb105efe0f2c",
+  "found": true,
+  "record": {
+    "_id": "a_18e498fbe4304938197f1504",
+    "_ts": "2026-11-03T17:25:59.232886+00:00",
+    "action_id": "a_18e498fbe42cbb105efe0f2c",
+    "actor": {
+      "agent_id": "l6-shell-cp1",
+      "session_id": "s_1793726759196727247"
+    },
+    "authority": {
+      "grant_id": "g_18e498fbe42869989d934d01",
+      "user_id": "youssef"
+    },
+    "confirmations": [
+      {
+        "kind": "irreversible_ack",
+        "ts": "2026-11-03T17:25:59.233684+00:00",
+        "user_id": "youssef"
+      }
+    ],
+    "created_at": "2026-11-03T17:25:59.232654+00:00",
+    "data_inputs": [],
+    "execution_log": [
+      {
+        "result": "ok",
+        "step": "gate: ok",
+        "ts": "2026-11-03T17:25:59.232836+00:00"
+      },
+      {
+        "result": "ok",
+        "step": "armed: class=EXACT",
+        "ts": "2026-11-03T17:25:59.232842+00:00"
+      },
+      {
+        "result": "ok",
+        "step": "user confirmed irreversible action",
+        "ts": "2026-11-03T17:25:59.233686+00:00"
+      },
+      {
+        "result": "ok",
+        "step": "create audit/q3-expense-edit-cp1.txt",
+        "ts": "2026-11-03T17:25:59.233860+00:00"
+      }
+    ],
+    "id": "a_18e498fbe42cbb105efe0f2c",
+    "intent": {
+      "normalized": {
+        "action_type": "file.create",
+        "params": {
+          "content": "CP1: Q3 expense r_051 changed to 956.14; Q3 total recomputed to 10481.96; connection mdl_179372675921000001 superseded by mdl_179372675921100002.\n",
+          "path": "audit/q3-expense-edit-cp1.txt"
+        }
+      },
+      "parser": "scripted",
+      "parser_version": "0.1",
+      "verbatim": "Change the 9 August Q3 food expense to 956.14, create an audit note, and remember what happened."
+    },
+    "outcome": {
+      "reason": "",
+      "status": "success"
+    },
+    "permission_scope": {
+      "_id": "g_18e498fbe42869989d934d01",
+      "_ts": "2026-11-03T17:25:59.232374+00:00",
+      "action_types": [
+        "file.create"
+      ],
+      "constraints": {},
+      "expires_at": null,
+      "not_before": null,
+      "requires_confirmation": [
+        "file.create"
+      ],
+      "target_pattern": "**",
+      "type": "permission_grant",
+      "user_id": "youssef"
+    },
+    "preconditions": [],
+    "reversibility_class": "EXACT",
+    "undo_recipe": {
+      "ops": [
+        {
+          "op": "remove",
+          "path": "audit/q3-expense-edit-cp1.txt"
+        }
+      ]
+    },
+    "undo_status": "available"
+  }
+}

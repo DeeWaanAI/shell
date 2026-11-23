@@ -1,0 +1,13 @@
+{
+  "approved_file_content": "approved\n",
+  "approved_file_exists": true,
+  "approved_outcome": "success",
+  "failed_outcome": "refused",
+  "failed_reason": "preconditions_failed:target_exists",
+  "gate": "F4",
+  "refused_file_absent": true,
+  "refused_outcome": "refused",
+  "refused_reason": "target_out_of_scope:f4/refused.txt",
+  "reject_intent_did_not_undo_file": true,
+  "reject_intent_recorded": true
+}

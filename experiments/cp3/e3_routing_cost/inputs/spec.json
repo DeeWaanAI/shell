@@ -1,0 +1,37 @@
+{
+  "experiment": "E3",
+  "title": "Routing and cost audit",
+  "brief_ref": "brief.md §7.2 E3; CP2 clearance answer 2",
+  "description": "Dry-run and fake-transport metered routing decisions, recomputed from the raw L5 decision records. Declared-vs-actual cost is kept distinct in every case; unmetered cases are shown as null / 'not metered', never $0. Simulated metering from the local fake transport is labelled and never presented as real provider metering.",
+  "frozen_inputs": {
+    "l3_l5_code": "shell/vendor/ (frozen snapshot, sha256-pinned)",
+    "l5_datasets": "05-model-router/datasets (policy v13 + rules + capabilities seeds copied read-only; models and decision_log start empty)",
+    "fake_transport": "experiments/fake_transport.py (loopback, never touches the network; NetworkGuard asserts 0 socket/urlopen calls)"
+  },
+  "cases": {
+    "dry_run_planned": {
+      "transport": "none (dry_run=True)",
+      "expected_outcome": "planned",
+      "expected_metered": false,
+      "expected_actual_cost": null,
+      "honesty_rule": "actual_metered_cost_usd is null, never $0"
+    },
+    "fake_answered_metered": {
+      "transport": "local fake (ANSWERED reply)",
+      "expected_outcome": "answered",
+      "expected_metered": true,
+      "expected_meter_label": "simulated_local_fake",
+      "honesty_rule": "every attempt's meter field carries the simulated label; the simulated number is never presented as real provider metering"
+    },
+    "all_failed_refused": {
+      "transport": "local fake (CALL_FAILED_CONNECTION default)",
+      "expected_outcome": "refused",
+      "expected_refusal_reason": "all_connections_failed",
+      "expected_chosen": null,
+      "expected_metered": false,
+      "expected_actual_cost": null
+    }
+  },
+  "declared_price_note": "The fake connection declares local $0 input/output prices. A local $0 price is a USER DECLARATION, not a claim that energy or latency was measured (brief §3.3).",
+  "headline_result_recomputed_by_spine": "Declared-vs-actual values kept distinct per case; unmetered cases shown as null; route/evidence coverage; simulated metering labelled; zero network calls."
+}

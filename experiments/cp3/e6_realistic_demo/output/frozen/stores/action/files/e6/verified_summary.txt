@@ -1,0 +1,6 @@
+E6 realistic demonstration — Cabinet Office spend over £25,000, Feb 2013.
+Contains public sector information licensed under the Open Government Licence v3.0.
+Qafiya-verified total Programme expenditure: 18801701.38 GBP.
+Qafiya-verified largest supplier type total (Large): 26162299.76 GBP.
+Model prose (local llama3.1:8b, greedy) is recorded in transcript_main.json and is NOT a verified value.
+Model stated figures: [13111919.19, 14111919.19]

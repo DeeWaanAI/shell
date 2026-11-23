@@ -1,0 +1,12 @@
+{
+  "action_status": "success",
+  "bound_records": 7,
+  "evidence_source_rows": 21,
+  "frozen_files_verified": 83,
+  "journey_checks_recomputed": 12,
+  "memory_evidence_record": "m_179415560151400003",
+  "python": "3.12.16",
+  "q3_total_recomputed_from_raw": 10481.96,
+  "status": "PASS",
+  "verification_output": "output/verification"
+}

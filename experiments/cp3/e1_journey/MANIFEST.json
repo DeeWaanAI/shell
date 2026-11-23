@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E1 end-to-end user journey (frozen inputs + scripts)",
+  "file_count": 3,
+  "files": {
+    "inputs/spec.json": "104dea945bf424290791fbc7ab52fe8066d26fbca13ea575f0f0fc27ce25da06",
+    "run.py": "9d453e9e394b1f64d54888da19fc1aaf35d02de778a09d232083d29f249ffbb9",
+    "spine.py": "c06a489123c18b8201808288f1b27c587f3f9f70a52e90b9b1b0626ccf1e79d7"
+  }
+}

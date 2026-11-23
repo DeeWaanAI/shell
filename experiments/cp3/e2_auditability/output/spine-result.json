@@ -1,0 +1,64 @@
+{
+  "all_chains_verify": true,
+  "experiment": "E2",
+  "frozen_files_verified": 3,
+  "missing_ref_count_total": 0,
+  "python": "3.12.16",
+  "replays": {
+    "approve": {
+      "chain_ok": true,
+      "events": 11,
+      "missing_ref_count": 0,
+      "sequences_complete": true,
+      "session_id": "s_1793727244057d00c4e",
+      "variant": "approve"
+    },
+    "failure": {
+      "chain_ok": true,
+      "events": 9,
+      "missing_ref_count": 0,
+      "sequences_complete": true,
+      "session_id": "s_1793727244083354b77",
+      "variant": "failure"
+    },
+    "refuse": {
+      "chain_ok": true,
+      "events": 9,
+      "missing_ref_count": 0,
+      "sequences_complete": true,
+      "session_id": "s_1793727244077ca209b",
+      "variant": "refuse"
+    },
+    "reject": {
+      "chain_ok": true,
+      "events": 9,
+      "missing_ref_count": 0,
+      "sequences_complete": true,
+      "session_id": "s_1793727244067647a2d",
+      "variant": "reject"
+    },
+    "unresolved": {
+      "chain_ok": true,
+      "events": 8,
+      "missing_ref_count": 0,
+      "sequences_complete": true,
+      "session_id": "s_1793727244091fa23dc",
+      "variant": "unresolved"
+    }
+  },
+  "status": "PASS",
+  "typed_visible_states": {
+    "approve": "success + EXECUTED event + file written",
+    "failure": "refused with preconditions_failed",
+    "refuse": "refused with typed reason + no file written",
+    "reject": "intent recorded + file unchanged + no EXECUTED event",
+    "unresolved": "UNRESOLVED painted in dvr/1.1-clean render"
+  },
+  "variants": [
+    "approve",
+    "failure",
+    "refuse",
+    "reject",
+    "unresolved"
+  ]
+}

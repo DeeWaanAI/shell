@@ -1,0 +1,8 @@
+{
+  "chain_clean_before": true,
+  "chain_clean_detail": "2 entries verified",
+  "chain_detected_naive_tamper": true,
+  "chain_tamper_detail": "entry 0: entry_hash mismatch (content tampered)",
+  "manifest_clean_count": 3,
+  "manifest_detected_tamper": true
+}

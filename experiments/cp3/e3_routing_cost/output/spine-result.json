@@ -1,0 +1,36 @@
+{
+  "cases": {
+    "all_failed_refused": {
+      "actual_metered_cost_usd": null,
+      "chosen": null,
+      "metered": false,
+      "outcome": "refused",
+      "refusal_reason": "all_connections_failed"
+    },
+    "dry_run_planned": {
+      "actual_metered_cost_usd": null,
+      "declared_cost_usd": 0.0,
+      "honesty": "unmetered shown as null, never $0",
+      "metered": false,
+      "outcome": "planned"
+    },
+    "fake_answered_metered": {
+      "actual_metered_cost_usd": 0.0,
+      "declared_cost_usd": 0.0,
+      "honesty": "simulated metering labelled on every attempt",
+      "meter_label": "simulated_local_fake",
+      "metered": true,
+      "outcome": "answered"
+    }
+  },
+  "declared_vs_actual_distinct": {
+    "all_failed_refused": true,
+    "dry_run_planned": true,
+    "fake_answered_metered": true
+  },
+  "experiment": "E3",
+  "frozen_files_verified": 3,
+  "network_calls": 0,
+  "python": "3.12.16",
+  "status": "PASS"
+}

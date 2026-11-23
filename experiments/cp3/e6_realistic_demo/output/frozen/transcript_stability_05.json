@@ -1,0 +1,12 @@
+{
+  "decoding": "greedy/temperature=0",
+  "finish_reason": "stop",
+  "meter_label_from_ollama": "provider",
+  "model": "llama3.1:8b-instruct-q4_K_M",
+  "ok": true,
+  "response_text": "The total Programme expenditure is £14,111,919.19. The supplier type that received the largest total spend is Large, with a total of £13,111,919.19.",
+  "run": "stability_05",
+  "tokens_in": 1580,
+  "tokens_out": 40,
+  "wall_clock_s": 1.667
+}

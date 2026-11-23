@@ -1,0 +1,4 @@
+{"derivation": "literal", "id": "b_96012844b4", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.verbatim"}], "value": "E2 approve: create the audit note"}
+{"derivation": "literal", "id": "b_ba53349bf7", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.normalized"}], "value": {"action_type": "file.create", "params": {"content": "approved\n", "path": "e2/approved.txt"}}}
+{"derivation": "literal", "id": "b_23b3ac9d73", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "reversibility_class"}], "value": "EXACT"}
+{"derivation": "literal", "id": "b_e1441da015", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "authority.user_id"}], "value": "e2"}

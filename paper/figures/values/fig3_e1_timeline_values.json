@@ -1,0 +1,183 @@
+{
+ "export_command": "svg is the source of truth; export with rsvg-convert -f pdf figN.svg -o figN.pdf (or Overleaf \\usepackage{svg}) \u2014 no local converter on the build host",
+ "figure": "fig3_e1_timeline",
+ "plotted_values": {
+  "chain_ok": true,
+  "event_count": 14,
+  "events": [
+   {
+    "id": "r_17937267592082f6d59",
+    "refs": [],
+    "sequence": 1,
+    "state": "RECEIVED"
+   },
+   {
+    "id": "r_1793726759219bde528",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002"
+    ],
+    "sequence": 2,
+    "state": "ROUTED"
+   },
+   {
+    "id": "r_179372675922082e4ac",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002"
+    ],
+    "sequence": 3,
+    "state": "RECALLED"
+   },
+   {
+    "id": "r_179372675922024a31a",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002"
+    ],
+    "sequence": 4,
+    "state": "COMPOSED"
+   },
+   {
+    "id": "r_1793726759221792ffa",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "view_refs=1"
+    ],
+    "sequence": 5,
+    "state": "VIEW_VALIDATED"
+   },
+   {
+    "id": "r_1793726759223079ad1",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "view_refs=1"
+    ],
+    "sequence": 6,
+    "state": "RENDERED"
+   },
+   {
+    "id": "r_1793726759229933fe6",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=1"
+    ],
+    "sequence": 7,
+    "state": "WRITE_BACK"
+   },
+   {
+    "id": "r_17937267592290cc9d4",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=1"
+    ],
+    "sequence": 8,
+    "state": "VIEW_VALIDATED"
+   },
+   {
+    "id": "r_17937267592312086c7",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=1"
+    ],
+    "sequence": 9,
+    "state": "RENDERED"
+   },
+   {
+    "id": "r_179372675923167b717",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=1"
+    ],
+    "sequence": 10,
+    "state": "AWAITING_USER"
+   },
+   {
+    "id": "r_1793726759234e778e1",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "action_refs=1",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=1"
+    ],
+    "sequence": 11,
+    "state": "ACTION_GATED"
+   },
+   {
+    "id": "r_1793726759235541efe",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "action_refs=1",
+     "memory_refs=1",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=1"
+    ],
+    "sequence": 12,
+    "state": "EXECUTED"
+   },
+   {
+    "id": "r_1793726759238caf709",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "action_refs=1",
+     "memory_refs=3",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=2"
+    ],
+    "sequence": 13,
+    "state": "REMEMBERED"
+   },
+   {
+    "id": "r_1793726759238053cf5",
+    "refs": [
+     "decision_ref=dec_179372675921600003",
+     "action_refs=1",
+     "memory_refs=3",
+     "connection_refs=2",
+     "successor_ref=mdl_179372675921100002",
+     "edit_refs=1",
+     "view_refs=2"
+    ],
+    "sequence": 14,
+    "state": "CLOSED"
+   }
+  ]
+ },
+ "source_artifacts": [
+  "experiments/cp3/e1_journey/output/frozen/audit_replay.json"
+ ]
+}

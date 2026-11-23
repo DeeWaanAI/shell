@@ -1,0 +1,46 @@
+{
+  "active_counts": {
+    "correction_log": {
+      "active": 0,
+      "non_active": 0,
+      "total": 0
+    },
+    "deletion_log": {
+      "active": 0,
+      "non_active": 0,
+      "total": 0
+    },
+    "longterm_notes": {
+      "active": 1,
+      "non_active": 0,
+      "total": 1
+    },
+    "preference_store": {
+      "active": 0,
+      "non_active": 0,
+      "total": 0
+    },
+    "session_log": {
+      "active": 2,
+      "non_active": 0,
+      "total": 2
+    }
+  },
+  "chains": {
+    "correction_log": true,
+    "deletion_log": true,
+    "longterm_notes": true,
+    "preference_store": true,
+    "session_log": true
+  },
+  "evidence_binding_id_matches": true,
+  "evidence_source_row_is_note": true,
+  "evidence_source_rows_nonempty": true,
+  "gate": "F5",
+  "html_clean": true,
+  "note": "m_179372773360300003",
+  "note_in_html": true,
+  "turn1": "m_179372773360200001",
+  "turn2": "m_179372773360300002",
+  "turns_bound_as_sources_on_note": true
+}

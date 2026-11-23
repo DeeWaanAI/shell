@@ -1,0 +1,7 @@
+{
+  "model_fills_only": "COMPOSE",
+  "model_prose": "The total Programme expenditure is £14,111,919.19. The supplier type that received the largest total spend is Large, with a total of £13,111,919.19.",
+  "prompt_sha256": "8646e67fc2a6616778af0281c4468493b2e28760f1a388062f68535b51e1e060",
+  "transcript": "transcript_main.json",
+  "verified_values_source": "Qafiya bindings over the frozen CSV (not the model)"
+}

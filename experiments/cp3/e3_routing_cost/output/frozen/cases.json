@@ -1,0 +1,30 @@
+{
+  "all_failed_refused": {
+    "actual_metered_cost_usd": null,
+    "chosen_model_ref": null,
+    "decision_ref": "dec_179372735278900008",
+    "metered": false,
+    "model_ref": "mdl_179372735278600007",
+    "outcome": "refused",
+    "refusal_reason": "all_connections_failed"
+  },
+  "dry_run_planned": {
+    "actual_metered_cost_usd": null,
+    "decision_ref": "dec_179372735275900002",
+    "declared_cost_usd": 0.0,
+    "metered": false,
+    "model_ref": "mdl_179372735275400001",
+    "outcome": "planned"
+  },
+  "fake_answered_metered": {
+    "actual_metered_cost_usd": 0.0,
+    "decision_ref": "dec_179372735277500005",
+    "declared_cost_usd": 0.0,
+    "fake_calls": 1,
+    "meter_label": "simulated_local_fake",
+    "metered": true,
+    "model_ref": "mdl_179372735277000004",
+    "outcome": "answered",
+    "simulated_metering_on_every_attempt": true
+  }
+}

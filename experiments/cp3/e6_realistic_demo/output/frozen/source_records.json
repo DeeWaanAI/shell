@@ -1,0 +1,8 @@
+{
+  "amount_bearing_records": 129,
+  "b_count_label": "count of amount-bearing records",
+  "empty_rows_remain_in_frozen_csv": true,
+  "empty_rows_reported_not_dropped": 14,
+  "n_statement": "143 source records, of which 129 carry an amount (14 empty rows reported, not dropped)",
+  "source_records": 143
+}

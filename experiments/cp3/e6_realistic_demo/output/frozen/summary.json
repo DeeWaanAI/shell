@@ -1,0 +1,102 @@
+{
+  "audit_events": 11,
+  "dataset": {
+    "amount_bearing_records": 129,
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "empty_rows_reported_not_dropped": 14,
+    "licence": "Open Government Licence v3.0",
+    "n_statement": "143 source records, of which 129 carry an amount (14 empty rows reported, not dropped)",
+    "sha256": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23",
+    "source_records": 143
+  },
+  "divergence": {
+    "model_category_figures": {
+      "Large": 13111919.19,
+      "Programme": 14111919.19
+    },
+    "model_large_figure": 13111919.19,
+    "model_large_matches_verified": false,
+    "model_programme_figure": 14111919.19,
+    "model_programme_matches_verified": false,
+    "model_stated_gbp_figures": [
+      13111919.19,
+      14111919.19
+    ],
+    "note": "A divergence is a FEATURE: the Qafiya binding recomputes the verified number deterministically regardless of the model's prose. The shell never renders the model's prose as a verified value. Each figure is associated with the category noun the model attached it to ( Programme -> its figure, Large -> its figure ).",
+    "verified_large": 26162299.76,
+    "verified_programme": 18801701.38
+  },
+  "experiment": "E6",
+  "invariance": {
+    "audit_events": 11,
+    "chain_ok": true,
+    "claims_that_would_change_with_prose": [],
+    "input_refs_missing": [],
+    "rule": "if a claim would change with model output it is not an auditability claim",
+    "sequences_complete": true,
+    "verified_values_invariant_to_prose": true
+  },
+  "kernel_states": [
+    "RECEIVED",
+    "ROUTED",
+    "RECALLED",
+    "COMPOSED",
+    "VIEW_VALIDATED",
+    "RENDERED",
+    "AWAITING_USER",
+    "ACTION_GATED",
+    "EXECUTED",
+    "REMEMBERED",
+    "CLOSED"
+  ],
+  "loopback_guard": {
+    "blocked": [],
+    "loopback_call_count": 12,
+    "loopback_ports_touched": [
+      11434
+    ],
+    "non_loopback_calls": 0,
+    "only_loopback_touched": true
+  },
+  "model": {
+    "decoding": "greedy/temperature=0",
+    "name": "llama3.1:8b-instruct-q4_K_M",
+    "ollama_version": "unknown"
+  },
+  "request_ref": "req_17937361421838a5726",
+  "route": {
+    "chosen_label": "llama3.1:8b-instruct-q4_K_M",
+    "chosen_locus": "local",
+    "declared_cost_usd": 0.0,
+    "l5_raw_actual_cost_usd": 0.0,
+    "outcome": "answered",
+    "presented_actual_metered_cost_usd": null
+  },
+  "session_id": "s_179373614218345d874",
+  "stability_variance": {
+    "all_identical": true,
+    "distinct_responses": 1,
+    "identical_to_first": 5,
+    "k": 5,
+    "mean_token_position_agreement": 1.0,
+    "tokens_out_per_run": [
+      40,
+      40,
+      40,
+      40,
+      40
+    ]
+  },
+  "status": "PASS",
+  "verified_values": {
+    "b_admin": 16377504.02,
+    "b_count": 129.0,
+    "b_grants": 6820258.5,
+    "b_large": 26162299.76,
+    "b_max": 6795751.58,
+    "b_min": -115912.64,
+    "b_programme": 18801701.38,
+    "b_sme": 8276442.42,
+    "b_total": 41999463.9
+  }
+}

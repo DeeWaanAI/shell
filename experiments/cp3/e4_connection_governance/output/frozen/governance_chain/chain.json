@@ -1,0 +1,12 @@
+{
+  "add_outcome": "success",
+  "allocated": "mdl_179372748462100001",
+  "privacy_outcome": "success",
+  "privacy_undo": {
+    "detail": "restored privacy on mdl_179372748462300002",
+    "ok": true
+  },
+  "restored": "mdl_179372748462500003",
+  "retire_outcome": "success",
+  "successor": "mdl_179372748462300002"
+}

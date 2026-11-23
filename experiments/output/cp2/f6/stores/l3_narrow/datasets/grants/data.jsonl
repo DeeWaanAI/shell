@@ -1,0 +1,1 @@
+{"_id": "g_18e499dec2458b386405d7d0", "_ts": "2026-11-03T17:42:13.621434+00:00", "action_types": ["connection.add"], "constraints": {}, "expires_at": null, "not_before": null, "requires_confirmation": [], "target_pattern": "mdl_*", "type": "permission_grant", "user_id": "cp2-f6"}

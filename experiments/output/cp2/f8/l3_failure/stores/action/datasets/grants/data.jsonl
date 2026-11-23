@@ -1,0 +1,1 @@
+{"_id": "g_18e499dec7dc0e284a44233f", "_ts": "2026-11-03T17:42:13.715185+00:00", "action_types": ["file.delete"], "constraints": {}, "expires_at": null, "not_before": null, "requires_confirmation": [], "target_pattern": "**", "type": "permission_grant", "user_id": "cp2"}

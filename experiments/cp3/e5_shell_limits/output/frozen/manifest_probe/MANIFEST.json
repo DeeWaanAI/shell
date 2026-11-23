@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E5 manifest tamper probe",
+  "file_count": 3,
+  "files": {
+    "inputs/frozen.txt": "e3b3a445233d46ada8fe2df86f60028d355436aecbb04ddee69e1cbecd4ed1a3",
+    "run.py": "481324e0a34066b3b6210581da04cb9bef5490945ba7f327185037af991cc8d8",
+    "spine.py": "95439f3e1304f741334430d609ce9edcaf4f83975f116efbe4abc97e135ea13b"
+  }
+}

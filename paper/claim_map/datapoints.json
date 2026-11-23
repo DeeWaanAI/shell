@@ -1,0 +1,1289 @@
+{
+ "count": 78,
+ "datapoints": [
+  {
+   "authoritative_artifact": "preflight/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0001",
+   "key_path": "q3_total_recomputed_from_raw",
+   "key_segments": [
+    "q3_total_recomputed_from_raw"
+   ],
+   "kind": "json-scalar",
+   "note": "pre-flight Q3 total after the frozen edit",
+   "source_file": "preflight/spine-result.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 10481.96,
+   "verbatim_excerpt": "{\"q3_total_recomputed_from_raw\": 10481.96}"
+  },
+  {
+   "authoritative_artifact": "preflight/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0002",
+   "key_path": "evidence_source_rows",
+   "key_segments": [
+    "evidence_source_rows"
+   ],
+   "kind": "json-scalar",
+   "note": "evidence source rows for the count binding",
+   "source_file": "preflight/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 21,
+   "verbatim_excerpt": "{\"evidence_source_rows\": 21}"
+  },
+  {
+   "authoritative_artifact": "preflight/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0003",
+   "key_path": "journey_checks_recomputed",
+   "key_segments": [
+    "journey_checks_recomputed"
+   ],
+   "kind": "json-scalar",
+   "note": "pre-flight journey checks",
+   "source_file": "preflight/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 12,
+   "verbatim_excerpt": "{\"journey_checks_recomputed\": 12}"
+  },
+  {
+   "authoritative_artifact": "preflight/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0004",
+   "key_path": "frozen_files_verified",
+   "key_segments": [
+    "frozen_files_verified"
+   ],
+   "kind": "json-scalar",
+   "note": "pre-flight frozen manifest files",
+   "source_file": "preflight/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 83,
+   "verbatim_excerpt": "{\"frozen_files_verified\": 83}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e1_journey/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0005",
+   "key_path": "audit_events",
+   "key_segments": [
+    "audit_events"
+   ],
+   "kind": "json-scalar",
+   "note": "E1 audit events",
+   "source_file": "experiments/cp3/e1_journey/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 14,
+   "verbatim_excerpt": "{\"audit_events\": 14}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e1_journey/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0006",
+   "key_path": "q3_total_recomputed_from_raw",
+   "key_segments": [
+    "q3_total_recomputed_from_raw"
+   ],
+   "kind": "json-scalar",
+   "note": "E1 Q3 total recomputed from raw",
+   "source_file": "experiments/cp3/e1_journey/output/spine-result.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 10481.96,
+   "verbatim_excerpt": "{\"q3_total_recomputed_from_raw\": 10481.96}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e1_journey/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0007",
+   "key_path": "edited_record.amount",
+   "key_segments": [
+    "edited_record",
+    "amount"
+   ],
+   "kind": "json-scalar",
+   "note": "E1 edited cell value",
+   "source_file": "experiments/cp3/e1_journey/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": 956.14,
+   "verbatim_excerpt": "{\"amount\": 956.14}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e1_journey/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0008",
+   "key_path": "route_outcome",
+   "key_segments": [
+    "route_outcome"
+   ],
+   "kind": "json-scalar",
+   "note": "E1 route outcome (dry-run)",
+   "source_file": "experiments/cp3/e1_journey/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "planned",
+   "verbatim_excerpt": "{\"route_outcome\": \"planned\"}"
+  },
+  {
+   "authoritative_artifact": "experiments/shell-spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0009",
+   "key_path": "summary_checks_passed",
+   "key_segments": [
+    "summary_checks_passed"
+   ],
+   "kind": "json-scalar",
+   "note": "CP1 journey spine checks",
+   "source_file": "experiments/shell-spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 36,
+   "verbatim_excerpt": "{\"summary_checks_passed\": 36}"
+  },
+  {
+   "authoritative_artifact": "experiments/gates-spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0010",
+   "key_path": "gates_recomputed",
+   "key_segments": [
+    "gates_recomputed"
+   ],
+   "kind": "json-scalar",
+   "note": "CP2 gates recomputed (F1-F8)",
+   "source_file": "experiments/gates-spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 8,
+   "verbatim_excerpt": "{\"gates_recomputed\": 8}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e2_auditability/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0011",
+   "key_path": "missing_ref_count_total",
+   "key_segments": [
+    "missing_ref_count_total"
+   ],
+   "kind": "json-scalar",
+   "note": "E2 unresolved references across all variants",
+   "source_file": "experiments/cp3/e2_auditability/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 0,
+   "verbatim_excerpt": "{\"missing_ref_count_total\": 0}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e5_shell_limits/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0012",
+   "key_path": "expressibility_ceiling",
+   "key_segments": [
+    "expressibility_ceiling"
+   ],
+   "kind": "json-scalar",
+   "note": "E5 dvr expressibility ceiling",
+   "source_file": "experiments/cp3/e5_shell_limits/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "5/6",
+   "verbatim_excerpt": "{\"expressibility_ceiling\": \"5/6\"}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e5_shell_limits/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0013",
+   "key_path": "uncatchable_classes_reported",
+   "key_segments": [
+    "uncatchable_classes_reported"
+   ],
+   "kind": "json-scalar",
+   "note": "E5 uncatchable classes reported",
+   "source_file": "experiments/cp3/e5_shell_limits/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 8,
+   "verbatim_excerpt": "{\"uncatchable_classes_reported\": 8}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0014",
+   "key_path": "dataset.source_records",
+   "key_segments": [
+    "dataset",
+    "source_records"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 source records in the frozen CSV",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 143,
+   "verbatim_excerpt": "{\"source_records\": 143}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0015",
+   "key_path": "dataset.amount_bearing_records",
+   "key_segments": [
+    "dataset",
+    "amount_bearing_records"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 amount-bearing records",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 129,
+   "verbatim_excerpt": "{\"amount_bearing_records\": 129}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0016",
+   "key_path": "dataset.empty_rows_reported_not_dropped",
+   "key_segments": [
+    "dataset",
+    "empty_rows_reported_not_dropped"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 empty rows reported, not dropped",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 14,
+   "verbatim_excerpt": "{\"empty_rows_reported_not_dropped\": 14}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0017",
+   "key_path": "verified_aggregates_recomputed_independently.b_total",
+   "key_segments": [
+    "verified_aggregates_recomputed_independently",
+    "b_total"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 verified total spend",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 41999463.9,
+   "verbatim_excerpt": "{\"b_total\": 41999463.9}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0018",
+   "key_path": "verified_aggregates_recomputed_independently.b_programme",
+   "key_segments": [
+    "verified_aggregates_recomputed_independently",
+    "b_programme"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 verified Programme total (headline)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 18801701.38,
+   "verbatim_excerpt": "{\"b_programme\": 18801701.38}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0019",
+   "key_path": "verified_aggregates_recomputed_independently.b_large",
+   "key_segments": [
+    "verified_aggregates_recomputed_independently",
+    "b_large"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 verified Large-supplier total",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 26162299.76,
+   "verbatim_excerpt": "{\"b_large\": 26162299.76}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0020",
+   "key_path": "verified_aggregates_recomputed_independently.b_count",
+   "key_segments": [
+    "verified_aggregates_recomputed_independently",
+    "b_count"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 count of amount-bearing records",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 129.0,
+   "verbatim_excerpt": "{\"b_count\": 129.0}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0021",
+   "key_path": "verified_aggregates_recomputed_independently.b_min",
+   "key_segments": [
+    "verified_aggregates_recomputed_independently",
+    "b_min"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 most negative amount (credit)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "min",
+   "superseded_by": [],
+   "value": -115912.64,
+   "verbatim_excerpt": "{\"b_min\": -115912.64}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0022",
+   "key_path": "headline_evidence_rows",
+   "key_segments": [
+    "headline_evidence_rows"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 headline evidence source rows",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 79,
+   "verbatim_excerpt": "{\"headline_evidence_rows\": 79}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0023",
+   "key_path": "model_category_figures.Programme",
+   "key_segments": [
+    "model_category_figures",
+    "Programme"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 model-stated Programme figure (prose)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": 14111919.19,
+   "verbatim_excerpt": "{\"Programme\": 14111919.19}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0024",
+   "key_path": "model_category_figures.Large",
+   "key_segments": [
+    "model_category_figures",
+    "Large"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 model-stated Large figure (prose)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": 13111919.19,
+   "verbatim_excerpt": "{\"Large\": 13111919.19}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0025",
+   "key_path": "model_programme_matches_verified",
+   "key_segments": [
+    "model_programme_matches_verified"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 Programme prose matches verified?",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": false,
+   "verbatim_excerpt": "{\"model_programme_matches_verified\": false}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0026",
+   "key_path": "model_large_matches_verified",
+   "key_segments": [
+    "model_large_matches_verified"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 Large prose matches verified?",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": false,
+   "verbatim_excerpt": "{\"model_large_matches_verified\": false}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0027",
+   "key_path": "stability.k",
+   "key_segments": [
+    "stability",
+    "k"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 stability runs k",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 5,
+   "verbatim_excerpt": "{\"k\": 5}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0028",
+   "key_path": "stability.distinct_responses",
+   "key_segments": [
+    "stability",
+    "distinct_responses"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 distinct responses across k greedy runs",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 1,
+   "verbatim_excerpt": "{\"distinct_responses\": 1}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0029",
+   "key_path": "non_loopback_calls",
+   "key_segments": [
+    "non_loopback_calls"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 non-loopback network calls (must be 0)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 0,
+   "verbatim_excerpt": "{\"non_loopback_calls\": 0}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0030",
+   "key_path": "loopback_ports_touched",
+   "key_segments": [
+    "loopback_ports_touched"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 loopback ports touched",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": [
+    11434
+   ],
+   "verbatim_excerpt": "{\"loopback_ports_touched\": [11434]}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0031",
+   "key_path": "cost_honesty.declared_cost_usd",
+   "key_segments": [
+    "cost_honesty",
+    "declared_cost_usd"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 declared cost (user declaration)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": 0.0,
+   "verbatim_excerpt": "{\"declared_cost_usd\": 0.0}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0032",
+   "key_path": "cost_honesty.presented_actual_metered_cost_usd",
+   "key_segments": [
+    "cost_honesty",
+    "presented_actual_metered_cost_usd"
+   ],
+   "kind": "json-scalar",
+   "note": "E6 presented actual metered cost (null = not metered)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": null,
+   "verbatim_excerpt": "{\"presented_actual_metered_cost_usd\": null}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/cp3-spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0033",
+   "key_path": "snapshot_files_verified",
+   "key_segments": [
+    "snapshot_files_verified"
+   ],
+   "kind": "json-scalar",
+   "note": "CP3 vendored snapshot files verified",
+   "source_file": "experiments/cp3/cp3-spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 31,
+   "verbatim_excerpt": "{\"snapshot_files_verified\": 31}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e2_auditability/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0037",
+   "extract": "len",
+   "key_path": "variants",
+   "key_segments": [
+    "variants"
+   ],
+   "kind": "json-len",
+   "note": "E2 negative variants (approve/reject/refuse/failure/unresolved)",
+   "source_file": "experiments/cp3/e2_auditability/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 5,
+   "verbatim_excerpt": "{\"variants\": 5}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e3_routing_cost/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0038",
+   "extract": "len",
+   "key_path": "cases",
+   "key_segments": [
+    "cases"
+   ],
+   "kind": "json-len",
+   "note": "E3 routing cases (planned/answered/refused)",
+   "source_file": "experiments/cp3/e3_routing_cost/output/spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 3,
+   "verbatim_excerpt": "{\"cases\": 3}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/inputs/spec.json",
+   "device": "local-m4",
+   "dp_id": "DP-0039",
+   "extract": "len",
+   "key_path": "qafiya_bindings.bindings",
+   "key_segments": [
+    "qafiya_bindings",
+    "bindings"
+   ],
+   "kind": "json-len",
+   "note": "E6 Qafiya bindings over the amount column",
+   "source_file": "experiments/cp3/e6_realistic_demo/inputs/spec.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 9,
+   "verbatim_excerpt": "{\"bindings\": 9}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/cp3-spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0044",
+   "extract": "len",
+   "key_path": "experiments",
+   "key_segments": [
+    "experiments"
+   ],
+   "kind": "json-len",
+   "note": "frozen experiments the master spine runs (E1-E6)",
+   "source_file": "experiments/cp3/cp3-spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 6,
+   "verbatim_excerpt": "{\"experiments\": 6}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/cp3-spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0045",
+   "extract": "len",
+   "key_path": "regressions",
+   "key_segments": [
+    "regressions"
+   ],
+   "kind": "json-len",
+   "note": "regressions the master spine keeps green (preflight, CP1, CP2)",
+   "source_file": "experiments/cp3/cp3-spine-result.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 3,
+   "verbatim_excerpt": "{\"regressions\": 3}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0040",
+   "key_path": "rejected_operation_refused",
+   "key_segments": [
+    "rejected_operation_refused"
+   ],
+   "kind": "json-scalar",
+   "note": "E4 a grant missing the action type refuses the operation",
+   "source_file": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": true,
+   "verbatim_excerpt": "{\"rejected_operation_refused\": true}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0041",
+   "key_path": "active_list_unchanged_after_rejection",
+   "key_segments": [
+    "active_list_unchanged_after_rejection"
+   ],
+   "kind": "json-scalar",
+   "note": "E4 the rejected operation left the active list byte-identical",
+   "source_file": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": true,
+   "verbatim_excerpt": "{\"active_list_unchanged_after_rejection\": true}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0042",
+   "key_path": "broken_entry_stays_active",
+   "key_segments": [
+    "broken_entry_stays_active"
+   ],
+   "kind": "json-scalar",
+   "note": "E4 a broken entry is never implicitly retired",
+   "source_file": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": true,
+   "verbatim_excerpt": "{\"broken_entry_stays_active\": true}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "device": "local-m4",
+   "dp_id": "DP-0043",
+   "key_path": "secret_value_absent",
+   "key_segments": [
+    "secret_value_absent"
+   ],
+   "kind": "json-scalar",
+   "note": "E4 no secret value appears in any record",
+   "source_file": "experiments/cp3/e4_connection_governance/output/spine-result.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": true,
+   "verbatim_excerpt": "{\"secret_value_absent\": true}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0046",
+   "key_path": "shell_owned_loc",
+   "key_segments": [
+    "shell_owned_loc"
+   ],
+   "kind": "json-scalar",
+   "note": "shell-owned Python LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 6677,
+   "verbatim_excerpt": "{\"shell_owned_loc\": 6677}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0047",
+   "key_path": "vendored_loc",
+   "key_segments": [
+    "vendored_loc"
+   ],
+   "kind": "json-scalar",
+   "note": "vendored snapshot Python LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 3657,
+   "verbatim_excerpt": "{\"vendored_loc\": 3657}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0048",
+   "key_path": "total_python_loc",
+   "key_segments": [
+    "total_python_loc"
+   ],
+   "kind": "json-scalar",
+   "note": "total Python LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 10334,
+   "verbatim_excerpt": "{\"total_python_loc\": 10334}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0049",
+   "key_path": "snapshot_files_pinned",
+   "key_segments": [
+    "snapshot_files_pinned"
+   ],
+   "kind": "json-scalar",
+   "note": "vendored snapshot files pinned",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 31,
+   "verbatim_excerpt": "{\"snapshot_files_pinned\": 31}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0050",
+   "key_path": "cp3_manifest_pinned_files",
+   "key_segments": [
+    "cp3_manifest_pinned_files"
+   ],
+   "kind": "json-scalar",
+   "note": "cp3 manifest pinned files",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 61,
+   "verbatim_excerpt": "{\"cp3_manifest_pinned_files\": 61}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0051",
+   "key_path": "cp3_live_l5_dataset_pins",
+   "key_segments": [
+    "cp3_live_l5_dataset_pins"
+   ],
+   "kind": "json-scalar",
+   "note": "live L5 dataset pins",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 9,
+   "verbatim_excerpt": "{\"cp3_live_l5_dataset_pins\": 9}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0052",
+   "key_path": "groups.0.loc",
+   "key_segments": [
+    "groups",
+    "0",
+    "loc"
+   ],
+   "kind": "json-scalar",
+   "note": "shell modules LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 1054,
+   "verbatim_excerpt": "{\"loc\": 1054}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0053",
+   "key_path": "groups.0.files",
+   "key_segments": [
+    "groups",
+    "0",
+    "files"
+   ],
+   "kind": "json-scalar",
+   "note": "shell module files",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 10,
+   "verbatim_excerpt": "{\"files\": 10}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0054",
+   "key_path": "groups.1.loc",
+   "key_segments": [
+    "groups",
+    "1",
+    "loc"
+   ],
+   "kind": "json-scalar",
+   "note": "top-level experiments LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 2228,
+   "verbatim_excerpt": "{\"loc\": 2228}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0055",
+   "key_path": "groups.1.files",
+   "key_segments": [
+    "groups",
+    "1",
+    "files"
+   ],
+   "kind": "json-scalar",
+   "note": "top-level experiment files",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 5,
+   "verbatim_excerpt": "{\"files\": 5}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0056",
+   "key_path": "groups.2.loc",
+   "key_segments": [
+    "groups",
+    "2",
+    "loc"
+   ],
+   "kind": "json-scalar",
+   "note": "CP3 experiments LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 3068,
+   "verbatim_excerpt": "{\"loc\": 3068}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0057",
+   "key_path": "groups.2.files",
+   "key_segments": [
+    "groups",
+    "2",
+    "files"
+   ],
+   "kind": "json-scalar",
+   "note": "CP3 experiment files",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 18,
+   "verbatim_excerpt": "{\"files\": 18}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0058",
+   "key_path": "groups.3.loc",
+   "key_segments": [
+    "groups",
+    "3",
+    "loc"
+   ],
+   "kind": "json-scalar",
+   "note": "preflight LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 327,
+   "verbatim_excerpt": "{\"loc\": 327}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0059",
+   "key_path": "groups.3.files",
+   "key_segments": [
+    "groups",
+    "3",
+    "files"
+   ],
+   "kind": "json-scalar",
+   "note": "preflight files",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 3,
+   "verbatim_excerpt": "{\"files\": 3}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0060",
+   "key_path": "groups.4.loc",
+   "key_segments": [
+    "groups",
+    "4",
+    "loc"
+   ],
+   "kind": "json-scalar",
+   "note": "vendored snapshot LOC",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "sum",
+   "superseded_by": [],
+   "value": 3657,
+   "verbatim_excerpt": "{\"loc\": 3657}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0061",
+   "key_path": "groups.4.files",
+   "key_segments": [
+    "groups",
+    "4",
+    "files"
+   ],
+   "kind": "json-scalar",
+   "note": "vendored snapshot Python files",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 29,
+   "verbatim_excerpt": "{\"files\": 29}"
+  },
+  {
+   "authoritative_artifact": "paper/claim_map/references-verified.json",
+   "device": "local-m4",
+   "dp_id": "DP-0062",
+   "key_path": "summary.verified",
+   "key_segments": [
+    "summary",
+    "verified"
+   ],
+   "kind": "json-scalar",
+   "note": "external references verified to resolve",
+   "source_file": "paper/claim_map/references-verified.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 22,
+   "verbatim_excerpt": "{\"verified\": 22}"
+  },
+  {
+   "authoritative_artifact": "paper/claim_map/references-verified.json",
+   "device": "local-m4",
+   "dp_id": "DP-0063",
+   "key_path": "summary.unresolved",
+   "key_segments": [
+    "summary",
+    "unresolved"
+   ],
+   "kind": "json-scalar",
+   "note": "external references unresolved (must be 0)",
+   "source_file": "paper/claim_map/references-verified.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 0,
+   "verbatim_excerpt": "{\"unresolved\": 0}"
+  },
+  {
+   "authoritative_artifact": "paper/figures/values/fig2_kernel_values.json",
+   "device": "local-m4",
+   "dp_id": "DP-0064",
+   "key_path": "plotted_values.edge_count",
+   "key_segments": [
+    "plotted_values",
+    "edge_count"
+   ],
+   "kind": "json-scalar",
+   "note": "Fig 2 allowed kernel edges",
+   "source_file": "paper/figures/values/fig2_kernel_values.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 18,
+   "verbatim_excerpt": "{\"edge_count\": 18}"
+  },
+  {
+   "authoritative_artifact": "paper/figures/values/fig2_kernel_values.json",
+   "device": "local-m4",
+   "dp_id": "DP-0065",
+   "key_path": "plotted_values.state_count",
+   "key_segments": [
+    "plotted_values",
+    "state_count"
+   ],
+   "kind": "json-scalar",
+   "note": "Fig 2 kernel states",
+   "source_file": "paper/figures/values/fig2_kernel_values.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 12,
+   "verbatim_excerpt": "{\"state_count\": 12}"
+  },
+  {
+   "authoritative_artifact": "paper/figures/values/fig3_e1_timeline_values.json",
+   "device": "local-m4",
+   "dp_id": "DP-0066",
+   "key_path": "plotted_values.event_count",
+   "key_segments": [
+    "plotted_values",
+    "event_count"
+   ],
+   "kind": "json-scalar",
+   "note": "Fig 3 E1 audit events",
+   "source_file": "paper/figures/values/fig3_e1_timeline_values.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 14,
+   "verbatim_excerpt": "{\"event_count\": 14}"
+  },
+  {
+   "authoritative_artifact": "paper/figures/values/fig7_event_graph_values.json",
+   "device": "local-m4",
+   "dp_id": "DP-0067",
+   "key_path": "plotted_values.node_count",
+   "key_segments": [
+    "plotted_values",
+    "node_count"
+   ],
+   "kind": "json-scalar",
+   "note": "Fig 7 audit-graph nodes",
+   "source_file": "paper/figures/values/fig7_event_graph_values.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 14,
+   "verbatim_excerpt": "{\"node_count\": 14}"
+  },
+  {
+   "authoritative_artifact": "paper/figures/values/fig5_evidence_values.json",
+   "device": "local-m4",
+   "dp_id": "DP-0068",
+   "key_path": "plotted_values.source_rows",
+   "key_segments": [
+    "plotted_values",
+    "source_rows"
+   ],
+   "kind": "json-scalar",
+   "note": "Fig 5 evidence source rows",
+   "source_file": "paper/figures/values/fig5_evidence_values.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 79,
+   "verbatim_excerpt": "{\"source_rows\": 79}"
+  },
+  {
+   "authoritative_artifact": "paper/figures/values/fig6_succession_values.json",
+   "device": "local-m4",
+   "dp_id": "DP-0069",
+   "extract": "len",
+   "key_path": "plotted_values.chain",
+   "key_segments": [
+    "plotted_values",
+    "chain"
+   ],
+   "kind": "json-len",
+   "note": "Fig 6 succession chain links (allocated, successor, restored)",
+   "source_file": "paper/figures/values/fig6_succession_values.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 3,
+   "verbatim_excerpt": "{\"chain_len\": 3}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0077",
+   "key_path": "shell_owned_files",
+   "key_segments": [
+    "shell_owned_files"
+   ],
+   "kind": "json-scalar",
+   "note": "shell-owned Python files (Table 3 total)",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 36,
+   "verbatim_excerpt": "{\"shell_owned_files\": 36}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/implementation_metrics.json",
+   "device": "local-m4",
+   "dp_id": "DP-0078",
+   "key_path": "total_python_files",
+   "key_segments": [
+    "total_python_files"
+   ],
+   "kind": "json-scalar",
+   "note": "total Python files (Table 3 total)",
+   "source_file": "experiments/cp3/implementation_metrics.json",
+   "statistic": "count",
+   "superseded_by": [],
+   "value": 65,
+   "verbatim_excerpt": "{\"total_python_files\": 65}"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e2_auditability/output/frozen/failure/action_record.json",
+   "device": "local-m4",
+   "dp_id": "DP-0070",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E2 typed failure reason (quoted in RQ2)",
+   "source_file": "experiments/cp3/e2_auditability/output/frozen/failure/action_record.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "preconditions_failed:target_exists",
+   "verbatim_excerpt": "preconditions_failed:target_exists"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e2_auditability/output/frozen/reject/reject_intent.json",
+   "device": "local-m4",
+   "dp_id": "DP-0071",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E2 reject-intent detail (quoted in RQ2)",
+   "source_file": "experiments/cp3/e2_auditability/output/frozen/reject/reject_intent.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "intent recorded: reject (no execution)",
+   "verbatim_excerpt": "intent recorded: reject (no execution)"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/frozen/rejected_operation/rejected.json",
+   "device": "local-m4",
+   "dp_id": "DP-0072",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E4 rejected-operation reason (quoted in RQ4)",
+   "source_file": "experiments/cp3/e4_connection_governance/output/frozen/rejected_operation/rejected.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "action_type_not_granted:connection.retire",
+   "verbatim_excerpt": "action_type_not_granted:connection.retire"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/frozen/no_implicit_retirement/broken.json",
+   "device": "local-m4",
+   "dp_id": "DP-0073",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E4 typed broken-connection problem (quoted in RQ4)",
+   "source_file": "experiments/cp3/e4_connection_governance/output/frozen/no_implicit_retirement/broken.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "missing_env:L6_SHELL_E4_BROKEN_KEY_ABSENT",
+   "verbatim_excerpt": "missing_env:L6_SHELL_E4_BROKEN_KEY_ABSENT"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e3_routing_cost/output/frozen/fake_answered_metered/decision_record.json",
+   "device": "local-m4",
+   "dp_id": "DP-0074",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E3 simulated-meter label (quoted in RQ3)",
+   "source_file": "experiments/cp3/e3_routing_cost/output/frozen/fake_answered_metered/decision_record.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "simulated_local_fake",
+   "verbatim_excerpt": "simulated_local_fake"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/frozen/transcript_main.json",
+   "device": "local-m4",
+   "dp_id": "DP-0075",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E6 model response opening (quoted verbatim in RQ6)",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/frozen/transcript_main.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "The total Programme expenditure is \u00a314,111,919.19.",
+   "verbatim_excerpt": "The total Programme expenditure is \u00a314,111,919.19."
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e4_connection_governance/output/frozen/governance_chain/chain.json",
+   "device": "local-m4",
+   "dp_id": "DP-0076",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E4 real allocated mdl_* id (quoted in RQ4)",
+   "source_file": "experiments/cp3/e4_connection_governance/output/frozen/governance_chain/chain.json",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "mdl_179372748462100001",
+   "verbatim_excerpt": "mdl_179372748462100001"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e1_journey/output/frozen/qafiya_before.html",
+   "device": "local-m4",
+   "dp_id": "DP-0034",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E1 pre-edit quarter total in the frozen render",
+   "source_file": "experiments/cp3/e1_journey/output/frozen/qafiya_before.html",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "10346.71",
+   "verbatim_excerpt": "10346.71"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e1_journey/output/frozen/qafiya_after.html",
+   "device": "local-m4",
+   "dp_id": "DP-0035",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E1 post-edit quarter total in the frozen render",
+   "source_file": "experiments/cp3/e1_journey/output/frozen/qafiya_after.html",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "10481.96",
+   "verbatim_excerpt": "10481.96"
+  },
+  {
+   "authoritative_artifact": "experiments/cp3/e6_realistic_demo/output/frozen/spend_view.html",
+   "device": "local-m4",
+   "dp_id": "DP-0036",
+   "key_path": null,
+   "key_segments": [],
+   "kind": "text-match",
+   "note": "E6 rendered view shows the verified Programme total, not the model prose",
+   "source_file": "experiments/cp3/e6_realistic_demo/output/frozen/spend_view.html",
+   "statistic": "n/a",
+   "superseded_by": [],
+   "value": "18801701.38",
+   "verbatim_excerpt": "18801701.38"
+  }
+ ],
+ "generated": "2026-11-05",
+ "paper": "paper/capstone_draft_v0.3.md",
+ "root": "06-shell/",
+ "schema": "datapoints-v2"
+}

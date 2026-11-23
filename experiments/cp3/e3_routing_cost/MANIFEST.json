@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E3 routing and cost audit (frozen inputs + scripts)",
+  "file_count": 3,
+  "files": {
+    "inputs/spec.json": "b317454414b3e8d9cd47fdaddca095ac66e822664808fce68f43516c42e0be27",
+    "run.py": "bac970990e4edff5a8e2eb8eb7d44bf5363b74cff1cc2fc8ac80d61be85fa3c6",
+    "spine.py": "f5249f5944d15441e9f64f0ecdc0f258acf8673932851a7a419593d5ebb24ee9"
+  }
+}

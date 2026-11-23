@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "actual_metered_cost_usd": null,
+      "case": "A_planned",
+      "chosen_model_ref": "mdl_179372773354300001",
+      "decision_ref": "dec_179372773354800002",
+      "declared_cost_usd": 0.0,
+      "meter_label": null,
+      "metered": false,
+      "outcome": "planned",
+      "record_chosen_matches": true,
+      "record_decision_id_matches": true,
+      "record_outcome_matches": true
+    },
+    {
+      "actual_metered_cost_usd": 0.0,
+      "case": "B_answered_fake",
+      "chosen_model_ref": "mdl_179372773355800004",
+      "decision_ref": "dec_179372773356200005",
+      "declared_cost_usd": 0.0,
+      "fake_calls": 1,
+      "meter_label": "simulated_local_fake",
+      "metered": true,
+      "outcome": "answered",
+      "record_chosen_matches": true,
+      "record_outcome_matches": true,
+      "simulated_metering_labelled": true
+    },
+    {
+      "actual_metered_cost_usd": null,
+      "case": "C_refused_all_failed",
+      "chosen_is_none": true,
+      "chosen_model_ref": null,
+      "decision_ref": "dec_179372773357600008",
+      "declared_cost_usd": 0.0,
+      "metered": false,
+      "outcome": "refused",
+      "record_outcome_matches": true,
+      "record_refusal_reason_matches": true,
+      "refusal_reason": "all_connections_failed"
+    }
+  ],
+  "gate": "F2",
+  "network_calls": 0,
+  "passed": true
+}

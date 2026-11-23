@@ -1,0 +1,1 @@
+{"_id": "g_18e4996cc748cdd800f7fd16", "_ts": "2026-11-03T17:34:04.079266+00:00", "action_types": ["file.create"], "constraints": {}, "expires_at": null, "not_before": null, "requires_confirmation": [], "target_pattern": "e2/allowed.txt", "type": "permission_grant", "user_id": "e2"}

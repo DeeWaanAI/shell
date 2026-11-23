@@ -1,0 +1,9 @@
+{
+  "action_outcome": "success",
+  "action_ref": "a_18e499dec1cf22b8ca7e60db",
+  "allocated_id": null,
+  "detail": "succession mdl_179372773361200010 -> mdl_179372773361400011",
+  "original_id": "mdl_179372773361200010",
+  "reversibility_class": "COMPENSABLE",
+  "successor_ref": "mdl_179372773361400011"
+}

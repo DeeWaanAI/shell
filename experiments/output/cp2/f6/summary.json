@@ -1,0 +1,38 @@
+{
+  "add_undo": {
+    "detail": "L5 retire_connection returned failure",
+    "ok": false
+  },
+  "allocated": "mdl_179372773361200010",
+  "broken_problems": [
+    "missing_env:L6_SHELL_CP2_BROKEN_KEY_ABSENT"
+  ],
+  "broken_stays_active": "active",
+  "env_name_retained": true,
+  "gate": "F6",
+  "l5_models_chain_ok": true,
+  "list_unchanged_after_rejection": true,
+  "mutation_types_seen": [
+    "connection.add",
+    "connection.privacy_change",
+    "connection.retire"
+  ],
+  "network_calls": 0,
+  "passed": true,
+  "privacy_undo": {
+    "detail": "restored privacy on mdl_179372773361400011",
+    "ok": true
+  },
+  "rejected_outcome": {
+    "reason": "action_type_not_granted:connection.retire",
+    "status": "refused"
+  },
+  "restored": "mdl_179372773361500012",
+  "retire_outcome": "success",
+  "secret_leaks": {
+    "l3": [],
+    "l3_narrow": [],
+    "l5": []
+  },
+  "successor": "mdl_179372773361400011"
+}

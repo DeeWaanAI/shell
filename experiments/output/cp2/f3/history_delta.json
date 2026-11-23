@@ -1,0 +1,17 @@
+{
+  "appended": [
+    {
+      "edit_binding": "b_c4b5b89e",
+      "entry_hash": "dac53d3be9c8cbd3edff8a732d5988420f7de0430e3c7d498abdd2abd8960927",
+      "field": "amount",
+      "new": 956.14,
+      "op": "set",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "prior": 820.89,
+      "record_id": "r_051",
+      "ts": "2026-11-03T17:42:13+00:00"
+    }
+  ],
+  "entries_after": 1,
+  "entries_before": 0
+}

@@ -1,0 +1,16 @@
+{
+  "gate": "F8",
+  "l3_failure_outcome": {
+    "reason": "preconditions_failed:target_exists",
+    "status": "refused"
+  },
+  "l3_failure_reason_typed": true,
+  "network_calls": 0,
+  "refusal_chosen_none": true,
+  "refusal_decision_record_matches": true,
+  "refusal_outcome": "refused",
+  "refusal_reason": "all_connections_failed",
+  "unavailable_connection_problems_typed": true,
+  "unavailable_connection_stays_active": true,
+  "unresolved_html_contains_UNRESOLVED": true
+}

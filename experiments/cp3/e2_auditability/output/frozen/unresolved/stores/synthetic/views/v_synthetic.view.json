@@ -1,0 +1,29 @@
+{
+ "columns": [
+  {
+   "id": "col:amount",
+   "label": "Amount",
+   "source_field": "amount"
+  }
+ ],
+ "id": "v_synthetic",
+ "kind": "table",
+ "nodes": [
+  {
+   "binding_ref": "b_present",
+   "column": "col:amount",
+   "id": "cell:r_001",
+   "role": "value"
+  },
+  {
+   "binding_ref": "b_quarantined",
+   "column": "col:amount",
+   "id": "cell:r_002",
+   "role": "value"
+  }
+ ],
+ "spec": "dvr/1.1",
+ "title": {
+  "text": "E2 unresolved fixture (one quarantined binding)"
+ }
+}

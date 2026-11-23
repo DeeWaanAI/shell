@@ -1,0 +1,24 @@
+{
+  "actual_metered_cost_usd": 0.0,
+  "answer": "SIMULATED local-fake answer for the CP2 gates. This text was produced by experiments/fake_transport.py, not by a provider.",
+  "attempts": [
+    {
+      "error_class": null,
+      "model_ref": "mdl_179372773355800004",
+      "triggered_by": null
+    }
+  ],
+  "binding_ref": "b_179372773356200006",
+  "chosen_label": "CP2 fake local model",
+  "chosen_locus": "local",
+  "chosen_model_ref": "mdl_179372773355800004",
+  "decision_ref": "dec_179372773356200005",
+  "declared_cost_usd": 0.0,
+  "feasible_count": 1,
+  "metered": true,
+  "outcome": "answered",
+  "privacy_class": "public",
+  "privacy_warning": null,
+  "refusal_reason": null,
+  "task_class": "open_chat"
+}

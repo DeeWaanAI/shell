@@ -1,0 +1,42 @@
+{
+ "export_command": "svg is the source of truth; export with rsvg-convert -f pdf figN.svg -o figN.pdf (or Overleaf \\usepackage{svg}) \u2014 no local converter on the build host",
+ "figure": "fig1_architecture",
+ "plotted_values": {
+  "layer_count": 6,
+  "layers": [
+   {
+    "consumes": "records, bindings, write-back, invalidation, chained history",
+    "layer": "Qafiya",
+    "must_not": "mutate JSON directly or bypass checks"
+   },
+   {
+    "consumes": "dvr/1.1 validation, rendering, edits, evidence",
+    "layer": "L2",
+    "must_not": "add roles/kinds or merge bindings locally"
+   },
+   {
+    "consumes": "action records, grants, confirmation, execution, undo",
+    "layer": "L3",
+    "must_not": "treat button rendering as execution authority"
+   },
+   {
+    "consumes": "memory read/write, inspection, correction/deletion protocols",
+    "layer": "L4",
+    "must_not": "edit active memory or history directly"
+   },
+   {
+    "consumes": "route decisions, user connection list, health and cost records",
+    "layer": "L5",
+    "must_not": "select models, infer prices, or store secrets"
+   },
+   {
+    "consumes": "joins L1-L5; owns ds:shell_audit",
+    "layer": "L6 Shell",
+    "must_not": "reimplement lower-layer authority"
+   }
+  ]
+ },
+ "source_artifacts": [
+  "brief.md"
+ ]
+}

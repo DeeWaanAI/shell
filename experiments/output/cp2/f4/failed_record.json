@@ -1,0 +1,68 @@
+{
+  "action_id": "a_18e499dec0df9a684b6faf2c",
+  "actor": {
+    "agent_id": "cp2",
+    "session_id": "s_f4"
+  },
+  "authority": {
+    "grant_id": "g_18e499dec0dac8089f8dd74f",
+    "user_id": "cp2"
+  },
+  "confirmations": [],
+  "created_at": "2026-11-03T17:42:13.597972+00:00",
+  "data_inputs": [],
+  "execution_log": [
+    {
+      "result": "ok",
+      "step": "gate: ok",
+      "ts": "2026-11-03T17:42:13.598087+00:00"
+    },
+    {
+      "result": "refused",
+      "step": "preconditions failed: ['target_exists']",
+      "ts": "2026-11-03T17:42:13.598100+00:00"
+    }
+  ],
+  "id": "a_18e499dec0df9a684b6faf2c",
+  "intent": {
+    "normalized": {
+      "action_type": "file.delete",
+      "params": {
+        "path": "f4/does-not-exist.txt"
+      }
+    },
+    "parser": "scripted",
+    "parser_version": "0.1",
+    "verbatim": "F4 failure (missing target)"
+  },
+  "outcome": {
+    "reason": "preconditions_failed:target_exists",
+    "status": "refused"
+  },
+  "permission_scope": {
+    "_id": "g_18e499dec0dac8089f8dd74f",
+    "_ts": "2026-11-03T17:42:13.597656+00:00",
+    "action_types": [
+      "file.delete"
+    ],
+    "constraints": {},
+    "expires_at": null,
+    "not_before": null,
+    "requires_confirmation": [],
+    "target_pattern": "**",
+    "type": "permission_grant",
+    "user_id": "cp2"
+  },
+  "preconditions": [
+    {
+      "check": "target_exists",
+      "params": {
+        "path": "f4/does-not-exist.txt"
+      },
+      "result": "fail"
+    }
+  ],
+  "reversibility_class": null,
+  "undo_recipe": null,
+  "undo_status": "not_requested"
+}

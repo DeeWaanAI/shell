@@ -1,0 +1,9 @@
+{
+  "audit_events": 11,
+  "chain_ok": true,
+  "claims_that_would_change_with_prose": [],
+  "input_refs_missing": [],
+  "rule": "if a claim would change with model output it is not an auditability claim",
+  "sequences_complete": true,
+  "verified_values_invariant_to_prose": true
+}

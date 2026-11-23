@@ -1,0 +1,53 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E6 realistic demonstration (frozen inputs + scripts + dataset + model transcripts)",
+  "attribution_required_in_paper": "Contains public sector information licensed under the Open Government Licence v3.0.",
+  "dataset_provenance": {
+    "access_date_utc": "2026-11-03T18:38:20Z",
+    "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "bytes": 29354,
+    "encoding": "cp1252 (Windows-1252; the raw file is NOT valid UTF-8 \u2014 byte 0x92 at offset 617)",
+    "filename_frozen": "inputs/February_2013__25k_transparency_data.csv",
+    "licence": "Open Government Licence v3.0",
+    "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "name": "UK Cabinet Office \u2014 Expenditure over \u00a325,000, February 2013",
+    "non_pii": "Payments to organisations only; no private-individual data. No personal data added.",
+    "preview_url": "https://www.gov.uk/csv-preview/5a74ada540f0b619c86598cb/February_2013__25k_transparency_data.csv",
+    "publisher": "UK Cabinet Office (gov.uk)",
+    "raw_download_url": "https://assets.publishing.service.gov.uk/media/5a74ada540f0b619c86598cb/February_2013__25k_transparency_data.csv",
+    "sha256": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23"
+  },
+  "file_count": 15,
+  "files": {
+    "inputs/February_2013__25k_transparency_data.csv": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23",
+    "inputs/compose_prompt.txt": "5541d263b52e85d21383b825cb95fe026436b72a169eae144ad63d4e0c387b21",
+    "inputs/spec.json": "08394e39c870af5e190e6d773da46929cf387a4a084fa60d16d68f33897175f9",
+    "loopback_guard.py": "ea68a04ef9d0d2df2e7b73d0b49a3247bfa65eae2bce63fd8db9c26a2b35e79d",
+    "output/frozen/compose_prompt_full.txt": "8646e67fc2a6616778af0281c4468493b2e28760f1a388062f68535b51e1e060",
+    "output/frozen/stability.json": "308c746c4baa5795427555969a8e64a51e2476e79e35bbff7f6136f6910f0508",
+    "output/frozen/transcript_main.json": "1dcf8b1623dbae71be7a2144fb642975afda91a9ebdfd289ddf5200dce059170",
+    "output/frozen/transcript_stability_01.json": "48485eea663089592de463a23b472b82411a0fdbc65a27c0a5deb96ae776462d",
+    "output/frozen/transcript_stability_02.json": "79ffc86f3293a58ac3f98c3b6708486ea6d0633bdfe56f94416d9d68b6e2264c",
+    "output/frozen/transcript_stability_03.json": "b264931a4ac75cc44315296b482ca602de4d0e4555b7164238dc70b602a2d901",
+    "output/frozen/transcript_stability_04.json": "141d263da48ddba8b60c9d9100db9ebd8c0a630445ce14521f049e08c7ebdb5d",
+    "output/frozen/transcript_stability_05.json": "0a19ff69081269d69610f68eaa300b1a41944891f588d9f8e2aa842ccd08d5de",
+    "output/frozen/verified_values.json": "ac73c154d74aa69e14af2cdf76f192d24737f06bf140e2c6a09d6d09920655eb",
+    "run.py": "4675366801f3605f216fe9f6758551cfd336e448165b0cfe651a3dc7b8b6f81a",
+    "spine.py": "34cac7e16a9cd8518256e3c781e4659f66c45d01e8792c3ed19b4dfc5cfffd12"
+  },
+  "model_provenance": {
+    "decoding": "greedy / temperature 0 (L5's vendored ollama backend sets options.temperature=0 by default)",
+    "locus": "local",
+    "name": "llama3.1:8b-instruct-q4_K_M",
+    "network_policy": "loopback only; zero non-loopback calls (LoopbackGuard)",
+    "runtime": "ollama",
+    "transcripts_frozen": [
+      "output/frozen/transcript_main.json",
+      "output/frozen/transcript_stability_01.json",
+      "output/frozen/transcript_stability_02.json",
+      "output/frozen/transcript_stability_03.json",
+      "output/frozen/transcript_stability_04.json",
+      "output/frozen/transcript_stability_05.json"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "model_category_figures": {
+    "Large": 13111919.19,
+    "Programme": 14111919.19
+  },
+  "model_large_figure": 13111919.19,
+  "model_large_matches_verified": false,
+  "model_programme_figure": 14111919.19,
+  "model_programme_matches_verified": false,
+  "model_stated_gbp_figures": [
+    13111919.19,
+    14111919.19
+  ],
+  "note": "A divergence is a FEATURE: the Qafiya binding recomputes the verified number deterministically regardless of the model's prose. The shell never renders the model's prose as a verified value. Each figure is associated with the category noun the model attached it to ( Programme -> its figure, Large -> its figure ).",
+  "verified_large": 26162299.76,
+  "verified_programme": 18801701.38
+}

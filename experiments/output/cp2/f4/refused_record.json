@@ -1,0 +1,56 @@
+{
+  "action_id": "a_18e499dec0d2e098e177689a",
+  "actor": {
+    "agent_id": "cp2",
+    "session_id": "s_f4"
+  },
+  "authority": {
+    "grant_id": "g_18e499dec0cf98c0f33f6a60",
+    "user_id": "cp2"
+  },
+  "confirmations": [],
+  "created_at": "2026-11-03T17:42:13.597138+00:00",
+  "data_inputs": [],
+  "execution_log": [
+    {
+      "result": "refused",
+      "step": "gate: target_out_of_scope:f4/refused.txt",
+      "ts": "2026-11-03T17:42:13.597352+00:00"
+    }
+  ],
+  "id": "a_18e499dec0d2e098e177689a",
+  "intent": {
+    "normalized": {
+      "action_type": "file.create",
+      "params": {
+        "content": "never written\n",
+        "path": "f4/refused.txt"
+      }
+    },
+    "parser": "scripted",
+    "parser_version": "0.1",
+    "verbatim": "F4 refusal (grant too narrow)"
+  },
+  "outcome": {
+    "reason": "target_out_of_scope:f4/refused.txt",
+    "status": "refused"
+  },
+  "permission_scope": {
+    "_id": "g_18e499dec0cf98c0f33f6a60",
+    "_ts": "2026-11-03T17:42:13.596929+00:00",
+    "action_types": [
+      "file.create"
+    ],
+    "constraints": {},
+    "expires_at": null,
+    "not_before": null,
+    "requires_confirmation": [],
+    "target_pattern": "f4/approved.txt",
+    "type": "permission_grant",
+    "user_id": "cp2"
+  },
+  "preconditions": [],
+  "reversibility_class": null,
+  "undo_recipe": null,
+  "undo_status": "not_requested"
+}

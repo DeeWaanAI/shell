@@ -1,0 +1,4 @@
+{"derivation": "literal", "id": "b_ee5fd9fd95", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.verbatim"}], "value": "E2 reject: first approve a file"}
+{"derivation": "literal", "id": "b_d7627c7e3c", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.normalized"}], "value": {"action_type": "file.create", "params": {"content": "pre-existing\n", "path": "e2/pre_existing.txt"}}}
+{"derivation": "literal", "id": "b_650fd2d959", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "reversibility_class"}], "value": "EXACT"}
+{"derivation": "literal", "id": "b_3704ae6c4d", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "authority.user_id"}], "value": "e2"}

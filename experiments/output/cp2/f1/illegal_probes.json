@@ -1,0 +1,76 @@
+{
+  "closed_probe": {
+    "dst": "RENDERED",
+    "events_after": 14,
+    "events_before": 14,
+    "no_event_written": true,
+    "raised": "session s_179372773350408c745 is CLOSED; no further transitions",
+    "src": "CLOSED"
+  },
+  "probes": [
+    {
+      "dst": "CLOSED",
+      "events_after": 1,
+      "events_before": 1,
+      "no_event_written": true,
+      "raised": "illegal transition RECEIVED -> CLOSED (allowed: ['ROUTED'])",
+      "src": "RECEIVED"
+    },
+    {
+      "dst": "RENDERED",
+      "events_after": 1,
+      "events_before": 1,
+      "no_event_written": true,
+      "raised": "illegal transition RECEIVED -> RENDERED (allowed: ['ROUTED'])",
+      "src": "RECEIVED"
+    },
+    {
+      "dst": "EXECUTED",
+      "events_after": 2,
+      "events_before": 2,
+      "no_event_written": true,
+      "raised": "illegal transition ROUTED -> EXECUTED (allowed: ['CLOSED', 'RECALLED'])",
+      "src": "ROUTED"
+    },
+    {
+      "dst": "EXECUTED",
+      "events_after": 6,
+      "events_before": 6,
+      "no_event_written": true,
+      "raised": "illegal transition RENDERED -> EXECUTED (allowed: ['AWAITING_USER', 'REMEMBERED', 'WRITE_BACK'])",
+      "src": "RENDERED"
+    },
+    {
+      "dst": "CLOSED",
+      "events_after": 10,
+      "events_before": 10,
+      "no_event_written": true,
+      "raised": "illegal transition AWAITING_USER -> CLOSED (allowed: ['ACTION_GATED', 'REMEMBERED', 'WRITE_BACK'])",
+      "src": "AWAITING_USER"
+    },
+    {
+      "dst": "EXECUTED",
+      "events_after": 7,
+      "events_before": 7,
+      "no_event_written": true,
+      "raised": "illegal transition WRITE_BACK -> EXECUTED (allowed: ['VIEW_VALIDATED'])",
+      "src": "WRITE_BACK"
+    },
+    {
+      "dst": "VIEW_VALIDATED",
+      "events_after": 12,
+      "events_before": 12,
+      "no_event_written": true,
+      "raised": "illegal transition EXECUTED -> VIEW_VALIDATED (allowed: ['CLOSED', 'REMEMBERED'])",
+      "src": "EXECUTED"
+    },
+    {
+      "dst": "RENDERED",
+      "events_after": 13,
+      "events_before": 13,
+      "no_event_written": true,
+      "raised": "illegal transition REMEMBERED -> RENDERED (allowed: ['CLOSED'])",
+      "src": "REMEMBERED"
+    }
+  ]
+}

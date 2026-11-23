@@ -1,0 +1,34 @@
+{
+  "experiment": "E4",
+  "title": "Connection governance",
+  "brief_ref": "brief.md §7.2 E4; CP2 clearance answer 4",
+  "description": "Purpose-built frozen fixtures exercising connection governance directly: add / retire / privacy_change AND their undo + refusal paths; a rejected operation (grant missing the action type → no effect, active list byte-identical before/after); no-implicit-retirement of a broken entry (absent key_env stays active with a typed missing_env problem); and secrets-absent. NOT a reuse of the e2e journey's mutation ordering and NOT the ephemeral output/cp2 gate artifacts.",
+  "frozen_inputs": {
+    "l3_l5_code": "shell/vendor/ (frozen snapshot, sha256-pinned)",
+    "l5_datasets": "05-model-router/datasets (schemas copied read-only; models starts empty)",
+    "fake_endpoint": "http://127.0.0.1:9/v1 (loopback, no listener, never called; NetworkGuard asserts 0 socket/urlopen calls)"
+  },
+  "fixtures": {
+    "governance_chain": {
+      "steps": ["add", "privacy_change (succession)", "undo(privacy_change)", "retire"],
+      "expected": "every mutation produces an L3 a_* record; the succession chain links verify (allocated.superseded_by=successor, successor.superseded_by=restored); privacy undo succeeds by minting a further record (no in-place edit, ids immutable)"
+    },
+    "add_undo": {
+      "step": "undo(add) on a freshly added, still-active connection",
+      "expected": "undo retires the allocated id; L3 record carries the undo result"
+    },
+    "rejected_operation": {
+      "mechanism": "a separate L3 engine whose grant covers only connection.add is asked to retire",
+      "expected": "L3 refuses; the active connection list is byte-identical before and after the rejection"
+    },
+    "no_implicit_retirement": {
+      "mechanism": "declare a connection whose key_env names an absent environment variable",
+      "expected": "the record stays ACTIVE in L5's store; connections.normalise reports usable=False with a typed missing_env:<NAME> problem; the shell never auto-retires a broken entry"
+    },
+    "secrets_absent": {
+      "mechanism": "a sentinel VALUE is set in os.environ; only the env-var NAME crosses the boundary as key_env",
+      "expected": "the sentinel VALUE appears in NO file under the L5 or L3 stores and in NO record; the env-var NAME is retained in both"
+    }
+  },
+  "headline_result_recomputed_by_spine": "L3 records for all mutations; succession chain links verified from raw L5 models/data.jsonl; rejected operation leaves the active list unchanged; broken entry stays active with a typed problem; secret VALUE absent; L5 models chain verifies; zero network calls."
+}

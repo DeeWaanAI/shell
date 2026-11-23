@@ -1,0 +1,43 @@
+{
+  "ACTION_GATED": [
+    "CLOSED",
+    "EXECUTED"
+  ],
+  "AWAITING_USER": [
+    "ACTION_GATED",
+    "REMEMBERED",
+    "WRITE_BACK"
+  ],
+  "CLOSED": [],
+  "COMPOSED": [
+    "VIEW_VALIDATED"
+  ],
+  "EXECUTED": [
+    "CLOSED",
+    "REMEMBERED"
+  ],
+  "RECALLED": [
+    "COMPOSED"
+  ],
+  "RECEIVED": [
+    "ROUTED"
+  ],
+  "REMEMBERED": [
+    "CLOSED"
+  ],
+  "RENDERED": [
+    "AWAITING_USER",
+    "REMEMBERED",
+    "WRITE_BACK"
+  ],
+  "ROUTED": [
+    "CLOSED",
+    "RECALLED"
+  ],
+  "VIEW_VALIDATED": [
+    "RENDERED"
+  ],
+  "WRITE_BACK": [
+    "VIEW_VALIDATED"
+  ]
+}

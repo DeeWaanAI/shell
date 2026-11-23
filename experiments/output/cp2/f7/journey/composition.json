@@ -1,0 +1,15 @@
+{
+  "decision_ref": "dec_179372773365600016",
+  "planned_action": {
+    "action_type": "file.create",
+    "path": "audit/q3-expense-edit-cp1.txt"
+  },
+  "planned_edit": {
+    "new_value": 956.14,
+    "record_id": "r_051"
+  },
+  "planned_memory_note": "CP1 journey: edit + confirmed action + connection succession",
+  "request_ref": "req_17937277336346d92e4",
+  "route_outcome": "planned",
+  "session_id": "s_1793727733634921f25"
+}

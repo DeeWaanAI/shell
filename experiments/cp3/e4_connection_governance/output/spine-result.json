@@ -1,0 +1,28 @@
+{
+  "active_list_unchanged_after_rejection": true,
+  "add_undo_retires_allocated": true,
+  "broken_entry_stays_active": true,
+  "broken_problem_typed_missing_env": true,
+  "env_name_retained": true,
+  "experiment": "E4",
+  "frozen_files_verified": 3,
+  "governance_chain": {
+    "all_mutations_success": true,
+    "allocated": "mdl_179372748462100001",
+    "links_verified_from_raw": true,
+    "privacy_undo_ok": true,
+    "restored": "mdl_179372748462500003",
+    "successor": "mdl_179372748462300002"
+  },
+  "l5_models_chain_ok": true,
+  "mutation_types_seen": [
+    "connection.add",
+    "connection.privacy_change",
+    "connection.retire"
+  ],
+  "network_calls": 0,
+  "python": "3.12.16",
+  "rejected_operation_refused": true,
+  "secret_value_absent": true,
+  "status": "PASS"
+}

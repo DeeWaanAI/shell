@@ -1,0 +1,18 @@
+{
+  "actual_metered_cost_usd": null,
+  "answer": null,
+  "attempts": [],
+  "binding_ref": "b_179372675921600004",
+  "chosen_label": "L6 CP1 fake local model",
+  "chosen_locus": "local",
+  "chosen_model_ref": "mdl_179372675921100002",
+  "decision_ref": "dec_179372675921600003",
+  "declared_cost_usd": 0.0,
+  "feasible_count": 1,
+  "metered": false,
+  "outcome": "planned",
+  "privacy_class": "public",
+  "privacy_warning": null,
+  "refusal_reason": null,
+  "task_class": "open_chat"
+}

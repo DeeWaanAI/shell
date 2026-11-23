@@ -1,0 +1,5 @@
+[
+  "connection.add",
+  "connection.privacy_change",
+  "connection.retire"
+]

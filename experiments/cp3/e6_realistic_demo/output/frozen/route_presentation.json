@@ -1,0 +1,24 @@
+{
+  "actual_metered_cost_usd": 0.0,
+  "answer": "The total Programme expenditure is £14,111,919.19. The supplier type that received the largest total spend is Large, with a total of £13,111,919.19.",
+  "attempts": [
+    {
+      "error_class": null,
+      "model_ref": "mdl_179292740661000007",
+      "triggered_by": null
+    }
+  ],
+  "binding_ref": "b_179373615370000002",
+  "chosen_label": "llama3.1:8b-instruct-q4_K_M",
+  "chosen_locus": "local",
+  "chosen_model_ref": "mdl_179292740661000007",
+  "decision_ref": "dec_179373615370000001",
+  "declared_cost_usd": 0.0,
+  "feasible_count": 1,
+  "metered": true,
+  "outcome": "answered",
+  "privacy_class": "public",
+  "privacy_warning": null,
+  "refusal_reason": null,
+  "task_class": "tabular_summary"
+}

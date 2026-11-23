@@ -1,0 +1,9 @@
+{
+  "action_outcome": "success",
+  "action_ref": "a_18e499dec21079481bd01cc0",
+  "allocated_id": null,
+  "detail": "retired mdl_179372773361500012",
+  "original_id": "mdl_179372773361500012",
+  "reversibility_class": "COMPENSABLE",
+  "successor_ref": null
+}

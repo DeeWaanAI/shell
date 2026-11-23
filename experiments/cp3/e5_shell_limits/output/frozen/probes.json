@@ -1,0 +1,23 @@
+[
+  {
+    "error": "node svc:refresh: role must be one of ['action', 'claim', 'label', 'structure', 'value'], got 'service_control'",
+    "probe": "expressibility_ceiling",
+    "specval_rejected_invented_role": true
+  },
+  {
+    "chain_clean_before": true,
+    "chain_detected_naive_tamper": true,
+    "manifest_detected_tamper": true,
+    "probe": "tamper_and_absence"
+  },
+  {
+    "error_type": "StoreError",
+    "probe": "absence",
+    "typed_error_raised": true
+  },
+  {
+    "classes": 8,
+    "probe": "uncatchable",
+    "trust_user_demonstrated": true
+  }
+]

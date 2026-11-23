@@ -1,0 +1,310 @@
+{
+ "artifact": "L6 capstone implementation metrics (real LOC from the frozen tree)",
+ "computed_at": "2026-11-05",
+ "cp3_live_l5_dataset_pins": 9,
+ "cp3_manifest_pinned_files": 61,
+ "groups": [
+  {
+   "files": 10,
+   "group": "shell modules (06-shell/shell/*.py)",
+   "loc": 1054,
+   "rows": [
+    {
+     "file": "shell/__init__.py",
+     "loc": 10
+    },
+    {
+     "file": "shell/_bootstrap.py",
+     "loc": 148
+    },
+    {
+     "file": "shell/audit.py",
+     "loc": 232
+    },
+    {
+     "file": "shell/connections.py",
+     "loc": 217
+    },
+    {
+     "file": "shell/interactions.py",
+     "loc": 71
+    },
+    {
+     "file": "shell/kernel.py",
+     "loc": 184
+    },
+    {
+     "file": "shell/memory.py",
+     "loc": 40
+    },
+    {
+     "file": "shell/routing.py",
+     "loc": 89
+    },
+    {
+     "file": "shell/session.py",
+     "loc": 39
+    },
+    {
+     "file": "shell/views.py",
+     "loc": 24
+    }
+   ]
+  },
+  {
+   "files": 5,
+   "group": "experiments top-level (e2e_journey, spines, gates, fake_transport)",
+   "loc": 2228,
+   "rows": [
+    {
+     "file": "experiments/e2e_journey.py",
+     "loc": 474
+    },
+    {
+     "file": "experiments/fake_transport.py",
+     "loc": 149
+    },
+    {
+     "file": "experiments/gates_battery.py",
+     "loc": 1049
+    },
+    {
+     "file": "experiments/gates_spine.py",
+     "loc": 370
+    },
+    {
+     "file": "experiments/shell_spine.py",
+     "loc": 186
+    }
+   ]
+  },
+  {
+   "files": 18,
+   "group": "experiments/cp3 (E1-E6 + common + manifest + master spine)",
+   "loc": 3068,
+   "rows": [
+    {
+     "file": "experiments/cp3/_common.py",
+     "loc": 156
+    },
+    {
+     "file": "experiments/cp3/build_manifest.py",
+     "loc": 123
+    },
+    {
+     "file": "experiments/cp3/cp3_spine.py",
+     "loc": 85
+    },
+    {
+     "file": "experiments/cp3/e1_journey/run.py",
+     "loc": 41
+    },
+    {
+     "file": "experiments/cp3/e1_journey/spine.py",
+     "loc": 147
+    },
+    {
+     "file": "experiments/cp3/e2_auditability/run.py",
+     "loc": 339
+    },
+    {
+     "file": "experiments/cp3/e2_auditability/spine.py",
+     "loc": 129
+    },
+    {
+     "file": "experiments/cp3/e3_routing_cost/run.py",
+     "loc": 143
+    },
+    {
+     "file": "experiments/cp3/e3_routing_cost/spine.py",
+     "loc": 117
+    },
+    {
+     "file": "experiments/cp3/e4_connection_governance/run.py",
+     "loc": 172
+    },
+    {
+     "file": "experiments/cp3/e4_connection_governance/spine.py",
+     "loc": 123
+    },
+    {
+     "file": "experiments/cp3/e5_shell_limits/output/frozen/manifest_probe/run.py",
+     "loc": 1
+    },
+    {
+     "file": "experiments/cp3/e5_shell_limits/output/frozen/manifest_probe/spine.py",
+     "loc": 1
+    },
+    {
+     "file": "experiments/cp3/e5_shell_limits/run.py",
+     "loc": 219
+    },
+    {
+     "file": "experiments/cp3/e5_shell_limits/spine.py",
+     "loc": 95
+    },
+    {
+     "file": "experiments/cp3/e6_realistic_demo/loopback_guard.py",
+     "loc": 87
+    },
+    {
+     "file": "experiments/cp3/e6_realistic_demo/run.py",
+     "loc": 725
+    },
+    {
+     "file": "experiments/cp3/e6_realistic_demo/spine.py",
+     "loc": 365
+    }
+   ]
+  },
+  {
+   "files": 3,
+   "group": "preflight (frozen cross-layer demo + spine)",
+   "loc": 327,
+   "rows": [
+    {
+     "file": "preflight/check_l3_l2.py",
+     "loc": 29
+    },
+    {
+     "file": "preflight/run_demo.py",
+     "loc": 203
+    },
+    {
+     "file": "preflight/spine.py",
+     "loc": 95
+    }
+   ]
+  },
+  {
+   "files": 29,
+   "group": "vendored snapshot L3+L5 (shell/vendor/**/*.py)",
+   "loc": 3657,
+   "rows": [
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/__init__.py",
+     "loc": 6
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/adapters/__init__.py",
+     "loc": 350
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/adapters/connection.py",
+     "loc": 123
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/dvr11.py",
+     "loc": 77
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/engine.py",
+     "loc": 173
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/gate.py",
+     "loc": 60
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/model.py",
+     "loc": 55
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/qafiya_core_chain.py",
+     "loc": 52
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/qafiya_shim.py",
+     "loc": 91
+    },
+    {
+     "file": "shell/vendor/03-action-layer/prototype/actionlayer/renderer.py",
+     "loc": 92
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/audit.py",
+     "loc": 409
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/backends/__init__.py",
+     "loc": 22
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/backends/ollama.py",
+     "loc": 32
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/backends/openai_compatible.py",
+     "loc": 34
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/classify.py",
+     "loc": 101
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/code_exec.py",
+     "loc": 73
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/connect.py",
+     "loc": 183
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/connection_ops.py",
+     "loc": 258
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/connections.py",
+     "loc": 186
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/cost.py",
+     "loc": 59
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/decide.py",
+     "loc": 371
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/gates.py",
+     "loc": 192
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/health.py",
+     "loc": 61
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/qafiya_core/__init__.py",
+     "loc": 1
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/qafiya_core/chain.py",
+     "loc": 52
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/store.py",
+     "loc": 268
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/tokens.py",
+     "loc": 85
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/transport.py",
+     "loc": 121
+    },
+    {
+     "file": "shell/vendor/05-model-router/router/verifier.py",
+     "loc": 70
+    }
+   ]
+  }
+ ],
+ "loc_definition": "non-empty physical lines (blank lines excluded; comments included)",
+ "shell_owned_files": 36,
+ "shell_owned_loc": 6677,
+ "snapshot_files_pinned": 31,
+ "total_python_files": 65,
+ "total_python_loc": 10334,
+ "vendored_loc": 3657
+}

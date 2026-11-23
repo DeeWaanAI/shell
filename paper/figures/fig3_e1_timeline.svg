@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550" viewBox="0 0 900 550" font-family="Helvetica,Arial,sans-serif">
+<title>E1 journey audit timeline</title>
+<rect width="900" height="550" fill="white"/>
+<text x="20" y="30" font-size="18" font-weight="bold">E1 journey: 14 audit events (one per kernel transition)</text>
+<text x="20" y="50" font-size="11" fill="#555">source: experiments/cp3/e1_journey/output/frozen/audit_replay.json</text>
+<text x="20" y="68" font-size="11" fill="#555">session s_1793726759196727247 · chain_ok=True · sequences 1..14</text>
+<circle cx="40" cy="90" r="7" fill="#33475b"/>
+<text x="40" y="94" font-size="9" fill="white" text-anchor="middle">1</text>
+<text x="60" y="94" font-size="13" font-weight="bold">RECEIVED</text>
+<text x="240" y="94" font-size="10" fill="#555"></text>
+<circle cx="40" cy="120" r="7" fill="#33475b"/>
+<text x="40" y="124" font-size="9" fill="white" text-anchor="middle">2</text>
+<text x="60" y="124" font-size="13" font-weight="bold">ROUTED</text>
+<text x="240" y="124" font-size="10" fill="#555">decision_ref=dec_179372675921600003; connection_refs=2; successor_ref=mdl_1793726759211000</text>
+<circle cx="40" cy="150" r="7" fill="#33475b"/>
+<text x="40" y="154" font-size="9" fill="white" text-anchor="middle">3</text>
+<text x="60" y="154" font-size="13" font-weight="bold">RECALLED</text>
+<text x="240" y="154" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="180" r="7" fill="#33475b"/>
+<text x="40" y="184" font-size="9" fill="white" text-anchor="middle">4</text>
+<text x="60" y="184" font-size="13" font-weight="bold">COMPOSED</text>
+<text x="240" y="184" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="210" r="7" fill="#33475b"/>
+<text x="40" y="214" font-size="9" fill="white" text-anchor="middle">5</text>
+<text x="60" y="214" font-size="13" font-weight="bold">VIEW_VALIDATED</text>
+<text x="240" y="214" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="240" r="7" fill="#33475b"/>
+<text x="40" y="244" font-size="9" fill="white" text-anchor="middle">6</text>
+<text x="60" y="244" font-size="13" font-weight="bold">RENDERED</text>
+<text x="240" y="244" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="270" r="7" fill="#33475b"/>
+<text x="40" y="274" font-size="9" fill="white" text-anchor="middle">7</text>
+<text x="60" y="274" font-size="13" font-weight="bold">WRITE_BACK</text>
+<text x="240" y="274" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="300" r="7" fill="#33475b"/>
+<text x="40" y="304" font-size="9" fill="white" text-anchor="middle">8</text>
+<text x="60" y="304" font-size="13" font-weight="bold">VIEW_VALIDATED</text>
+<text x="240" y="304" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="330" r="7" fill="#33475b"/>
+<text x="40" y="334" font-size="9" fill="white" text-anchor="middle">9</text>
+<text x="60" y="334" font-size="13" font-weight="bold">RENDERED</text>
+<text x="240" y="334" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="360" r="7" fill="#33475b"/>
+<text x="40" y="364" font-size="9" fill="white" text-anchor="middle">10</text>
+<text x="60" y="364" font-size="13" font-weight="bold">AWAITING_USER</text>
+<text x="240" y="364" font-size="10" fill="#555">decision_ref=dec_179372675921600003; memory_refs=1; connection_refs=2; successor_ref=mdl_1</text>
+<circle cx="40" cy="390" r="7" fill="#33475b"/>
+<text x="40" y="394" font-size="9" fill="white" text-anchor="middle">11</text>
+<text x="60" y="394" font-size="13" font-weight="bold">ACTION_GATED</text>
+<text x="240" y="394" font-size="10" fill="#555">decision_ref=dec_179372675921600003; action_refs=1; memory_refs=1; connection_refs=2; succ</text>
+<circle cx="40" cy="420" r="7" fill="#33475b"/>
+<text x="40" y="424" font-size="9" fill="white" text-anchor="middle">12</text>
+<text x="60" y="424" font-size="13" font-weight="bold">EXECUTED</text>
+<text x="240" y="424" font-size="10" fill="#555">decision_ref=dec_179372675921600003; action_refs=1; memory_refs=1; connection_refs=2; succ</text>
+<circle cx="40" cy="450" r="7" fill="#33475b"/>
+<text x="40" y="454" font-size="9" fill="white" text-anchor="middle">13</text>
+<text x="60" y="454" font-size="13" font-weight="bold">REMEMBERED</text>
+<text x="240" y="454" font-size="10" fill="#555">decision_ref=dec_179372675921600003; action_refs=1; memory_refs=3; connection_refs=2; succ</text>
+<circle cx="40" cy="480" r="7" fill="#33475b"/>
+<text x="40" y="484" font-size="9" fill="white" text-anchor="middle">14</text>
+<text x="60" y="484" font-size="13" font-weight="bold">CLOSED</text>
+<text x="240" y="484" font-size="10" fill="#555">decision_ref=dec_179372675921600003; action_refs=1; memory_refs=3; connection_refs=2; succ</text>
+</svg>

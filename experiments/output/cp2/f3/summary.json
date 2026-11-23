@@ -1,0 +1,20 @@
+{
+  "after_html_clean": true,
+  "after_html_has_new_total": true,
+  "before_html_has_old_total": true,
+  "edited_record": {
+    "amount": 956.14,
+    "category": "food",
+    "date": "2026-08-09",
+    "id": "r_051",
+    "period": "Q3"
+  },
+  "final_gate": 0,
+  "gate": "F3",
+  "history_grew_by": 1,
+  "initial_gate": 0,
+  "invalidated_count": 4,
+  "pending_after_edit_before_refresh": 4,
+  "q3_recomputed_from_raw": 10481.96,
+  "refreshed_bindings": 3
+}

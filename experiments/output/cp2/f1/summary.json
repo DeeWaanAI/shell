@@ -1,0 +1,32 @@
+{
+  "chain_ok": true,
+  "closed_terminal_probe": {
+    "dst": "RENDERED",
+    "events_after": 14,
+    "events_before": 14,
+    "no_event_written": true,
+    "raised": "session s_179372773350408c745 is CLOSED; no further transitions",
+    "src": "CLOSED"
+  },
+  "events_written": 14,
+  "gate": "F1",
+  "illegal_all_raised_and_wrote_no_event": true,
+  "illegal_probes": 8,
+  "legal_walk_length": 14,
+  "sequences": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ]
+}

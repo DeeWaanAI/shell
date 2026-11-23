@@ -1,0 +1,9 @@
+{
+  "action_outcome": "success",
+  "action_ref": "a_18e499dec1b7ed50db104e11",
+  "allocated_id": "mdl_179372773361200010",
+  "detail": "allocated mdl_179372773361200010",
+  "original_id": null,
+  "reversibility_class": "EXACT",
+  "successor_ref": "mdl_179372773361200010"
+}

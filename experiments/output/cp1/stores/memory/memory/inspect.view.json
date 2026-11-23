@@ -1,0 +1,27 @@
+{
+ "spec": "dvr/1.0",
+ "id": "v_memory_inspect",
+ "kind": "list",
+ "title": {
+  "text": "What I remember about you"
+ },
+ "nodes": [
+  {
+   "id": "hdr:preference_store",
+   "role": "label",
+   "text": "Preferences"
+  },
+  {
+   "id": "hdr:longterm_notes",
+   "role": "label",
+   "text": "Long-term notes"
+  },
+  {
+   "id": "node:m_179372773333900003",
+   "role": "value",
+   "binding_ref": "b_179372773334000004",
+   "row_key": "m_179372773333900003",
+   "editable": false
+  }
+ ]
+}

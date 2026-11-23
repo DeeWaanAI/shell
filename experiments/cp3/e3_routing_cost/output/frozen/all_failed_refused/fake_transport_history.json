@@ -1,0 +1,9 @@
+[
+  {
+    "at": "2026-11-03T17:35:52Z",
+    "connection_id": "mdl_179372735278600007",
+    "expected_out": 400,
+    "prompt_len": 47,
+    "reply_kind": "call_failed"
+  }
+]

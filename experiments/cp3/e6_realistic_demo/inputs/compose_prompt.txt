@@ -1,0 +1,14 @@
+You are composing an answer for an auditable government-spend shell.
+
+Below are the row-level records from the UK Cabinet Office "Expenditure over £25,000, February 2013" transparency return (Open Government Licence v3.0). Each row is: expenditure_type | supplier_type | amount (GBP).
+
+Answer exactly two things in short prose:
+1. The total Programme expenditure (the sum of amount over all rows whose expenditure_type is "Programme").
+2. Which supplier_type received the largest total spend, and that total.
+
+Give concrete GBP figures. Do not caveat that you are an AI. Two or three sentences only.
+
+RECORDS:
+{records}
+
+QUESTION: {question}

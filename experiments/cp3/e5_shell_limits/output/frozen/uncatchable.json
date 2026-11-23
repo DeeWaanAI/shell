@@ -1,0 +1,54 @@
+{
+  "classes": [
+    {
+      "demonstrated": null,
+      "limit": "the shell cannot prove the model understood the user's intent",
+      "proxy": "no machine-checkable proxy; stated as a boundary"
+    },
+    {
+      "demonstrated": null,
+      "limit": "the shell cannot prove generated prose is true",
+      "proxy": "no machine-checkable proxy; stated as a boundary"
+    },
+    {
+      "demonstrated": null,
+      "limit": "the shell cannot prove a routed answer is optimal",
+      "proxy": "no machine-checkable proxy; stated as a boundary"
+    },
+    {
+      "demonstrated": true,
+      "limit": "L5 default trust_user mode does not classify sensitivity for the user",
+      "proxy": "a trust_user decision record carries classifier_mode='trust_user' and privacy_class='public' by construction, not by computation"
+    },
+    {
+      "demonstrated": null,
+      "limit": "L3 gates normalized actions, not the correctness of normalization",
+      "proxy": "a gate pass does not assert the normalized form matches the user's intent"
+    },
+    {
+      "demonstrated": null,
+      "limit": "L4 cannot retract information absorbed into model weights",
+      "proxy": "deletion removes records from the store; it cannot un-train a provider"
+    },
+    {
+      "demonstrated": null,
+      "limit": "hash chains detect modification, not an attacker who rewrites the store and recomputes every hash",
+      "proxy": "a tamper that recomputes the whole chain would verify; the spine demonstrates detection of a naive tamper only"
+    },
+    {
+      "demonstrated": null,
+      "limit": "closed GUI applications remain outside routing unless they expose a supported endpoint",
+      "proxy": "no connector exists for a closed desktop app; the connect list holds only what the user connected"
+    }
+  ],
+  "count": 8,
+  "demonstrated_count": 1,
+  "stated_only_count": 7,
+  "trust_user_proxy": {
+    "allocated": "mdl_179372763062300001",
+    "classifier_mode": "trust_user",
+    "mode_is_trust_user": true,
+    "privacy_class": "public",
+    "privacy_public_by_construction": true
+  }
+}

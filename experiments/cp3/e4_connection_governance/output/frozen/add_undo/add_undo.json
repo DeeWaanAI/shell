@@ -1,0 +1,8 @@
+{
+  "allocated": "mdl_179372748463900004",
+  "record_status_after_undo": "retired",
+  "undo": {
+    "detail": "retired mdl_179372748463900004",
+    "ok": true
+  }
+}

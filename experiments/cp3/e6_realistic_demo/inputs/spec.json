@@ -1,0 +1,99 @@
+{
+  "experiment": "E6",
+  "title": "Realistic demonstration — real open data + a real local LLM",
+  "brief_ref": "e6-realistic-demo-instructions-03-nov-2026-2113.md; brief.md §7.2 (added alongside E1-E5, does not replace them)",
+  "status_note": "Owner-approved scope addition. The offline deterministic core E1-E5 stays the primary proof; E6 adds real-world relevance with all model outputs frozen so the experiment stays reproducible.",
+
+  "dataset": {
+    "name": "UK Cabinet Office — Expenditure over £25,000, February 2013",
+    "publisher": "UK Cabinet Office (gov.uk)",
+    "preview_url": "https://www.gov.uk/csv-preview/5a74ada540f0b619c86598cb/February_2013__25k_transparency_data.csv",
+    "raw_download_url": "https://assets.publishing.service.gov.uk/media/5a74ada540f0b619c86598cb/February_2013__25k_transparency_data.csv",
+    "access_date_utc": "2026-11-03T18:38:20Z",
+    "access_date_local": "03-Nov-2026 (Asia/Qatar)",
+    "filename_frozen": "inputs/February_2013__25k_transparency_data.csv",
+    "sha256": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23",
+    "bytes": 29354,
+    "encoding": "cp1252 (Windows-1252; the raw file is NOT valid UTF-8 — byte 0x92 at offset 617)",
+    "licence": "Open Government Licence v3.0",
+    "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "licence_verified_on_page": true,
+    "attribution_required": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "non_pii": "Payments to organisations only; no private-individual data. No personal data added.",
+    "columns": ["Departmental Family", "Entity", "Date", "Expense Type", "Expense Area", "Supplier", "Transaction Number", "Amount", "Description", "Supplier Postcode", "Supplier Type", "Expenditure Type"],
+    "source_records": 143,
+    "amount_bearing_records": 129,
+    "empty_rows": 14,
+    "n_statement": "143 source records, of which 129 carry an amount (14 empty rows reported, not dropped)",
+    "data_quality_note": "Three source data-quality facts are reported verbatim and none is silently fixed. (1) The file has 143 non-header source records, of which 129 carry an amount and 14 are entirely empty rows (every field blank); the 14 empty rows remain verbatim in the frozen CSV and are reported, not dropped, and b_count = count(amount) = 129 counts amount-bearing records. (2) The source uses two distinct Supplier Type spellings — 'Gov Dept' and 'Government Department' — for what is evidently one category; E6 reports both verbatim rather than merging them, since merging would be a shell-side data edit, which brief §5 forbids. (3) Amount includes one negative row (-115912.64, a credit/refund), kept verbatim."
+  },
+
+  "model": {
+    "name": "llama3.1:8b-instruct-q4_K_M",
+    "params": "8B",
+    "quant": "q4_K_M",
+    "runtime": "ollama",
+    "ollama_version": "0.40.8",
+    "base_url": "http://127.0.0.1:11434",
+    "locus": "local",
+    "l5_connection_id": "mdl_179292740661000007",
+    "l5_connection_status": "active (already registered in L5; not re-declared by E6)",
+    "decoding": "greedy / temperature 0 (L5's vendored ollama backend sets options.temperature=0 by default)",
+    "host": "local mac-m4 (darwin 27.2.0, arm64)",
+    "call_path": "L5 vendored transport.call against the L5-selected local connection; loopback only",
+    "network_policy": "zero non-loopback calls; LoopbackGuard permits 127.0.0.1 and blocks+counts everything else"
+  },
+
+  "qafiya_bindings": {
+    "dataset": "spend (normalized deterministically from the frozen CSV; snake_case fields)",
+    "derivation_grammar": "FUNC(field) [where col='val'] with FUNC in {sum,avg,count,min,max} (qafiya_core.derivations, closed set)",
+    "bindings": [
+      {"id": "b_total", "derivation": "sum(amount)", "expected": 41999463.90},
+      {"id": "b_programme", "derivation": "sum(amount) where expenditure_type='Programme'", "expected": 18801701.38},
+      {"id": "b_admin", "derivation": "sum(amount) where expenditure_type='Admin'", "expected": 16377504.02},
+      {"id": "b_grants", "derivation": "sum(amount) where expenditure_type='Grants'", "expected": 6820258.50},
+      {"id": "b_large", "derivation": "sum(amount) where supplier_type='Large'", "expected": 26162299.76},
+      {"id": "b_sme", "derivation": "sum(amount) where supplier_type='SME'", "expected": 8276442.42},
+      {"id": "b_count", "derivation": "count(amount)", "expected": 129.0},
+      {"id": "b_max", "derivation": "max(amount)", "expected": 6795751.58},
+      {"id": "b_min", "derivation": "min(amount)", "expected": -115912.64}
+    ],
+    "headline_binding": "b_programme",
+    "headline_value": 18801701.38,
+    "headline_meaning": "Total February 2013 Cabinet Office Programme expenditure over £25,000 (the largest of the three Expenditure Type categories)."
+  },
+
+  "compose_prompt": {
+    "role": "The model fills ONLY the COMPOSE step (interpret the prompt, propose the answer in prose). It never authors a verified number.",
+    "fixed_prompt_file": "inputs/compose_prompt.txt",
+    "user_question": "From the Cabinet Office February 2013 spend-over-£25,000 data, what was the total Programme expenditure, and which supplier type received the largest total spend?",
+    "model_receives": "the row-level (expenditure_type, supplier_type, amount) triples from the frozen CSV, plus the question",
+    "expected_output_budget_tokens": 256
+  },
+
+  "honesty_guardrails": {
+    "model_fills_only_compose": true,
+    "auditability_claims_computed_over": "frozen data + frozen transcript, NOT the model's correctness",
+    "do_not_claim_prose_true": true,
+    "show_divergence": "model-stated number vs Qafiya-verified value, side by side; a divergence is a FEATURE (the binding recomputes the real number deterministically regardless of the prose)",
+    "cost_honesty": {
+      "declared_cost_usd": 0.0,
+      "declared_is_user_declaration": true,
+      "actual_metered_cost_usd": null,
+      "actual_metered_meaning": "not metered — there is no provider BILLING meter for a local model. ollama reports token USAGE (prompt_eval_count/eval_count), which is recorded in the transcript, but a local $0 declared price is a user declaration, not a measured cost.",
+      "l5_raw_actual_cost_usd_note": "L5's cost.actual_cost_usd computes declared-$0-price x ollama token usage = 0.0. E6 records that raw value AND presents actual_metered_cost_usd=null per the cost-honesty guardrail, with the reason — the divergence is shown, not hidden.",
+      "no_measured_energy_or_latency_claim": true
+    },
+    "e5_limit_carried": "The shell proves integration + audit, NOT that the model understood intent or that its prose is true (brief §8)."
+  },
+
+  "stability_check": {
+    "k": 5,
+    "decoding": "greedy / temperature 0, fixed prompt",
+    "freezes": "all k transcripts as raw artifacts",
+    "reports": "token-level variance across the k responses AND confirmation that every auditability claim is INVARIANT to the prose",
+    "invariance_rule": "if a claim would change with model output, it is not an auditability claim and is moved out of the verified set"
+  },
+
+  "headline_result_recomputed_by_spine": "Provenance coverage %, evidence source-rows, the verified aggregates recomputed from the FROZEN CSV by an independent parser, action records, replay completeness, declared-vs-metered cost, the model-vs-verified divergence, and stability invariance — all recomputed from the frozen data + transcript, never from the model's correctness and never requiring a model to re-run."
+}

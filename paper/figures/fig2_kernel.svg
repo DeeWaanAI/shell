@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" font-family="Helvetica,Arial,sans-serif">
+<title>Kernel state machine</title>
+<rect width="760" height="500" fill="white"/>
+<text x="20" y="28" font-size="18" font-weight="bold">Kernel state machine (12 states, frozen transition table)</text>
+<text x="20" y="46" font-size="11" fill="#555">source: shell/kernel.py:ALLOWED (runtime-kernel-loop v0.1)</text>
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#33475b"/></marker></defs>
+<line x1="160" y1="76" x2="100" y2="146" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="146" x2="570" y2="286" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="146" x2="100" y2="216" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="216" x2="100" y2="286" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="286" x2="100" y2="356" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="356" x2="100" y2="426" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="426" x2="340" y2="426" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="426" x2="340" y2="146" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="160" y1="426" x2="340" y2="356" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="426" x2="340" y2="286" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="426" x2="340" y2="146" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="426" x2="340" y2="356" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="356" x2="100" y2="356" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="286" x2="570" y2="286" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="286" x2="340" y2="216" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="216" x2="570" y2="286" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="216" x2="340" y2="146" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<line x1="400" y1="146" x2="570" y2="286" stroke="#33475b" stroke-width="1.2" marker-end="url(#ar)"/>
+<rect x="90" y="60" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="160" y="81" font-size="12" text-anchor="middle">RECEIVED</text>
+<rect x="90" y="130" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="160" y="151" font-size="12" text-anchor="middle">ROUTED</text>
+<rect x="90" y="200" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="160" y="221" font-size="12" text-anchor="middle">RECALLED</text>
+<rect x="90" y="270" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="160" y="291" font-size="12" text-anchor="middle">COMPOSED</text>
+<rect x="90" y="340" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="160" y="361" font-size="12" text-anchor="middle">VIEW_VALIDATED</text>
+<rect x="90" y="410" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="160" y="431" font-size="12" text-anchor="middle">RENDERED</text>
+<rect x="330" y="410" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="400" y="431" font-size="12" text-anchor="middle">AWAITING_USER</text>
+<rect x="330" y="340" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="400" y="361" font-size="12" text-anchor="middle">WRITE_BACK</text>
+<rect x="330" y="270" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="400" y="291" font-size="12" text-anchor="middle">ACTION_GATED</text>
+<rect x="330" y="200" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="400" y="221" font-size="12" text-anchor="middle">EXECUTED</text>
+<rect x="330" y="130" width="140" height="32" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="400" y="151" font-size="12" text-anchor="middle">REMEMBERED</text>
+<rect x="560" y="270" width="140" height="32" rx="6" fill="#fdeede" stroke="#33475b"/>
+<text x="630" y="291" font-size="12" text-anchor="middle">CLOSED</text>
+</svg>

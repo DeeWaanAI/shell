@@ -1,0 +1,118 @@
+{
+  "gates": [
+    {
+      "chain_ok": true,
+      "closed_terminal": true,
+      "events": 14,
+      "gate": "F1",
+      "illegal_probes": 8,
+      "states_covered": [
+        "ACTION_GATED",
+        "AWAITING_USER",
+        "CLOSED",
+        "COMPOSED",
+        "EXECUTED",
+        "RECALLED",
+        "RECEIVED",
+        "REMEMBERED",
+        "RENDERED",
+        "ROUTED",
+        "VIEW_VALIDATED",
+        "WRITE_BACK"
+      ]
+    },
+    {
+      "caseA_metered": false,
+      "caseA_outcome": "planned",
+      "caseB_actual_cost": 0.0,
+      "caseB_metered": true,
+      "caseB_outcome": "answered",
+      "caseB_simulated_meter_label": "simulated_local_fake",
+      "caseC_outcome": "refused",
+      "caseC_refusal_reason": "all_connections_failed",
+      "gate": "F2"
+    },
+    {
+      "edited_record": {
+        "amount": 956.14,
+        "category": "food",
+        "date": "2026-08-09",
+        "id": "r_051",
+        "period": "Q3"
+      },
+      "final_gate": 0,
+      "gate": "F3",
+      "history_grew_by": 1,
+      "pending_before_reproof": 4,
+      "q3_recomputed_from_raw": 10481.96,
+      "refreshed_bindings": 3
+    },
+    {
+      "approved": "success",
+      "approved_file_unchanged_after_reject": true,
+      "failed_reason_typed": true,
+      "gate": "F4",
+      "refused": "refused",
+      "reject_intent_recorded": true
+    },
+    {
+      "all_chains_verify": true,
+      "all_datasets_active_only": true,
+      "evidence_resolves_to_note": true,
+      "gate": "F5",
+      "note": "m_179372773360300003",
+      "turns_bound_as_sources": true
+    },
+    {
+      "allocated": "mdl_179372773361200010",
+      "broken_problems_typed": true,
+      "broken_stays_active": true,
+      "env_name_retained": true,
+      "gate": "F6",
+      "l5_models_chain_ok": true,
+      "list_unchanged_after_rejection": true,
+      "mutation_types_seen": [
+        "connection.add",
+        "connection.privacy_change",
+        "connection.retire"
+      ],
+      "privacy_undo_ok": true,
+      "rejected_retire_refused": true,
+      "restored": "mdl_179372773361500012",
+      "secret_value_absent": true,
+      "succession_chain_links_verified": true,
+      "successor": "mdl_179372773361400011"
+    },
+    {
+      "all_input_event_refs_resolved": true,
+      "all_lower_layer_refs_resolved": true,
+      "chains_verified": [
+        "l4_correction_log",
+        "l4_deletion_log",
+        "l4_longterm_notes",
+        "l4_preference_store",
+        "l4_session_log",
+        "l5_decision_log",
+        "l5_models",
+        "qafiya_expenses",
+        "shell_audit"
+      ],
+      "events": 14,
+      "gate": "F7",
+      "sequences_complete": true,
+      "session_id": "s_1793727733634921f25"
+    },
+    {
+      "gate": "F8",
+      "l3_failure_typed": true,
+      "routed_refusal_typed": true,
+      "unavailable_connection_stays_active": true,
+      "unavailable_connection_typed": true,
+      "unresolved_view_painted": true
+    }
+  ],
+  "gates_recomputed": 8,
+  "python": "3.12.16",
+  "secret_value_absent_from_entire_cp2_tree": true,
+  "status": "PASS"
+}

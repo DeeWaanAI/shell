@@ -1,0 +1,1 @@
+{"_id": "g_18e499a4cb181f30619bd6ce", "_ts": "2026-11-03T17:38:04.661349+00:00", "action_types": ["connection.add", "connection.retire", "connection.privacy_change"], "constraints": {}, "expires_at": null, "not_before": null, "requires_confirmation": [], "target_pattern": "mdl_*", "type": "permission_grant", "user_id": "e4"}

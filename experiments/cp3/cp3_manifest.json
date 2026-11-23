@@ -1,0 +1,198 @@
+{
+  "algorithm": "sha256",
+  "artifact": "L6 CP3 frozen experiments E1-E6 + vendored L3/L5 snapshot",
+  "experiments": {
+    "E1": {
+      "algorithm": "sha256",
+      "artifact": "E1 end-to-end user journey (frozen inputs + scripts)",
+      "dir": "e1_journey",
+      "file_count": 3,
+      "files": {
+        "inputs/spec.json": "104dea945bf424290791fbc7ab52fe8066d26fbca13ea575f0f0fc27ce25da06",
+        "run.py": "9d453e9e394b1f64d54888da19fc1aaf35d02de778a09d232083d29f249ffbb9",
+        "spine.py": "c06a489123c18b8201808288f1b27c587f3f9f70a52e90b9b1b0626ccf1e79d7"
+      },
+      "verified_now": 3
+    },
+    "E2": {
+      "algorithm": "sha256",
+      "artifact": "E2 auditability walkthrough (frozen inputs + scripts)",
+      "dir": "e2_auditability",
+      "file_count": 3,
+      "files": {
+        "inputs/spec.json": "81940fc19d8b26ac8057512b5133b3939686aa2a3019fb544999420ce73e5c12",
+        "run.py": "2302607e9bdcca2e4e4f739d9bb7af8a09e2617c86eccd5abda7798e70515a2f",
+        "spine.py": "84d999be86edc3163ab7e24ecd85cc248d07a1406bcfb279f44c9c476a3153f5"
+      },
+      "verified_now": 3
+    },
+    "E3": {
+      "algorithm": "sha256",
+      "artifact": "E3 routing and cost audit (frozen inputs + scripts)",
+      "dir": "e3_routing_cost",
+      "file_count": 3,
+      "files": {
+        "inputs/spec.json": "b317454414b3e8d9cd47fdaddca095ac66e822664808fce68f43516c42e0be27",
+        "run.py": "bac970990e4edff5a8e2eb8eb7d44bf5363b74cff1cc2fc8ac80d61be85fa3c6",
+        "spine.py": "f5249f5944d15441e9f64f0ecdc0f258acf8673932851a7a419593d5ebb24ee9"
+      },
+      "verified_now": 3
+    },
+    "E4": {
+      "algorithm": "sha256",
+      "artifact": "E4 connection governance (frozen inputs + scripts)",
+      "dir": "e4_connection_governance",
+      "file_count": 3,
+      "files": {
+        "inputs/spec.json": "d52185590f688fe2e9c97328892d32956669d5497fee8ef1a8db6fd7d4efa9f8",
+        "run.py": "a2ac17a9bb2185b34b9e63a45f7b4cca4e59293a3e668e7f66cc253c81d9fde1",
+        "spine.py": "4da3f0ec090189ef1a0740bdbdf18aa38c51d51630b680d58798a07ccfe4b3a0"
+      },
+      "verified_now": 3
+    },
+    "E5": {
+      "algorithm": "sha256",
+      "artifact": "E5 shell limits (frozen inputs + scripts)",
+      "dir": "e5_shell_limits",
+      "file_count": 3,
+      "files": {
+        "inputs/spec.json": "eedd631db151c50b6befa480101a38f234d11c95d715672e7b6d814d768b8b6e",
+        "run.py": "0449ba4a3f8a75cc9f6f677ca72934d00f162d02e28952ab7bd4a77a80639510",
+        "spine.py": "d481b928db21138762e35430316324448feca1ec24a6ceada101c75405e6eec9"
+      },
+      "verified_now": 3
+    },
+    "E6": {
+      "algorithm": "sha256",
+      "artifact": "E6 realistic demonstration (frozen inputs + scripts + dataset + model transcripts)",
+      "dir": "e6_realistic_demo",
+      "file_count": 15,
+      "files": {
+        "inputs/February_2013__25k_transparency_data.csv": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23",
+        "inputs/compose_prompt.txt": "5541d263b52e85d21383b825cb95fe026436b72a169eae144ad63d4e0c387b21",
+        "inputs/spec.json": "08394e39c870af5e190e6d773da46929cf387a4a084fa60d16d68f33897175f9",
+        "loopback_guard.py": "ea68a04ef9d0d2df2e7b73d0b49a3247bfa65eae2bce63fd8db9c26a2b35e79d",
+        "output/frozen/compose_prompt_full.txt": "8646e67fc2a6616778af0281c4468493b2e28760f1a388062f68535b51e1e060",
+        "output/frozen/stability.json": "308c746c4baa5795427555969a8e64a51e2476e79e35bbff7f6136f6910f0508",
+        "output/frozen/transcript_main.json": "1dcf8b1623dbae71be7a2144fb642975afda91a9ebdfd289ddf5200dce059170",
+        "output/frozen/transcript_stability_01.json": "48485eea663089592de463a23b472b82411a0fdbc65a27c0a5deb96ae776462d",
+        "output/frozen/transcript_stability_02.json": "79ffc86f3293a58ac3f98c3b6708486ea6d0633bdfe56f94416d9d68b6e2264c",
+        "output/frozen/transcript_stability_03.json": "b264931a4ac75cc44315296b482ca602de4d0e4555b7164238dc70b602a2d901",
+        "output/frozen/transcript_stability_04.json": "141d263da48ddba8b60c9d9100db9ebd8c0a630445ce14521f049e08c7ebdb5d",
+        "output/frozen/transcript_stability_05.json": "0a19ff69081269d69610f68eaa300b1a41944891f588d9f8e2aa842ccd08d5de",
+        "output/frozen/verified_values.json": "ac73c154d74aa69e14af2cdf76f192d24737f06bf140e2c6a09d6d09920655eb",
+        "run.py": "4675366801f3605f216fe9f6758551cfd336e448165b0cfe651a3dc7b8b6f81a",
+        "spine.py": "34cac7e16a9cd8518256e3c781e4659f66c45d01e8792c3ed19b4dfc5cfffd12"
+      },
+      "verified_now": 15
+    }
+  },
+  "live_l5_dataset_pins": {
+    "file_count": 9,
+    "files": {
+      "05-model-router/datasets/capabilities/data.jsonl": "7ae2f65bb96f043ed59017f8132040d4cbbc9357de6c3c152903d9ab4020dbb4",
+      "05-model-router/datasets/capabilities/schema.json": "c0c5f31b9281aa5e1abe1dd86e0dd044de86bde10710e3a5554be0f08d4e7146",
+      "05-model-router/datasets/decision_log/schema.json": "26f655ca6d8d25485486eb5de76510189dbcde13e1a2e6b82257cfca9bf4c49d",
+      "05-model-router/datasets/models/data.jsonl": "50a60831c7873107032ad3a32c6013dc4814599158f75885e155b6e00011e386",
+      "05-model-router/datasets/models/schema.json": "b6988abbc547c1318793aea85fe24047c20106bc5b1d16660f820599c5341543",
+      "05-model-router/datasets/policy/data.jsonl": "9f12274beb09e722d00e0036ccb95cae2e132c34684c0b073796045c78d5171f",
+      "05-model-router/datasets/policy/schema.json": "639ac014fc1d11d8325ef0e0e781959a8041ea01af45094a2dd33194ddce0afb",
+      "05-model-router/datasets/rules/data.jsonl": "e3b29da1414f27afd8e543b780c3577f50041026c6bbbd04ddd6d83ee00c17d1",
+      "05-model-router/datasets/rules/schema.json": "dff0d3e22a90dfaa4fada0c2152c6c539efccfb97efdf9daf212de27f042b8ca"
+    },
+    "note": "sha256 of every live L5 dataset file the experiments consume; frozen by model-routing v1.1, pinned here as a drift check",
+    "root": "/Users/youssefhariri/Documents/ideas_2026 copy 2/DeewaanAI OS/05-model-router"
+  },
+  "python_pin": "3.12",
+  "real_open_data": {
+    "attribution_required_in_paper": "Contains public sector information licensed under the Open Government Licence v3.0.",
+    "dataset_provenance": {
+      "access_date_utc": "2026-11-03T18:38:20Z",
+      "attribution": "Contains public sector information licensed under the Open Government Licence v3.0.",
+      "bytes": 29354,
+      "encoding": "cp1252 (Windows-1252; the raw file is NOT valid UTF-8 \u2014 byte 0x92 at offset 617)",
+      "filename_frozen": "inputs/February_2013__25k_transparency_data.csv",
+      "licence": "Open Government Licence v3.0",
+      "licence_url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "name": "UK Cabinet Office \u2014 Expenditure over \u00a325,000, February 2013",
+      "non_pii": "Payments to organisations only; no private-individual data. No personal data added.",
+      "preview_url": "https://www.gov.uk/csv-preview/5a74ada540f0b619c86598cb/February_2013__25k_transparency_data.csv",
+      "publisher": "UK Cabinet Office (gov.uk)",
+      "raw_download_url": "https://assets.publishing.service.gov.uk/media/5a74ada540f0b619c86598cb/February_2013__25k_transparency_data.csv",
+      "sha256": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23"
+    },
+    "experiment": "E6",
+    "model_provenance": {
+      "decoding": "greedy / temperature 0 (L5's vendored ollama backend sets options.temperature=0 by default)",
+      "locus": "local",
+      "name": "llama3.1:8b-instruct-q4_K_M",
+      "network_policy": "loopback only; zero non-loopback calls (LoopbackGuard)",
+      "runtime": "ollama",
+      "transcripts_frozen": [
+        "output/frozen/transcript_main.json",
+        "output/frozen/transcript_stability_01.json",
+        "output/frozen/transcript_stability_02.json",
+        "output/frozen/transcript_stability_03.json",
+        "output/frozen/transcript_stability_04.json",
+        "output/frozen/transcript_stability_05.json"
+      ]
+    }
+  },
+  "regressions_that_must_stay_green": [
+    "preflight/spine.py (12/12, Q3 10481.96)",
+    "experiments/shell_spine.py (CP1, 36 checks)",
+    "experiments/gates_spine.py (CP2, 8/8 gates)"
+  ],
+  "vendor_snapshot": {
+    "excluded": [
+      ".DS_Store",
+      ".venv",
+      "__pycache__",
+      "acceptance_live",
+      "apply_rc_migration",
+      "qwen25_tokenizer.json (not referenced by the E6 ollama connection)",
+      "seed_policy",
+      "seed_privacy_choice",
+      "test_*"
+    ],
+    "file_count": 31,
+    "files": {
+      "03-action-layer/prototype/actionlayer/__init__.py": "47f7a45c3febe38758ca207f04e594a74fa29aeca8ec7eae260aa2325599d830",
+      "03-action-layer/prototype/actionlayer/adapters/__init__.py": "6a8306cd873e865413fb44cc700277cac4ac4af580410953b5848ac4aec01fe6",
+      "03-action-layer/prototype/actionlayer/adapters/connection.py": "3b0e9778d2e73bcb7da69239e81104d7cc89556bb8f14c76a9822a0b4ff12e9c",
+      "03-action-layer/prototype/actionlayer/dvr11.py": "079acdf0512f84afa4f002b0af0574b8b0f1c93d872ec0e03d2f1913ef6d8f42",
+      "03-action-layer/prototype/actionlayer/engine.py": "ecd5507b780174acf4efdd6c536d39af8c24e8350303a18a2899158b976f71e4",
+      "03-action-layer/prototype/actionlayer/gate.py": "ea6c9e53ca982933f78cb56b4c8db277b7d7da03b92d2009b8fa29d0dbf74675",
+      "03-action-layer/prototype/actionlayer/model.py": "4bf6fd16a4680ca3070cce33b54ce00e61b2512a1d4772e81bf600d9a4b1937a",
+      "03-action-layer/prototype/actionlayer/qafiya_core_chain.py": "0fa0b5f5f962e102cb632181d1d08524a00461016f0821d2c197d2bd29d0d898",
+      "03-action-layer/prototype/actionlayer/qafiya_shim.py": "ac26fbe76dee815023a1c0e60a24eaa725812cad4bc5fc550ab7f4358e92b9b9",
+      "03-action-layer/prototype/actionlayer/renderer.py": "3c5924091be883a4df0e662bc629360cc7d461737e74fef3dd5316b04d938472",
+      "05-model-router/router/audit.py": "6d98e989545a35b949e063320f77dfaf6fcb32408f80d26f212c907381f63bcb",
+      "05-model-router/router/backends/__init__.py": "02a42d70ab3777964d3557f771d0113ed237acb937243500a7193cc7666d12c1",
+      "05-model-router/router/backends/ollama.py": "71587f1dd52f128a84d0df0ae22deb310a0f8a58519a18fd4859d8938eb7715b",
+      "05-model-router/router/backends/openai_compatible.py": "718f3bf0ffc2ee295946a6c242e144c8230cdc4ad41bcd2edb8d363104d0604d",
+      "05-model-router/router/classify.py": "cbc06bafa10492bbc71595c5bcadb810c8f372357a975c0b19f9343dcb4a6de0",
+      "05-model-router/router/code_exec.py": "629ce8610fbac6535a12d4c8bebc86b924cc9ddd9e9c69b61cd0474cc3e85c34",
+      "05-model-router/router/connect.py": "f8d870e0bfbd34172831ac241163874917c3799255b2da03b33152c7fd0d3416",
+      "05-model-router/router/connection_ops.py": "64955dd938399039432d7f3410295e6f3cf3c2ad34cf92772a79f63de0477554",
+      "05-model-router/router/connections.py": "a2a6e329faf0c91b2e87f39e305ce097649ba7d9aba7010855dd2dc70504ff60",
+      "05-model-router/router/cost.py": "914fdf2518f715fa5c88cdc86bc75e513547a8c67728f23d68dfa4076d4d58a7",
+      "05-model-router/router/decide.py": "50b6618754b9180c6c64ca45ee595f7a83b3a5bdeb65f2194977918efb656036",
+      "05-model-router/router/gates.py": "24499a6ed8650876a7ef0601a280c902b75ea6673038f6976bf4178b768dbc7f",
+      "05-model-router/router/health.py": "64296fdb067be24920ea6cc4b704807fbc46857e29258cc462bb4e64ced67f67",
+      "05-model-router/router/qafiya_core/__init__.py": "35275bfcd9b9b038f83c9834b2fe900e053fa06a8146fd4c9b2bcf1084a87ebd",
+      "05-model-router/router/qafiya_core/chain.py": "0fa0b5f5f962e102cb632181d1d08524a00461016f0821d2c197d2bd29d0d898",
+      "05-model-router/router/store.py": "96fe3e8333b96e2f8873a1f9fcc335eef8cd08dc62e5b6ae238fbfaaaccfe00b",
+      "05-model-router/router/tokens.py": "7460fdfd8cde71eee2aa85a515164b85180531894677316d5f779900fd833e3f",
+      "05-model-router/router/transport.py": "de54055b6180f14afbe1a51b6e2459088af5f25d391209f15636c699b1de50d2",
+      "05-model-router/router/verifier.py": "348ea98386edd381572660d122a86df20d204483b2299d95e455be5f745e9e09",
+      "05-model-router/tokenizer/llama3_tokenizer.json": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+      "05-model-router/tokenizer/manifest.json": "6e1757af209733525fff0df51591928b57866f3a2aeb5b872d8a601600ce0a8f"
+    },
+    "path": "shell/vendor/",
+    "source_trees": {
+      "L3": "03-action-layer/prototype/actionlayer/",
+      "L5": "05-model-router/router/ + 05-model-router/tokenizer/{manifest.json,llama3_tokenizer.json}"
+    }
+  }
+}

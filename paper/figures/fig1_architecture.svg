@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="514" viewBox="0 0 880 514" font-family="Helvetica,Arial,sans-serif">
+<title>DeeWaanAI OS layer stack and authority boundaries</title>
+<rect width="880" height="514" fill="white"/>
+<text x="20" y="34" font-size="20" font-weight="bold">DeeWaanAI OS layer stack and authority boundaries</text>
+<text x="20" y="54" font-size="12" fill="#555">source: brief.md §5 (contract boundaries) + §4.2 (audit ownership)</text>
+<rect x="20" y="70" width="840" height="56" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="34" y="94" font-size="15" font-weight="bold">Qafiya</text>
+<text x="34" y="114" font-size="12">owns/consumes: records, bindings, write-back, invalidation, chained history</text>
+<text x="470" y="114" font-size="12" fill="#8a3b12">must not: mutate JSON directly or bypass checks</text>
+<rect x="20" y="134" width="840" height="56" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="34" y="158" font-size="15" font-weight="bold">L2</text>
+<text x="34" y="178" font-size="12">owns/consumes: dvr/1.1 validation, rendering, edits, evidence</text>
+<text x="470" y="178" font-size="12" fill="#8a3b12">must not: add roles/kinds or merge bindings locally</text>
+<rect x="20" y="198" width="840" height="56" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="34" y="222" font-size="15" font-weight="bold">L3</text>
+<text x="34" y="242" font-size="12">owns/consumes: action records, grants, confirmation, execution, undo</text>
+<text x="470" y="242" font-size="12" fill="#8a3b12">must not: treat button rendering as execution authority</text>
+<rect x="20" y="262" width="840" height="56" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="34" y="286" font-size="15" font-weight="bold">L4</text>
+<text x="34" y="306" font-size="12">owns/consumes: memory read/write, inspection, correction/deletion protocols</text>
+<text x="470" y="306" font-size="12" fill="#8a3b12">must not: edit active memory or history directly</text>
+<rect x="20" y="326" width="840" height="56" rx="6" fill="#eef3fb" stroke="#33475b"/>
+<text x="34" y="350" font-size="15" font-weight="bold">L5</text>
+<text x="34" y="370" font-size="12">owns/consumes: route decisions, user connection list, health and cost records</text>
+<text x="470" y="370" font-size="12" fill="#8a3b12">must not: select models, infer prices, or store secrets</text>
+<rect x="20" y="390" width="840" height="56" rx="6" fill="#fdeede" stroke="#33475b"/>
+<text x="34" y="414" font-size="15" font-weight="bold">L6 Shell</text>
+<text x="34" y="434" font-size="12">owns/consumes: joins L1-L5; owns ds:shell_audit</text>
+<text x="470" y="434" font-size="12" fill="#8a3b12">must not: reimplement lower-layer authority</text>
+</svg>

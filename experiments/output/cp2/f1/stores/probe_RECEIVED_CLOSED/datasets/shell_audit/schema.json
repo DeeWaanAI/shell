@@ -1,0 +1,39 @@
+{
+ "dataset": "shell_audit",
+ "derivations": [
+  "filter",
+  "count",
+  "groupby"
+ ],
+ "fields": {
+  "action_refs": "list<id>",
+  "actual_metered_cost_usd": "number|null",
+  "artifact_hashes": "object",
+  "check_states": "object",
+  "connection_refs": "list<id>",
+  "content_policy": "object",
+  "coverage": "object",
+  "created_at": "timestamp",
+  "decision_ref": "id|null",
+  "declared_cost_usd": "number|null",
+  "edit_refs": "list<id>",
+  "id": "id",
+  "input_event_refs": "list<id>",
+  "memory_refs": "list<id>",
+  "notes": "string|null",
+  "request_ref": "id|null",
+  "sequence": "number",
+  "session_id": "id",
+  "source_ref": "list<id>",
+  "spec_version": "string",
+  "state": "string",
+  "status": "enum[active,retired,discredited]",
+  "successor_ref": "id|null",
+  "superseded_by": "id|null",
+  "view_refs": "list<id>"
+ },
+ "id_field": "id",
+ "id_prefix": "r_",
+ "record_type": "shell_audit_event",
+ "spec_ref": "Qafiya v1.1 \u00a78 layout; v1.3 chained history; L6 brief.md \u00a74.2 (audit event graph)"
+}

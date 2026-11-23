@@ -1,0 +1,118 @@
+{
+  "attempts": [],
+  "binding_ref": "b_179372763062800003",
+  "budget_alert": false,
+  "chosen": {
+    "attempt": 1,
+    "model_ref": "mdl_179372763062300001"
+  },
+  "classifier_guard": null,
+  "classifier_matched_rank": null,
+  "classifier_mode": "trust_user",
+  "classifier_verification": null,
+  "code_fingerprint": "6c7c4207fb87fa744c380ddc7e1d55a9dbacdbb753b57d8470e110ad28b294b9",
+  "created_at": "2026-11-03T17:40:30Z",
+  "est_tokens_in": {
+    "mdl_179372763062300001": 7
+  },
+  "est_tokens_method": {
+    "mdl_179372763062300001": "char_div_3_upper_bound"
+  },
+  "feasible_set": [
+    {
+      "cost_rankable": true,
+      "est_tokens_in": 7,
+      "est_tokens_out": 400,
+      "expected_cost_usd": 0.0,
+      "label": "E5 fake local model",
+      "measured_known": false,
+      "model_ref": "mdl_179372763062300001"
+    }
+  ],
+  "gate_trace": [
+    {
+      "excluded": [],
+      "gate": "privacy",
+      "input_count": 1,
+      "notes": [],
+      "survivors": [
+        "mdl_179372763062300001"
+      ]
+    },
+    {
+      "excluded": [],
+      "gate": "availability",
+      "input_count": 1,
+      "notes": [],
+      "survivors": [
+        "mdl_179372763062300001"
+      ]
+    },
+    {
+      "excluded": [],
+      "gate": "verifiability",
+      "input_count": 1,
+      "notes": [
+        {
+          "flag": "unmeasured",
+          "model_ref": "mdl_179372763062300001",
+          "prompt_class": "open_chat"
+        }
+      ],
+      "survivors": [
+        "mdl_179372763062300001"
+      ]
+    },
+    {
+      "excluded": [],
+      "gate": "context_fit",
+      "input_count": 1,
+      "notes": [
+        {
+          "flag": "ram_undeclared",
+          "model_ref": "mdl_179372763062300001"
+        }
+      ],
+      "survivors": [
+        "mdl_179372763062300001"
+      ]
+    }
+  ],
+  "health_snapshot": {
+    "cooldown_s": 60.0,
+    "states": {},
+    "threshold": 3,
+    "unhealthy": []
+  },
+  "id": "dec_179372763062800002",
+  "outcome": "planned",
+  "policy_ref": "pol_179299912665000001",
+  "privacy_class": "public",
+  "privacy_rules_ref": "rul_179299781445100001",
+  "privacy_warning": null,
+  "prompt_hmac": "d31dc3a914f18864f90539625b449ada3a76c4aec388fbd3ff4303cc8018385f",
+  "prompt_text": null,
+  "refusal_reason": null,
+  "registry_provenance": {
+    "connections": {
+      "locus": "user_declared",
+      "price": "user_declared",
+      "privacy_class": "user_declared"
+    },
+    "unusable_connections": []
+  },
+  "registry_snapshot_hash": "bb2c49c1e027ba1332a56090278793d8c4bd51a01c8b792985de26c0949267b4",
+  "request_ref": "req_e5_tu",
+  "response_text": null,
+  "run": "e5-trust-user",
+  "source_ref": [
+    "pol_179299912665000001",
+    "rul_179299781445100001",
+    "rul_179278215747100001"
+  ],
+  "spec_version": "1.1",
+  "status": "active",
+  "superseded_by": null,
+  "task_class": "open_chat",
+  "task_rules_ref": "rul_179278215747100001"
+}

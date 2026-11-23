@@ -1,0 +1,142 @@
+{
+ "export_command": "svg is the source of truth; export with rsvg-convert -f pdf figN.svg -o figN.pdf (or Overleaf \\usepackage{svg}) \u2014 no local converter on the build host",
+ "figure": "fig2_kernel",
+ "plotted_values": {
+  "edge_count": 18,
+  "edges": [
+   [
+    "RECEIVED",
+    "ROUTED"
+   ],
+   [
+    "ROUTED",
+    "CLOSED"
+   ],
+   [
+    "ROUTED",
+    "RECALLED"
+   ],
+   [
+    "RECALLED",
+    "COMPOSED"
+   ],
+   [
+    "COMPOSED",
+    "VIEW_VALIDATED"
+   ],
+   [
+    "VIEW_VALIDATED",
+    "RENDERED"
+   ],
+   [
+    "RENDERED",
+    "AWAITING_USER"
+   ],
+   [
+    "RENDERED",
+    "REMEMBERED"
+   ],
+   [
+    "RENDERED",
+    "WRITE_BACK"
+   ],
+   [
+    "AWAITING_USER",
+    "ACTION_GATED"
+   ],
+   [
+    "AWAITING_USER",
+    "REMEMBERED"
+   ],
+   [
+    "AWAITING_USER",
+    "WRITE_BACK"
+   ],
+   [
+    "WRITE_BACK",
+    "VIEW_VALIDATED"
+   ],
+   [
+    "ACTION_GATED",
+    "CLOSED"
+   ],
+   [
+    "ACTION_GATED",
+    "EXECUTED"
+   ],
+   [
+    "EXECUTED",
+    "CLOSED"
+   ],
+   [
+    "EXECUTED",
+    "REMEMBERED"
+   ],
+   [
+    "REMEMBERED",
+    "CLOSED"
+   ]
+  ],
+  "state_count": 12,
+  "states": [
+   "RECEIVED",
+   "ROUTED",
+   "RECALLED",
+   "COMPOSED",
+   "VIEW_VALIDATED",
+   "RENDERED",
+   "AWAITING_USER",
+   "WRITE_BACK",
+   "ACTION_GATED",
+   "EXECUTED",
+   "REMEMBERED",
+   "CLOSED"
+  ],
+  "transition_table": {
+   "ACTION_GATED": [
+    "CLOSED",
+    "EXECUTED"
+   ],
+   "AWAITING_USER": [
+    "ACTION_GATED",
+    "REMEMBERED",
+    "WRITE_BACK"
+   ],
+   "CLOSED": [],
+   "COMPOSED": [
+    "VIEW_VALIDATED"
+   ],
+   "EXECUTED": [
+    "CLOSED",
+    "REMEMBERED"
+   ],
+   "RECALLED": [
+    "COMPOSED"
+   ],
+   "RECEIVED": [
+    "ROUTED"
+   ],
+   "REMEMBERED": [
+    "CLOSED"
+   ],
+   "RENDERED": [
+    "AWAITING_USER",
+    "REMEMBERED",
+    "WRITE_BACK"
+   ],
+   "ROUTED": [
+    "CLOSED",
+    "RECALLED"
+   ],
+   "VIEW_VALIDATED": [
+    "RENDERED"
+   ],
+   "WRITE_BACK": [
+    "VIEW_VALIDATED"
+   ]
+  }
+ },
+ "source_artifacts": [
+  "shell/kernel.py"
+ ]
+}

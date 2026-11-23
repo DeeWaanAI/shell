@@ -1,0 +1,9 @@
+{
+  "blocked": [],
+  "loopback_call_count": 12,
+  "loopback_ports_touched": [
+    11434
+  ],
+  "non_loopback_calls": 0,
+  "only_loopback_touched": true
+}

@@ -1,0 +1,69 @@
+{
+  "audit_chain_ok": true,
+  "audit_events": 11,
+  "claims_invariant_to_prose": true,
+  "cost_honesty": {
+    "declared_cost_usd": 0.0,
+    "l5_raw_actual_cost_usd": 0.0,
+    "meaning": "not metered — no provider billing meter for a local model",
+    "presented_actual_metered_cost_usd": null
+  },
+  "dataset": {
+    "amount_bearing_records": 129,
+    "attribution_present": true,
+    "b_count_label": "count of amount-bearing records",
+    "empty_rows_reported_not_dropped": 14,
+    "licence": "Open Government Licence v3.0",
+    "n_statement": "143 source records, of which 129 carry an amount (14 empty rows reported, not dropped)",
+    "sha256": "95e37b7afff2725b6edbdc4e0e708589bc74cefa68272fa508d49a04c5455c23",
+    "source_records": 143
+  },
+  "divergence_reported_honestly": true,
+  "experiment": "E6",
+  "frozen_files_verified": 15,
+  "headline_binding": "b_programme",
+  "headline_evidence_recomputes": 18801701.38,
+  "headline_evidence_rows": 79,
+  "loopback_only": true,
+  "loopback_ports_touched": [
+    11434
+  ],
+  "model_category_figures": {
+    "Large": 13111919.19,
+    "Programme": 14111919.19
+  },
+  "model_fills_only_compose": true,
+  "model_large_figure": 13111919.19,
+  "model_large_matches_verified": false,
+  "model_programme_figure": 14111919.19,
+  "model_programme_matches_verified": false,
+  "model_prose_figures": [
+    13111919.19,
+    14111919.19
+  ],
+  "needs_no_model_to_rerun": true,
+  "non_loopback_calls": 0,
+  "python": "3.12.16",
+  "rendered_view_shows_verified_not_prose": true,
+  "replay_refs_resolved": true,
+  "sequences_complete": true,
+  "stability": {
+    "all_identical": true,
+    "distinct_responses": 1,
+    "k": 5,
+    "mean_token_position_agreement": 1.0
+  },
+  "status": "PASS",
+  "transcript_sha256": "1dcf8b1623dbae71be7a2144fb642975afda91a9ebdfd289ddf5200dce059170",
+  "verified_aggregates_recomputed_independently": {
+    "b_admin": 16377504.02,
+    "b_count": 129.0,
+    "b_grants": 6820258.5,
+    "b_large": 26162299.76,
+    "b_max": 6795751.58,
+    "b_min": -115912.64,
+    "b_programme": 18801701.38,
+    "b_sme": 8276442.42,
+    "b_total": 41999463.9
+  }
+}

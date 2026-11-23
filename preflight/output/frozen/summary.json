@@ -1,0 +1,80 @@
+{
+  "bound_records": 7,
+  "checks": [
+    {
+      "detail": "Qafiya data hash",
+      "name": "frozen_input_intact",
+      "pass": true
+    },
+    {
+      "detail": "all fixture bindings recompute",
+      "name": "initial_gate",
+      "pass": true
+    },
+    {
+      "detail": "L2 renders the real expense view at full provenance coverage",
+      "name": "qafiya_render",
+      "pass": true
+    },
+    {
+      "detail": "binding, check, and 21 verbatim Q3 rows returned",
+      "name": "evidence_affordance",
+      "pass": true
+    },
+    {
+      "detail": "edited values recompute",
+      "name": "edit_gate",
+      "pass": true
+    },
+    {
+      "detail": "r_051 amount changed atomically with chained history and invalidation",
+      "name": "cell_writeback",
+      "pass": true
+    },
+    {
+      "detail": "Q3 total recomputed to 10481.96 after the edit",
+      "name": "edited_rerender",
+      "pass": true
+    },
+    {
+      "detail": "A40 frozen action record renders with approve/reject controls",
+      "name": "frozen_action_confirmation",
+      "pass": true
+    },
+    {
+      "detail": "A40 audit and full-record evidence resolve",
+      "name": "frozen_action_audit",
+      "pass": true
+    },
+    {
+      "detail": "rendered confirmation path ran and the deterministic gate executed the approved action",
+      "name": "action_confirmed",
+      "pass": true
+    },
+    {
+      "detail": "journey confirmation, audit, and action evidence all resolve",
+      "name": "action_views",
+      "pass": true
+    },
+    {
+      "detail": "L4 note and provenance render through L2; all memory chains verify",
+      "name": "memory_inspection",
+      "pass": true
+    }
+  ],
+  "checks_passed": 12,
+  "journey": "Change the 9 August Q3 food expense to 956.14, create an audit note, and remember what happened.",
+  "refs": {
+    "action": "a_18e360392253385897e5940a",
+    "battery_action": "a_18e33ef2e9c707609d01c66a",
+    "edit": "b_98e42b41",
+    "memory": "m_179338287516700003"
+  },
+  "status": "PASS",
+  "values": {
+    "edited_amount": 956.14,
+    "edited_record": "r_051",
+    "evidence_rows": 21,
+    "q3_total_after": 10481.96
+  }
+}

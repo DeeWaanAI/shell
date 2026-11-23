@@ -1,0 +1,4 @@
+{"derivation": "literal", "id": "b_e53f8fc0e9", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.verbatim"}], "value": "Change the 9 August Q3 food expense to 956.14, create an audit note, and remember what happened."}
+{"derivation": "literal", "id": "b_bd174f7397", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.normalized"}], "value": {"action_type": "file.create", "params": {"content": "CP1: Q3 expense r_051 changed to 956.14; Q3 total recomputed to 10481.96; connection mdl_179372773364800014 superseded by mdl_179372773365000015.\n", "path": "audit/q3-expense-edit-cp1.txt"}}}
+{"derivation": "literal", "id": "b_fb7358eb06", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "reversibility_class"}], "value": "EXACT"}
+{"derivation": "literal", "id": "b_1033e171fa", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "authority.user_id"}], "value": "youssef"}

@@ -1,0 +1,14 @@
+{
+  "all_identical": true,
+  "distinct_responses": 1,
+  "identical_to_first": 5,
+  "k": 5,
+  "mean_token_position_agreement": 1.0,
+  "tokens_out_per_run": [
+    40,
+    40,
+    40,
+    40,
+    40
+  ]
+}

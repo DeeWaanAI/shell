@@ -1,0 +1,188 @@
+{
+  "map": "semantic claim map for capstone_draft_v0.3.md (L6 shell paper)",
+  "audit_date": "2026-11-07",
+  "auditor": "monitor (Kimi), per research-semantic-map skill; numeric gate verify_two_way.py exit 0 (78 datapoints, 60 mentions)",
+  "draft": "06-shell/paper/capstone_draft_v0.3.md",
+  "claims": [
+    {
+      "id": "SC-abstract-001",
+      "section": "Abstract",
+      "paper_line": 12,
+      "full_quote": "a local language model stated two expenditure figures with confidence: £14,111,919.19 for total Programme expenditure and £13,111,919.19 for the largest supplier type. Both differ from the values the data bindings recompute deterministically from the frozen source, £18,801,701.38 and £26,162,299.76.",
+      "what_it_means": "Model wrong on both magnitudes; bindings right. Wrong if any of the four figures mismatch the frozen artifacts, or if either actually matched.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/frozen/verified_values.json", "location": "b_programme, b_large", "exact_values": "18801701.38, 26162299.76"}, {"file": "experiments/cp3/e6_realistic_demo/output/frozen/transcript_main.json", "location": "response_text", "exact_values": "£14,111,919.19 and £13,111,919.19"}, {"file": "experiments/cp3/e6_realistic_demo/output/spine-result.json", "location": "model_programme_matches_verified, model_large_matches_verified", "exact_values": "false, false"}],
+      "code": null,
+      "audit": "verified — both directions correct (stated ≠ verified on both axes); transcript quote verbatim"
+    },
+    {
+      "id": "SC-rq6-002",
+      "section": "RQ6 (E6)",
+      "paper_line": 216,
+      "full_quote": "The frozen file has 143 source records, of which 129 carry an amount; 14 are entirely empty rows that we report and keep in place rather than drop.",
+      "what_it_means": "Dataset composition 143/129/14. Wrong if the frozen spine reports other counts.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/spine-result.json", "location": "dataset.source_records / amount_bearing_records / empty_rows_reported_not_dropped", "exact_values": "143, 129, 14"}],
+      "code": null,
+      "audit": "verified — consistent with §14 disclosure restatement"
+    },
+    {
+      "id": "SC-rq6-003",
+      "section": "RQ6 (E6)",
+      "paper_line": 216,
+      "full_quote": "one negative amount (a credit of −115,912.64)",
+      "what_it_means": "Minimum binding equals the negative credit.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/frozen/verified_values.json", "location": "b_min", "exact_values": "-115912.64"}],
+      "code": null,
+      "audit": "verified"
+    },
+    {
+      "id": "SC-rq6-004",
+      "section": "RQ6 (E6)",
+      "paper_line": 216,
+      "full_quote": "The shell builds nine Qafiya bindings over the amount column.",
+      "what_it_means": "Exactly 9 bindings exist.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/frozen/verified_values.json", "location": "top-level keys", "exact_values": "9 keys (b_admin, b_count, b_grants, b_large, b_max, b_min, b_programme, b_sme, b_total)"}],
+      "code": null,
+      "audit": "verified"
+    },
+    {
+      "id": "SC-rq6-005",
+      "section": "RQ6 (E6) + Figure 5 caption",
+      "paper_line": 108,
+      "full_quote": "a displayed value resolves through binding b_programme to its 79 amount-bearing source rows and recomputes to £18,801,701.38",
+      "what_it_means": "Headline evidence resolves to 79 rows and recomputes.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/spine-result.json", "location": "headline_evidence_rows, headline_evidence_recomputes", "exact_values": "79, 18801701.38"}],
+      "code": null,
+      "audit": "verified"
+    },
+    {
+      "id": "SC-rq6-006",
+      "section": "RQ6 (E6)",
+      "paper_line": 222,
+      "full_quote": "The model named the correct category (Large) and the wrong magnitude",
+      "what_it_means": "Attribution claim: Large really is the largest supplier type in the verified data; only the figure was wrong. Direction-sensitive.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/frozen/verified_values.json", "location": "b_large vs b_admin/b_sme/b_grants", "exact_values": "b_large=26162299.76 > b_admin=16377504.02 > b_sme=8276442.42 > b_grants=6820258.50"}],
+      "code": null,
+      "audit": "verified — Large is indeed the maximum supplier-type binding; no direction flip"
+    },
+    {
+      "id": "SC-rq6-007",
+      "section": "RQ6 (E6) + §9 internal validity",
+      "paper_line": 228,
+      "full_quote": "the same prompt was run five times under greedy decoding, and all five responses were byte-identical (one distinct response, mean token-position agreement 1.0)",
+      "what_it_means": "Stability claim k=5, zero variance.",
+      "source": [{"file": "experiments/cp3/e6_realistic_demo/output/frozen/stability_variance.json", "location": "k, all_identical, distinct_responses, mean_token_position_agreement", "exact_values": "5, true, 1, 1.0"}],
+      "code": null,
+      "audit": "verified — consistent with §9 'k=5 greedy runs ... variance is zero'"
+    },
+    {
+      "id": "SC-rq1-008",
+      "section": "RQ1 (E1)",
+      "paper_line": 138,
+      "full_quote": "The kernel walks all twelve states and writes fourteen audit events ... the quarter total moves from 10346.71 to 10481.96, and the spine recomputes 10481.96 from the raw records",
+      "what_it_means": "Journey completeness and the edited total.",
+      "source": [{"file": "experiments/cp3/e1_journey/output/spine-result.json", "location": "audit_events, q3_total_recomputed_from_raw, status", "exact_values": "14, 10481.96, PASS"}],
+      "code": null,
+      "audit": "verified — 10346.71 baseline consistent with 956.14 edit (covered by numeric map); kernel.py confirms exactly 12 states"
+    },
+    {
+      "id": "SC-design-009",
+      "section": "§4.1 + Figure 2 caption",
+      "paper_line": 92,
+      "full_quote": "twelve states and eighteen allowed edges, generated programmatically from the frozen transition table",
+      "what_it_means": "Existence-of-analysis: the count must match shell/kernel.py ALLOWED.",
+      "source": [{"file": "shell/kernel.py", "location": "ALLOWED dict", "exact_values": "12 states, 18 edges (counted from source 2026-11-07)"}],
+      "code": "inline regex count over ALLOWED frozensets",
+      "audit": "verified"
+    },
+    {
+      "id": "SC-impl-010",
+      "section": "§5 Table 3 + §12",
+      "paper_line": 116,
+      "full_quote": "Shell-owned total 36 files 6,677 LOC; vendored 29/3,657; total 65/10,334; snapshot pins 31 files; manifest pins 61 experiment files plus 9 live router-dataset files.",
+      "what_it_means": "All Table 3 cells and pin counts trace to the metrics artifact.",
+      "source": [{"file": "experiments/cp3/implementation_metrics.json", "location": "groups, totals", "exact_values": "10/1054, 5/2228, 18/3068, 3/327 (sum 36/6677), 29/3657, 65/10334, snapshot_files_pinned=31, cp3_manifest_pinned_files=61, cp3_live_l5_dataset_pins=9"}],
+      "code": "experiments/cp3/implementation_metrics.json (committed)",
+      "audit": "verified — arithmetic consistent (10+5+18+3=36; 1054+2228+3068+327=6677; 36+29=65; 6677+3657=10334)"
+    },
+    {
+      "id": "SC-repro-011",
+      "section": "§12 Reproducibility",
+      "paper_line": 292,
+      "full_quote": "the pre-flight (12 of 12 checks, quarter total 10481.96), the integration journey (36 checks), and the functional-gate battery (8 of 8 gates) — and all pass",
+      "what_it_means": "Three regression counts and pass status.",
+      "source": [{"file": "preflight/output/verification/summary.json", "location": "checks_passed, status", "exact_values": "12 checks listed all pass:true, status PASS"}, {"file": "experiments/shell-spine-result.json", "location": "summary_checks_passed", "exact_values": "36"}, {"file": "experiments/gates-spine-result.json", "location": "gates array", "exact_values": "8 gates F1-F8"}],
+      "code": null,
+      "audit": "verified; preflight spine q3_total 10481.96 matches"
+    },
+    {
+      "id": "SC-rq4-012",
+      "section": "RQ4 (E4)",
+      "paper_line": 196,
+      "full_quote": "mdl_179372748462100001 (allocated by add), mdl_179372748462300002 (successor minted by privacy change), and mdl_179372748462500003 (restored by undo of the privacy change)",
+      "what_it_means": "Succession chain identifiers and their causal order.",
+      "source": [{"file": "experiments/cp3/e4_connection_governance/output/frozen/governance_chain/chain.json", "location": "allocated, successor, restored", "exact_values": "mdl_179372748462100001, mdl_179372748462300002, mdl_179372748462500003"}],
+      "code": null,
+      "audit": "verified — order and attribution correct; rejected.json reason and broken.json missing_env string match quotes verbatim"
+    },
+    {
+      "id": "SC-rq3-013",
+      "section": "RQ3 (E3)",
+      "paper_line": 178,
+      "full_quote": "{\"outcome\": \"planned\", \"metered\": false, \"declared_cost_usd\": 0.0, \"actual_metered_cost_usd\": null} and the fake-transport attempt {mdl_179372735277000004, simulated_local_fake, 18 in / 24 out, 0.0/0.0}",
+      "what_it_means": "Declared/metered separation exists in the frozen records; the fake meter is labeled simulated.",
+      "source": [{"file": "experiments/cp3/e3_routing_cost/output/frozen/dry_run_planned/presentation.json", "location": "whole record", "exact_values": "outcome=planned, metered=false, declared=0.0, actual=null"}, {"file": "experiments/cp3/e3_routing_cost/output/frozen/fake_answered_metered/decision_record.json", "location": "attempts[0]", "exact_values": "model_ref mdl_179372735277000004, meter simulated_local_fake, 18/24 tokens, 0.0/0.0"}],
+      "code": null,
+      "audit": "verified — meaning claim (separation never conflated) matches record structure"
+    },
+    {
+      "id": "SC-rq5-014",
+      "section": "RQ5 (E5) + §8 Table 2",
+      "paper_line": 210,
+      "full_quote": "Eight limit classes are reported",
+      "what_it_means": "Existence: frozen spec carries exactly 8 limit classes; Table 2 lists the same 8.",
+      "source": [{"file": "experiments/cp3/e5_shell_limits/inputs/spec.json", "location": "limits", "exact_values": "8 entries"}],
+      "code": null,
+      "audit": "verified — Table 2 numbering 1-8 consistent with buckets A(1,2,3,5,6) B(4,7) C(8)"
+    },
+    {
+      "id": "SC-disc-015",
+      "section": "§7 Discussion",
+      "paper_line": 243,
+      "full_quote": "The result generalizes as a demonstration, not as a population claim.",
+      "what_it_means": "Boundary discipline: no overreach beyond one dataset/one model/one host. Cross-check against any generalizing prose elsewhere.",
+      "source": [{"file": "capstone_draft_v0.3.md", "location": "§9 external validity, §9 conclusion validity", "exact_values": "'not evidence about model quality across datasets, models, or hosts'; 'The claim is bounded accordingly'"}],
+      "code": null,
+      "audit": "verified — no boundary overreach found; abstract and conclusion hedge identically"
+    }
+  ],
+  "captions": [
+    {"figure": "Figure 1", "claim": "layer stack and authority boundaries", "covered_by": "SC-abstract-001 context", "audit": "verified (structural, no numbers beyond contracts)"},
+    {"figure": "Figure 2", "claim": "twelve states and eighteen allowed edges", "covered_by": "SC-design-009", "audit": "verified"},
+    {"figure": "Figure 3", "claim": "fourteen audit events", "covered_by": "SC-rq1-008", "audit": "verified"},
+    {"figure": "Figure 4", "claim": "stated vs verified divergence figures", "covered_by": "SC-abstract-001", "audit": "verified"},
+    {"figure": "Figure 5", "claim": "79 rows recompute to £18,801,701.38", "covered_by": "SC-rq6-005", "audit": "verified"},
+    {"figure": "Figure 6", "claim": "succession chain identifiers", "covered_by": "SC-rq4-012", "audit": "verified"},
+    {"figure": "Figure 7", "claim": "zero references unresolved", "covered_by": "SC-rq1-008", "audit": "verified (numeric map covers)"}
+  ],
+  "editorial_findings_not_correctness_defects": [
+    {
+      "class": "numbering-order",
+      "detail": "Figures appear out of numeric order: Figure 5 is cited in §4.4 (line 106) before Figure 3 (line 152), then 7 (156), 6 (204), 4 (224). ACM-style venues renumber figures in order of appearance.",
+      "recommendation": "renumber figures 1-7 in order of first citation (1,2,5→3,3→4,7→5,6,4→7) or reorder sections; caption text otherwise correct",
+      "resolution": "FIXED 2026-11-07 — labels renumbered in citation order (evidence→3, e1_timeline→4, event_graph→5, succession→6, divergence→7); SVG/PDF file names unchanged"
+    },
+    {
+      "class": "numbering-order",
+      "detail": "Table 3 appears first (§5, line 114), before Table 1 (line 230) and Table 2 (line 259).",
+      "recommendation": "renumber tables in order of appearance (3→1, 1→2, 2→3) or move the metrics table later",
+      "resolution": "FIXED 2026-11-07 — metrics→Table 1, comparison→Table 2, limits→Table 3; in-text reference updated"
+    },
+    {
+      "class": "rendering",
+      "detail": "References rendered as one run-on block in the PDF because entries were single newlines inside one Markdown paragraph.",
+      "resolution": "FIXED 2026-11-07 — each [n] / [Ln] entry is now its own paragraph (blank line separated); tex/pdf render a clean numbered list; verify_two_way.py re-run, exit 0"
+    }
+  ],
+  "discrepancies": [],
+  "verdict": "No semantic discrepancies (no stale values, direction flips, attribution errors, existence gaps, or overreach). Two editorial numbering-order findings only."
+}

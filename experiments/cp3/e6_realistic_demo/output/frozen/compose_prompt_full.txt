@@ -1,0 +1,142 @@
+You are composing an answer for an auditable government-spend shell.
+
+Below are the row-level records from the UK Cabinet Office "Expenditure over £25,000, February 2013" transparency return (Open Government Licence v3.0). Each row is: expenditure_type | supplier_type | amount (GBP).
+
+Answer exactly two things in short prose:
+1. The total Programme expenditure (the sum of amount over all rows whose expenditure_type is "Programme").
+2. Which supplier_type received the largest total spend, and that total.
+
+Give concrete GBP figures. Do not caveat that you are an AI. Two or three sentences only.
+
+RECORDS:
+Admin | Large | 28142.84
+Programme | SME | 29600.00
+Programme | Large | 43992.00
+Grants | SME | 68750.00
+Programme | Large | 262010.51
+Programme | Government Department | 71911.00
+Programme | Large | 151046.50
+Programme | Large | 178829.00
+Programme | Large | 1456333.00
+Admin | Government Department | 28490.53
+Admin | Government Department | 43417.27
+Admin | Large | 53449.67
+Programme | Large | 70260.65
+Programme | SME | 89334.00
+Programme | SME | 94659.55
+Grants | SME | 1036827.00
+Programme | Large | 28087.64
+Programme | Large | 225298.52
+Programme | Large | 232492.00
+Programme | Large | 400000.00
+Programme | SME | 26863.60
+Programme | Large | 36547.44
+Programme | SME | 59685.00
+Admin | SME | 62345.00
+Programme | Large | 87740.78
+Admin | Government Department | 162346.00
+Admin | Large | 172742.57
+Programme | Large | 345700.73
+Admin | Large | 2803126.16
+Programme | Large | 29296.44
+Programme | SME | 45221.00
+Programme | SME | 49323.34
+Programme | Government Department | 90298.80
+Grants | SME | 103750.00
+Programme | SME | 179603.00
+Grants | Large | 299656.50
+Admin | Large | 647765.42
+Programme | Large | 26490.51
+Programme | Large | 39298.75
+Admin | Large | 39593.34
+Programme | Large | 62983.99
+Programme | Large | 170707.20
+Programme | SME | 564011.00
+Admin | Large | 64788.47
+Admin | Large | 68347.11
+Programme | SME | 190077.00
+Programme | SME | 257673.00
+Admin | Large | 25216.71
+Grants | SME | 78750.00
+Programme | Large | 81435.48
+Programme | Large | 137853.16
+Admin | Government Department | 6795751.58
+Admin | Large | 36367.15
+Admin | Large | 49267.62
+Programme | Large | 66163.43
+Programme | Large | 97560.57
+Programme | Large | 161713.38
+Programme | Large | 169183.42
+Programme | Large | 342980.32
+Programme | Large | 26811.84
+Programme | Large | 37506.46
+Programme | SME | 57484.26
+Admin | Gov Dept | 65438.49
+Admin | Gov Dept | 65438.49
+Programme | Large | 77406.83
+Admin | Gov Dept | 80596.57
+Admin | Large | 84787.42
+Programme | Large | 100000.00
+Admin | Gov Dept | 200016.83
+Programme | Large | 26309.03
+Admin | Large | 31440.33
+Admin | Government Department | 35968.80
+Admin | Large | 57424.93
+Programme | Large | 57994.75
+Programme | SME | 137736.00
+Programme | Large | 235500.00
+Programme | Large | 715018.74
+Grants | Large | 1521119.00
+Programme | SME | 33766.00
+Programme | Large | 94568.04
+Programme | SME | 123794.00
+Programme | SME | 186014.00
+Programme | Large | 220738.74
+Programme | Large | 231943.66
+Grants | SME | 585000.00
+Programme | Large | 2588000.00
+Programme | Large | 2803171.00
+Grants | SME | 3126406.00
+Programme | Large | 27919.02
+Admin | Large | 30400.78
+Admin | Large | 36367.15
+Programme | Large | 42568.00
+Programme | Large | 45771.63
+Programme | Large | 53380.95
+Admin | Large | 62260.43
+Programme | Large | 128204.00
+Admin | Large | 221813.32
+Programme | Large | 31664.45
+Admin | Large | 35012.18
+Admin | Large | 46105.36
+Admin | Large | 85419.39
+Programme | Large | 86616.88
+Programme | Large | 92225.00
+Programme | Large | 749006.40
+Programme | Large | 29646.58
+Programme | Large | 44152.17
+Admin | SME | 115200.00
+Programme | Large | 241378.49
+Admin | Large | 26365.15
+Admin | Large | 29776.91
+Programme | SME | 88245.00
+Programme | Large | 116809.58
+Admin | SME | 141666.67
+Admin | Gov Dept | -115912.64
+Programme | Government Department | 36960.00
+Programme | Large | 438882.67
+Admin | Large | 28820.84
+Programme | Large | 62345.46
+Programme | Large | 69526.04
+Admin | SME | 336000.00
+Programme | Large | 1456333.00
+Programme | SME | 30000.00
+Programme | SME | 32419.00
+Admin | SME | 54621.00
+Admin | Large | 67607.50
+Admin | Large | 109959.29
+Programme | Large | 200000.00
+Programme | SME | 291618.00
+Admin | Large | 3363751.39
+
+QUESTION: From the Cabinet Office February 2013 spend-over-£25,000 data, what was the total Programme expenditure, and which supplier type received the largest total spend?

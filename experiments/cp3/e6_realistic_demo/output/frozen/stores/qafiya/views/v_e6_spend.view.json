@@ -1,0 +1,116 @@
+{
+ "columns": [
+  {
+   "id": "col:amount",
+   "label": "Amount (GBP)",
+   "source_field": "amount"
+  }
+ ],
+ "id": "v_e6_spend",
+ "kind": "table",
+ "nodes": [
+  {
+   "id": "label:total",
+   "role": "label",
+   "text": "Total spend over £25k (Feb 2013, GBP)"
+  },
+  {
+   "binding_ref": "b_total",
+   "column": "col:amount",
+   "id": "cell:total",
+   "role": "value"
+  },
+  {
+   "id": "label:programme",
+   "role": "label",
+   "text": "Total Programme expenditure (GBP)"
+  },
+  {
+   "binding_ref": "b_programme",
+   "column": "col:amount",
+   "id": "cell:programme",
+   "role": "value"
+  },
+  {
+   "id": "label:admin",
+   "role": "label",
+   "text": "Total Admin expenditure (GBP)"
+  },
+  {
+   "binding_ref": "b_admin",
+   "column": "col:amount",
+   "id": "cell:admin",
+   "role": "value"
+  },
+  {
+   "id": "label:grants",
+   "role": "label",
+   "text": "Total Grants expenditure (GBP)"
+  },
+  {
+   "binding_ref": "b_grants",
+   "column": "col:amount",
+   "id": "cell:grants",
+   "role": "value"
+  },
+  {
+   "id": "label:large",
+   "role": "label",
+   "text": "Total to Large suppliers (GBP)"
+  },
+  {
+   "binding_ref": "b_large",
+   "column": "col:amount",
+   "id": "cell:large",
+   "role": "value"
+  },
+  {
+   "id": "label:sme",
+   "role": "label",
+   "text": "Total to SME suppliers (GBP)"
+  },
+  {
+   "binding_ref": "b_sme",
+   "column": "col:amount",
+   "id": "cell:sme",
+   "role": "value"
+  },
+  {
+   "id": "label:count",
+   "role": "label",
+   "text": "Count of amount-bearing records (129 of 143 source records; 14 empty rows reported, not dropped)"
+  },
+  {
+   "binding_ref": "b_count",
+   "column": "col:amount",
+   "id": "cell:count",
+   "role": "value"
+  },
+  {
+   "id": "label:max",
+   "role": "label",
+   "text": "Largest single transaction (GBP)"
+  },
+  {
+   "binding_ref": "b_max",
+   "column": "col:amount",
+   "id": "cell:max",
+   "role": "value"
+  },
+  {
+   "id": "label:min",
+   "role": "label",
+   "text": "Smallest (most negative) transaction (GBP)"
+  },
+  {
+   "binding_ref": "b_min",
+   "column": "col:amount",
+   "id": "cell:min",
+   "role": "value"
+  }
+ ],
+ "spec": "dvr/1.1",
+ "title": {
+  "text": "Cabinet Office spend over £25,000 — February 2013 (Qafiya-verified)"
+ }
+}

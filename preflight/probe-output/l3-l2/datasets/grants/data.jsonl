@@ -1,0 +1,1 @@
+{"_id": "g_18e3441fd83174407fdb46d4", "_ts": "2026-10-30T09:19:40.185406+00:00", "action_types": ["file.create"], "constraints": {}, "expires_at": null, "not_before": null, "requires_confirmation": [], "target_pattern": "**", "type": "permission_grant", "user_id": "preflight"}

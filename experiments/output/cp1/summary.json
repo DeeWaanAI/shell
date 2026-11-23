@@ -1,0 +1,445 @@
+{
+  "audit": {
+    "chain_ok": true,
+    "event_count": 14,
+    "sequences": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "successors": [
+      [
+        "r_1793727733323485e6b",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_17937277333234c0e68",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_17937277333242dca05",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733324d54cae",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733327d02942",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733333ef5119",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_17937277333339fc159",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733335286ed2",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733335817e69",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_17937277333388b95e0",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_179372773333986c00c",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733341d08191",
+        "mdl_179372773331500002"
+      ],
+      [
+        "r_1793727733341f4efa4",
+        "mdl_179372773331500002"
+      ]
+    ]
+  },
+  "checks": [
+    {
+      "detail": "pre-edit provenance_gate returned 0",
+      "name": "qafiya_initial_gate_clean",
+      "pass": true
+    },
+    {
+      "detail": "first event sequence=1",
+      "name": "kernel_received",
+      "pass": true
+    },
+    {
+      "detail": "allocated mdl_179372773331300001",
+      "name": "conn_add_success",
+      "pass": true
+    },
+    {
+      "detail": "mdl_179372773331300001",
+      "name": "conn_add_allocated_mdl",
+      "pass": true
+    },
+    {
+      "detail": "succession mdl_179372773331300001 -> mdl_179372773331500002",
+      "name": "conn_privacy_success",
+      "pass": true
+    },
+    {
+      "detail": "mdl_179372773331300001 -> mdl_179372773331500002",
+      "name": "conn_privacy_successor_distinct",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "conn_privacy_original_retired",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "conn_privacy_successor_active",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "conn_privacy_get_active_successor",
+      "pass": true
+    },
+    {
+      "detail": "dec_179372773332000003",
+      "name": "kernel_routed_recorded_decision",
+      "pass": true
+    },
+    {
+      "detail": "declared=0.0 actual=None",
+      "name": "route_declared_vs_metered_distinct",
+      "pass": true
+    },
+    {
+      "detail": [
+        "m_179372773332300001"
+      ],
+      "name": "kernel_recalled_memory_ref",
+      "pass": true
+    },
+    {
+      "detail": {
+        "composition": "f083be7b5a6a6d6374e704704be8ca214e6e20025fa727ed3862b80663ff5d5b"
+      },
+      "name": "kernel_composed_hash_present",
+      "pass": true
+    },
+    {
+      "detail": [
+        "v_exp"
+      ],
+      "name": "kernel_view_validated_ref",
+      "pass": true
+    },
+    {
+      "detail": "before-html shows the frozen total",
+      "name": "render_before_clean",
+      "pass": true
+    },
+    {
+      "detail": 21,
+      "name": "evidence_rows_21",
+      "pass": true
+    },
+    {
+      "detail": {
+        "amount": 956.14,
+        "category": "food",
+        "date": "2026-08-09",
+        "id": "r_051",
+        "period": "Q3"
+      },
+      "name": "edit_writeback_r051",
+      "pass": true
+    },
+    {
+      "detail": 0,
+      "name": "edit_gate_clean",
+      "pass": true
+    },
+    {
+      "detail": 4,
+      "name": "edit_invalidated_present",
+      "pass": true
+    },
+    {
+      "detail": "after-html shows the recomputed total",
+      "name": "render_after_recomputed",
+      "pass": true
+    },
+    {
+      "detail": 10481.96,
+      "name": "q3_recomputed_from_raw",
+      "pass": true
+    },
+    {
+      "detail": {
+        "reason": "",
+        "status": "success"
+      },
+      "name": "action_gated_success",
+      "pass": true
+    },
+    {
+      "detail": "EXACT",
+      "name": "action_reversibility_class_exact",
+      "pass": true
+    },
+    {
+      "detail": "/Users/youssefhariri/Documents/ideas_2026 copy 2/DeewaanAI OS/06-shell/experiments/output/cp1/stores/action/files/audit/q3-expense-edit-cp1.txt",
+      "name": "action_file_written",
+      "pass": true
+    },
+    {
+      "detail": "L4 note renders through L2",
+      "name": "memory_inspection_clean",
+      "pass": true
+    },
+    {
+      "detail": {
+        "correction_log": true,
+        "deletion_log": true,
+        "longterm_notes": true,
+        "preference_store": true,
+        "session_log": true
+      },
+      "name": "memory_chains_verify",
+      "pass": true
+    },
+    {
+      "detail": "14 entries verified",
+      "name": "audit_chain_verifies",
+      "pass": true
+    },
+    {
+      "detail": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "name": "audit_sequences_monotonic",
+      "pass": true
+    },
+    {
+      "detail": [
+        [
+          "r_1793727733323485e6b",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_17937277333234c0e68",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_17937277333242dca05",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733324d54cae",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733327d02942",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733333ef5119",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_17937277333339fc159",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733335286ed2",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733335817e69",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_17937277333388b95e0",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_179372773333986c00c",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733341d08191",
+          "mdl_179372773331500002"
+        ],
+        [
+          "r_1793727733341f4efa4",
+          "mdl_179372773331500002"
+        ]
+      ],
+      "name": "audit_successor_ref_recorded",
+      "pass": true
+    },
+    {
+      "detail": [
+        "ACTION_GATED",
+        "AWAITING_USER",
+        "CLOSED",
+        "COMPOSED",
+        "EXECUTED",
+        "RECALLED",
+        "RECEIVED",
+        "REMEMBERED",
+        "RENDERED",
+        "ROUTED",
+        "VIEW_VALIDATED",
+        "WRITE_BACK"
+      ],
+      "name": "audit_states_cover_journey",
+      "pass": true
+    },
+    {
+      "detail": [],
+      "name": "secret_value_absent_from_all_stores",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "secret_value_absent_from_l5_records",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "secret_value_absent_from_l3_records",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "secret_value_absent_from_audit_records",
+      "pass": true
+    },
+    {
+      "detail": "",
+      "name": "secret_env_name_retained_in_l5",
+      "pass": true
+    },
+    {
+      "detail": "3 entries verified",
+      "name": "l5_models_chain_verifies",
+      "pass": true
+    }
+  ],
+  "checks_passed": 36,
+  "journey": "Change the 9 August Q3 food expense to 956.14, create an audit note, and remember what happened.",
+  "kernel_states_visited": [
+    "RECEIVED",
+    "ROUTED",
+    "RECALLED",
+    "COMPOSED",
+    "VIEW_VALIDATED",
+    "RENDERED",
+    "WRITE_BACK",
+    "VIEW_VALIDATED",
+    "RENDERED",
+    "AWAITING_USER",
+    "ACTION_GATED",
+    "EXECUTED",
+    "REMEMBERED",
+    "CLOSED"
+  ],
+  "refs": {
+    "action": "a_18e499deb14b5a38d0bbbcf3",
+    "agent_turn": "m_179372773333900002",
+    "connection_allocated": "mdl_179372773331300001",
+    "connection_successor": "mdl_179372773331500002",
+    "decision": "dec_179372773332000003",
+    "edit": "b_8516533e",
+    "memory_note": "m_179372773333900003",
+    "route_outcome": "planned",
+    "user_turn": "m_179372773332300001"
+  },
+  "request_ref": "req_1793727733298742937",
+  "session_id": "s_17937277332983eb119",
+  "status": "PASS",
+  "transition_table": {
+    "ACTION_GATED": [
+      "CLOSED",
+      "EXECUTED"
+    ],
+    "AWAITING_USER": [
+      "ACTION_GATED",
+      "REMEMBERED",
+      "WRITE_BACK"
+    ],
+    "CLOSED": [],
+    "COMPOSED": [
+      "VIEW_VALIDATED"
+    ],
+    "EXECUTED": [
+      "CLOSED",
+      "REMEMBERED"
+    ],
+    "RECALLED": [
+      "COMPOSED"
+    ],
+    "RECEIVED": [
+      "ROUTED"
+    ],
+    "REMEMBERED": [
+      "CLOSED"
+    ],
+    "RENDERED": [
+      "AWAITING_USER",
+      "REMEMBERED",
+      "WRITE_BACK"
+    ],
+    "ROUTED": [
+      "CLOSED",
+      "RECALLED"
+    ],
+    "VIEW_VALIDATED": [
+      "RENDERED"
+    ],
+    "WRITE_BACK": [
+      "VIEW_VALIDATED"
+    ]
+  },
+  "values": {
+    "actual_metered_cost_usd": null,
+    "declared_cost_usd": 0.0,
+    "edited_amount": 956.14,
+    "edited_record": "r_051",
+    "evidence_rows": 21,
+    "q3_total_after": 10481.96,
+    "q3_total_recomputed_from_raw": 10481.96,
+    "route_metered": false
+  }
+}

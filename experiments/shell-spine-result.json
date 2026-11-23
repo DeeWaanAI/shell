@@ -1,0 +1,48 @@
+{
+  "action_reversibility_class": "EXACT",
+  "action_status": "success",
+  "actual_metered_cost_usd": null,
+  "audit_events": 14,
+  "connection_allocated": "mdl_179372773331300001",
+  "connection_successor": "mdl_179372773331500002",
+  "declared_cost_usd": 0.0,
+  "edited_record": {
+    "amount": 956.14,
+    "category": "food",
+    "date": "2026-08-09",
+    "id": "r_051",
+    "period": "Q3"
+  },
+  "html_renders_clean": [
+    "qafiya_before.html",
+    "qafiya_after.html",
+    "memory_inspection.html"
+  ],
+  "kernel_states_covered": [
+    "ACTION_GATED",
+    "AWAITING_USER",
+    "CLOSED",
+    "COMPOSED",
+    "EXECUTED",
+    "RECALLED",
+    "RECEIVED",
+    "REMEMBERED",
+    "RENDERED",
+    "ROUTED",
+    "VIEW_VALIDATED",
+    "WRITE_BACK"
+  ],
+  "l5_models_chain_ok": true,
+  "memory_chains_ok": true,
+  "python": "3.12.16",
+  "q3_total_recomputed_from_raw": 10481.96,
+  "route_metered": false,
+  "route_outcome": "planned",
+  "secret_value_absent": true,
+  "sequence_monotonic": true,
+  "session_id": "s_17937277332983eb119",
+  "shell_audit_chain_ok": true,
+  "status": "PASS",
+  "successor_active": true,
+  "summary_checks_passed": 36
+}

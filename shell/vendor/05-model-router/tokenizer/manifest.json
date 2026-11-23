@@ -1,0 +1,31 @@
+{
+ "frozen_at": "2026-10-22T18:31:51Z",
+ "note": "spec \u00a73.3: est_tokens MUST come from the variant's own tokenizer, never chars/words",
+ "tokenizers": [
+  {
+   "file": "tokenizer/llama3_tokenizer.json",
+   "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4",
+   "bytes": 9085657,
+   "source_url": "https://huggingface.co/NousResearch/Meta-Llama-3.1-8B-Instruct/resolve/main/tokenizer.json",
+   "vocab_size": 128256,
+   "purpose": "tokenizer for the meta-llama/* cloud variants and the local llama3.x arms"
+  },
+  {
+   "file": "tokenizer/qwen25_tokenizer.json",
+   "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+   "bytes": 7031645,
+   "source_url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/main/tokenizer.json",
+   "vocab_size": 151665,
+   "purpose": "tokenizer for the Qwen/* cloud variants; matches the upstream efficiency-experiment tokenizer"
+  }
+ ],
+ "cross_check": {
+  "corpus": "efficiency-experiment/corpus/tabular/expenses_large.csv",
+  "llama3_tokens": 16909,
+  "qwen25_tokens": 23942,
+  "llama_share_of_qwen": 0.7062,
+  "upstream_implied_ratio": 0.7101,
+  "upstream_source": "02-view-renderer/qafiya-ref/experiments/efficiency-experiment/FREEZE.md (S2 raw arm, live in-tokens)",
+  "verdict": "reproduced"
+ }
+}

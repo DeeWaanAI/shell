@@ -1,0 +1,25 @@
+{
+ "export_command": "svg is the source of truth; export with rsvg-convert -f pdf figN.svg -o figN.pdf (or Overleaf \\usepackage{svg}) \u2014 no local converter on the build host",
+ "figure": "fig4_divergence",
+ "plotted_values": {
+  "categories": [
+   {
+    "category": "Programme",
+    "matches": false,
+    "model_stated": 14111919.19,
+    "qafiya_verified": 18801701.38
+   },
+   {
+    "category": "Large",
+    "matches": false,
+    "model_stated": 13111919.19,
+    "qafiya_verified": 26162299.76
+   }
+  ],
+  "note": "the shell renders the verified bars, never the model prose"
+ },
+ "source_artifacts": [
+  "experiments/cp3/e6_realistic_demo/output/frozen/divergence.json",
+  "experiments/cp3/e6_realistic_demo/output/frozen/verified_values.json"
+ ]
+}

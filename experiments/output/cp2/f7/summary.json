@@ -1,0 +1,19 @@
+{
+  "all_lower_layer_refs_resolved": true,
+  "chains": {
+    "l4_correction_log": true,
+    "l4_deletion_log": true,
+    "l4_longterm_notes": true,
+    "l4_preference_store": true,
+    "l4_session_log": true,
+    "l5_decision_log": true,
+    "l5_models": true,
+    "qafiya_expenses": true,
+    "shell_audit": true
+  },
+  "event_count": 14,
+  "gate": "F7",
+  "sequences_complete": true,
+  "session_id": "s_1793727733634921f25",
+  "unresolved_input_event_refs": []
+}

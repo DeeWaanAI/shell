@@ -1,0 +1,4 @@
+{"derivation": "literal", "id": "b_465cf35133", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.verbatim"}], "value": "F4 approve"}
+{"derivation": "literal", "id": "b_4ecbf8440b", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.normalized"}], "value": {"action_type": "file.create", "params": {"content": "approved\n", "path": "f4/approved.txt"}}}
+{"derivation": "literal", "id": "b_15125b48f1", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "reversibility_class"}], "value": "EXACT"}
+{"derivation": "literal", "id": "b_b5b0567391", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "authority.user_id"}], "value": "cp2"}

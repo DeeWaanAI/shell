@@ -1,0 +1,5 @@
+{
+  "invented_role": "service_control",
+  "specval_error": "node svc:refresh: role must be one of ['action', 'claim', 'label', 'structure', 'value'], got 'service_control'",
+  "specval_rejected": true
+}

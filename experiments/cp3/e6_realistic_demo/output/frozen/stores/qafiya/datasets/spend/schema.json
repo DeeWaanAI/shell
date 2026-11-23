@@ -1,0 +1,29 @@
+{
+ "dataset": "spend",
+ "derivations": [
+  "filter",
+  "count",
+  "groupby",
+  "sum",
+  "min",
+  "max"
+ ],
+ "fields": {
+  "amount": "number",
+  "date": "string",
+  "departmental_family": "string",
+  "description": "string",
+  "entity": "string",
+  "expenditure_type": "string",
+  "expense_area": "string",
+  "expense_type": "string",
+  "id": "id",
+  "supplier": "string",
+  "supplier_postcode": "string",
+  "supplier_type": "string",
+  "transaction_number": "string"
+ },
+ "id_field": "id",
+ "id_prefix": "r_",
+ "spec_ref": "Qafiya v1.1 \u00a78 layout; v1.3 chained history; E6 real open data"
+}

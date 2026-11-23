@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E4 connection governance (frozen inputs + scripts)",
+  "file_count": 3,
+  "files": {
+    "inputs/spec.json": "d52185590f688fe2e9c97328892d32956669d5497fee8ef1a8db6fd7d4efa9f8",
+    "run.py": "a2ac17a9bb2185b34b9e63a45f7b4cca4e59293a3e668e7f66cc253c81d9fde1",
+    "spine.py": "4da3f0ec090189ef1a0740bdbdf18aa38c51d51630b680d58798a07ccfe4b3a0"
+  }
+}

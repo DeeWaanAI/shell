@@ -1,0 +1,4 @@
+{"derivation": "literal", "id": "b_5d59ee5cdf", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.verbatim"}], "value": "Create a pre-flight note"}
+{"derivation": "literal", "id": "b_5870fbf1d3", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "intent.normalized"}], "value": {"action_type": "file.create", "params": {"content": "hello\n", "path": "note.txt"}}}
+{"derivation": "literal", "id": "b_b37bcfcab8", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "reversibility_class"}], "value": "EXACT"}
+{"derivation": "literal", "id": "b_13513b8715", "kind": "view", "sources": [{"dataset": "ds:action_log", "field": "authority.user_id"}], "value": "preflight"}

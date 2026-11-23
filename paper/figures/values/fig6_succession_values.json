@@ -1,0 +1,33 @@
+{
+ "export_command": "svg is the source of truth; export with rsvg-convert -f pdf figN.svg -o figN.pdf (or Overleaf \\usepackage{svg}) \u2014 no local converter on the build host",
+ "figure": "fig6_succession",
+ "plotted_values": {
+  "chain": [
+   {
+    "mdl_id": "mdl_179372748462100001",
+    "privacy_class": "private",
+    "role": "allocated (add)",
+    "status": "retired",
+    "superseded_by": "mdl_179372748462300002"
+   },
+   {
+    "mdl_id": "mdl_179372748462300002",
+    "privacy_class": "public",
+    "role": "successor (privacy_change)",
+    "status": "retired",
+    "superseded_by": "mdl_179372748462500003"
+   },
+   {
+    "mdl_id": "mdl_179372748462500003",
+    "privacy_class": "private",
+    "role": "restored (undo)",
+    "status": "retired",
+    "superseded_by": null
+   }
+  ]
+ },
+ "source_artifacts": [
+  "experiments/cp3/e4_connection_governance/output/frozen/governance_chain/chain.json",
+  "experiments/cp3/e4_connection_governance/output/frozen/governance_chain/stores/l5/datasets/models/data.jsonl"
+ ]
+}

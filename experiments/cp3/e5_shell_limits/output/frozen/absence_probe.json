@@ -1,0 +1,5 @@
+{
+  "error": "dataset models is missing schema.json — run the scaffold step",
+  "error_type": "StoreError",
+  "missing_dataset_raises": true
+}

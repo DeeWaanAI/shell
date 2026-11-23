@@ -1,0 +1,14 @@
+{
+ "dataset": "synthetic",
+ "derivations": [
+  "filter",
+  "sum"
+ ],
+ "fields": {
+  "amount": "number",
+  "id": "id",
+  "label": "string"
+ },
+ "id_field": "id",
+ "id_prefix": "r_"
+}

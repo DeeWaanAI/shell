@@ -1,0 +1,491 @@
+{
+  "assertion": {
+    "both_sides": {
+      "Q3": {
+        "derivation": "count(amount) where period='Q3'"
+      },
+      "ref": {
+        "derivation": "count(amount) where period='Q3'"
+      }
+    },
+    "expected": 21.0,
+    "predicate": "value",
+    "statement": "Q3 has 21 expense records",
+    "tolerance": 0.0
+  },
+  "binding_id": "b_count",
+  "check": {
+    "checked_at": "2026-11-03T17:42:13+00:00",
+    "detail": null,
+    "provenance": "PASS",
+    "semantic": "PENDING"
+  },
+  "derivation": "count(amount) where period='Q3'",
+  "focus": {
+    "changed_records": [],
+    "claim_says": "Q3 has 21 expense records",
+    "correct_value": 0.0,
+    "expected": 21.0,
+    "sides": {
+      "Q3": {
+        "rows": [
+          {
+            "amount": 595.28,
+            "category": "tools",
+            "date": "2026-07-20",
+            "id": "r_043",
+            "period": "Q3"
+          },
+          {
+            "amount": 686.05,
+            "category": "travel",
+            "date": "2026-07-10",
+            "id": "r_044",
+            "period": "Q3"
+          },
+          {
+            "amount": 104.93,
+            "category": "travel",
+            "date": "2026-07-12",
+            "id": "r_045",
+            "period": "Q3"
+          },
+          {
+            "amount": 887.81,
+            "category": "travel",
+            "date": "2026-07-03",
+            "id": "r_046",
+            "period": "Q3"
+          },
+          {
+            "amount": 412.61,
+            "category": "food",
+            "date": "2026-07-04",
+            "id": "r_047",
+            "period": "Q3"
+          },
+          {
+            "amount": 520.72,
+            "category": "other",
+            "date": "2026-07-02",
+            "id": "r_048",
+            "period": "Q3"
+          },
+          {
+            "amount": 399.99,
+            "category": "tools",
+            "date": "2026-07-18",
+            "id": "r_049",
+            "period": "Q3"
+          },
+          {
+            "amount": 495.95,
+            "category": "other",
+            "date": "2026-08-28",
+            "id": "r_050",
+            "period": "Q3"
+          },
+          {
+            "amount": 820.89,
+            "category": "food",
+            "date": "2026-08-09",
+            "id": "r_051",
+            "period": "Q3"
+          },
+          {
+            "amount": 220.24,
+            "category": "food",
+            "date": "2026-08-15",
+            "id": "r_052",
+            "period": "Q3"
+          },
+          {
+            "amount": 752.73,
+            "category": "tools",
+            "date": "2026-08-15",
+            "id": "r_053",
+            "period": "Q3"
+          },
+          {
+            "amount": 641.64,
+            "category": "tools",
+            "date": "2026-08-18",
+            "id": "r_054",
+            "period": "Q3"
+          },
+          {
+            "amount": 821.4,
+            "category": "travel",
+            "date": "2026-08-20",
+            "id": "r_055",
+            "period": "Q3"
+          },
+          {
+            "amount": 197.69,
+            "category": "food",
+            "date": "2026-08-04",
+            "id": "r_056",
+            "period": "Q3"
+          },
+          {
+            "amount": 332.83,
+            "category": "food",
+            "date": "2026-09-07",
+            "id": "r_057",
+            "period": "Q3"
+          },
+          {
+            "amount": 228.19,
+            "category": "food",
+            "date": "2026-09-05",
+            "id": "r_058",
+            "period": "Q3"
+          },
+          {
+            "amount": 595.05,
+            "category": "travel",
+            "date": "2026-09-20",
+            "id": "r_059",
+            "period": "Q3"
+          },
+          {
+            "amount": 460.32,
+            "category": "travel",
+            "date": "2026-09-13",
+            "id": "r_060",
+            "period": "Q3"
+          },
+          {
+            "amount": 609.69,
+            "category": "tools",
+            "date": "2026-09-22",
+            "id": "r_061",
+            "period": "Q3"
+          },
+          {
+            "amount": 67.38,
+            "category": "travel",
+            "date": "2026-09-02",
+            "id": "r_062",
+            "period": "Q3"
+          },
+          {
+            "amount": 495.32,
+            "category": "food",
+            "date": "2026-09-15",
+            "id": "r_063",
+            "period": "Q3"
+          }
+        ],
+        "value": 21.0
+      },
+      "ref": {
+        "rows": [
+          {
+            "amount": 595.28,
+            "category": "tools",
+            "date": "2026-07-20",
+            "id": "r_043",
+            "period": "Q3"
+          },
+          {
+            "amount": 686.05,
+            "category": "travel",
+            "date": "2026-07-10",
+            "id": "r_044",
+            "period": "Q3"
+          },
+          {
+            "amount": 104.93,
+            "category": "travel",
+            "date": "2026-07-12",
+            "id": "r_045",
+            "period": "Q3"
+          },
+          {
+            "amount": 887.81,
+            "category": "travel",
+            "date": "2026-07-03",
+            "id": "r_046",
+            "period": "Q3"
+          },
+          {
+            "amount": 412.61,
+            "category": "food",
+            "date": "2026-07-04",
+            "id": "r_047",
+            "period": "Q3"
+          },
+          {
+            "amount": 520.72,
+            "category": "other",
+            "date": "2026-07-02",
+            "id": "r_048",
+            "period": "Q3"
+          },
+          {
+            "amount": 399.99,
+            "category": "tools",
+            "date": "2026-07-18",
+            "id": "r_049",
+            "period": "Q3"
+          },
+          {
+            "amount": 495.95,
+            "category": "other",
+            "date": "2026-08-28",
+            "id": "r_050",
+            "period": "Q3"
+          },
+          {
+            "amount": 820.89,
+            "category": "food",
+            "date": "2026-08-09",
+            "id": "r_051",
+            "period": "Q3"
+          },
+          {
+            "amount": 220.24,
+            "category": "food",
+            "date": "2026-08-15",
+            "id": "r_052",
+            "period": "Q3"
+          },
+          {
+            "amount": 752.73,
+            "category": "tools",
+            "date": "2026-08-15",
+            "id": "r_053",
+            "period": "Q3"
+          },
+          {
+            "amount": 641.64,
+            "category": "tools",
+            "date": "2026-08-18",
+            "id": "r_054",
+            "period": "Q3"
+          },
+          {
+            "amount": 821.4,
+            "category": "travel",
+            "date": "2026-08-20",
+            "id": "r_055",
+            "period": "Q3"
+          },
+          {
+            "amount": 197.69,
+            "category": "food",
+            "date": "2026-08-04",
+            "id": "r_056",
+            "period": "Q3"
+          },
+          {
+            "amount": 332.83,
+            "category": "food",
+            "date": "2026-09-07",
+            "id": "r_057",
+            "period": "Q3"
+          },
+          {
+            "amount": 228.19,
+            "category": "food",
+            "date": "2026-09-05",
+            "id": "r_058",
+            "period": "Q3"
+          },
+          {
+            "amount": 595.05,
+            "category": "travel",
+            "date": "2026-09-20",
+            "id": "r_059",
+            "period": "Q3"
+          },
+          {
+            "amount": 460.32,
+            "category": "travel",
+            "date": "2026-09-13",
+            "id": "r_060",
+            "period": "Q3"
+          },
+          {
+            "amount": 609.69,
+            "category": "tools",
+            "date": "2026-09-22",
+            "id": "r_061",
+            "period": "Q3"
+          },
+          {
+            "amount": 67.38,
+            "category": "travel",
+            "date": "2026-09-02",
+            "id": "r_062",
+            "period": "Q3"
+          },
+          {
+            "amount": 495.32,
+            "category": "food",
+            "date": "2026-09-15",
+            "id": "r_063",
+            "period": "Q3"
+          }
+        ],
+        "value": 21.0
+      }
+    }
+  },
+  "kind": "claim",
+  "source_rows": [
+    {
+      "amount": 595.28,
+      "category": "tools",
+      "date": "2026-07-20",
+      "id": "r_043",
+      "period": "Q3"
+    },
+    {
+      "amount": 686.05,
+      "category": "travel",
+      "date": "2026-07-10",
+      "id": "r_044",
+      "period": "Q3"
+    },
+    {
+      "amount": 104.93,
+      "category": "travel",
+      "date": "2026-07-12",
+      "id": "r_045",
+      "period": "Q3"
+    },
+    {
+      "amount": 887.81,
+      "category": "travel",
+      "date": "2026-07-03",
+      "id": "r_046",
+      "period": "Q3"
+    },
+    {
+      "amount": 412.61,
+      "category": "food",
+      "date": "2026-07-04",
+      "id": "r_047",
+      "period": "Q3"
+    },
+    {
+      "amount": 520.72,
+      "category": "other",
+      "date": "2026-07-02",
+      "id": "r_048",
+      "period": "Q3"
+    },
+    {
+      "amount": 399.99,
+      "category": "tools",
+      "date": "2026-07-18",
+      "id": "r_049",
+      "period": "Q3"
+    },
+    {
+      "amount": 495.95,
+      "category": "other",
+      "date": "2026-08-28",
+      "id": "r_050",
+      "period": "Q3"
+    },
+    {
+      "amount": 820.89,
+      "category": "food",
+      "date": "2026-08-09",
+      "id": "r_051",
+      "period": "Q3"
+    },
+    {
+      "amount": 220.24,
+      "category": "food",
+      "date": "2026-08-15",
+      "id": "r_052",
+      "period": "Q3"
+    },
+    {
+      "amount": 752.73,
+      "category": "tools",
+      "date": "2026-08-15",
+      "id": "r_053",
+      "period": "Q3"
+    },
+    {
+      "amount": 641.64,
+      "category": "tools",
+      "date": "2026-08-18",
+      "id": "r_054",
+      "period": "Q3"
+    },
+    {
+      "amount": 821.4,
+      "category": "travel",
+      "date": "2026-08-20",
+      "id": "r_055",
+      "period": "Q3"
+    },
+    {
+      "amount": 197.69,
+      "category": "food",
+      "date": "2026-08-04",
+      "id": "r_056",
+      "period": "Q3"
+    },
+    {
+      "amount": 332.83,
+      "category": "food",
+      "date": "2026-09-07",
+      "id": "r_057",
+      "period": "Q3"
+    },
+    {
+      "amount": 228.19,
+      "category": "food",
+      "date": "2026-09-05",
+      "id": "r_058",
+      "period": "Q3"
+    },
+    {
+      "amount": 595.05,
+      "category": "travel",
+      "date": "2026-09-20",
+      "id": "r_059",
+      "period": "Q3"
+    },
+    {
+      "amount": 460.32,
+      "category": "travel",
+      "date": "2026-09-13",
+      "id": "r_060",
+      "period": "Q3"
+    },
+    {
+      "amount": 609.69,
+      "category": "tools",
+      "date": "2026-09-22",
+      "id": "r_061",
+      "period": "Q3"
+    },
+    {
+      "amount": 67.38,
+      "category": "travel",
+      "date": "2026-09-02",
+      "id": "r_062",
+      "period": "Q3"
+    },
+    {
+      "amount": 495.32,
+      "category": "food",
+      "date": "2026-09-15",
+      "id": "r_063",
+      "period": "Q3"
+    }
+  ],
+  "tuple": {
+    "authoritative_artifact": "datasets/expenses/data.jsonl",
+    "device": "local",
+    "statistic": "count"
+  }
+}

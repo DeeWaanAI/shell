@@ -1,0 +1,42 @@
+{
+  "experiment": "E2",
+  "title": "Auditability walkthrough",
+  "brief_ref": "brief.md §7.2 E2; CP2 clearance answer 3",
+  "description": "Five purpose-built frozen variants — approve, reject, refuse, failure, unresolved — each producing a typed visible state and an auditable trail. The spine replays each variant's ds:shell_audit graph, counts missing references, verifies every owned chain, and confirms the typed state is visible in the raw artifacts. Negative outcomes are reported as results, never hidden.",
+  "frozen_inputs": {
+    "l3_l5_code": "shell/vendor/ (frozen snapshot, sha256-pinned)",
+    "qafiya_corpus": "preflight/inputs/qafiya_corpus (referenced read-only; used by the unresolved variant)",
+    "note": "Purpose-built fixtures per CP2 clearance answer 3 — NOT the ephemeral output/cp2 gate artifacts."
+  },
+  "variants": {
+    "approve": {
+      "action_type": "file.create",
+      "grant": "covers file.create, target_pattern **",
+      "confirm_irreversible": true,
+      "expected_outcome": "success",
+      "expected_visible_state": "file written under the L3 store; audit EXECUTED event carries the action_ref and the file hash"
+    },
+    "reject": {
+      "mechanism": "ActionEngine.receive_confirmation_intent(action_id, 'reject', user)",
+      "expected_outcome": "intent recorded, NO execution",
+      "expected_visible_state": "the action record carries a confirmation_intent entry with choice=reject; no new file is written; the previously approved file is byte-identical"
+    },
+    "refuse": {
+      "mechanism": "grant whose target_pattern does not cover the requested path",
+      "expected_outcome": "refused",
+      "expected_visible_state": "L3 record outcome.status=refused with a typed reason; no file written; audit ACTION_GATED event carries the refusal"
+    },
+    "failure": {
+      "action_type": "file.delete",
+      "mechanism": "precondition target_exists fails (missing file)",
+      "expected_outcome": "refused",
+      "expected_visible_state": "L3 record outcome.reason contains preconditions_failed:target_exists; no trash entry created; audit carries the typed failure"
+    },
+    "unresolved": {
+      "mechanism": "purpose-built synthetic Qafiya store whose second binding's authoritative_artifact is quarantined via a root-level SUPERSEDED.json (real Qafiya §9.1 mechanism)",
+      "expected_outcome": "renderer paints UNRESOLVED for the quarantined cell; the other binding resolves normally",
+      "expected_visible_state": "the rendered HTML contains UNRESOLVED; dvr.resolve returns Unresolved('quarantined source: ...'); the view is dvr/1.1-clean (passes specval)"
+    }
+  },
+  "headline_result_recomputed_by_spine": "Replay success per variant; missing-reference count (must be 0); chain verification for every owned dataset; visibility of each negative outcome as a typed state in the raw artifacts."
+}

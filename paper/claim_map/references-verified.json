@@ -1,0 +1,367 @@
+{
+ "access_date": "2026-11-05",
+ "summary": {
+  "total": 22,
+  "unresolved": 0,
+  "unresolved_keys": [],
+  "verified": 22
+ },
+ "unresolved": [],
+ "verified": [
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Zeru Shi",
+    "Kai Mei",
+    "Mingyu Jin",
+    "Yongye Su",
+    "Chaoji Zuo",
+    "Wenyue Hua"
+   ],
+   "key": "arXiv:2410.11843",
+   "label": "From Commands to Prompts: LLM-based Semantic File System for AIOS",
+   "method": "arxiv-api",
+   "queried": "2410.11843",
+   "resolved_id": "arXiv:2410.11843v5",
+   "status": "verified",
+   "title": "From Commands to Prompts: LLM-based Semantic File System for AIOS",
+   "year": 2024
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Kai Mei",
+    "Xi Zhu",
+    "Wujiang Xu",
+    "Wenyue Hua",
+    "Mingyu Jin",
+    "Zelong Li"
+   ],
+   "key": "arXiv:2403.16971",
+   "label": "AIOS: LLM Agent Operating System",
+   "method": "arxiv-api",
+   "queried": "2403.16971",
+   "resolved_id": "arXiv:2403.16971v5",
+   "status": "verified",
+   "title": "AIOS: LLM Agent Operating System",
+   "year": 2024
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Jiaqi Chen",
+    "Yanzhe Zhang",
+    "Yutong Zhang",
+    "Yijia Shao",
+    "Diyi Yang"
+   ],
+   "key": "arXiv:2508.19227",
+   "label": "Generative Interfaces for Language Models",
+   "method": "arxiv-api",
+   "queried": "2508.19227",
+   "resolved_id": "arXiv:2508.19227v3",
+   "status": "verified",
+   "title": "Generative Interfaces for Language Models",
+   "year": 2025
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Yi-Hao Peng",
+    "Jeffrey P. Bigham",
+    "Jason Wu"
+   ],
+   "key": "arXiv:2604.09876",
+   "label": "Efficient Personalization of Generative User Interfaces",
+   "method": "arxiv-api",
+   "queried": "2604.09876",
+   "resolved_id": "arXiv:2604.09876v2",
+   "status": "verified",
+   "title": "Efficient Personalization of Generative User Interfaces",
+   "year": 2026
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Yinsi Zhou",
+    "Mingyue Yuan",
+    "Hongyue Xu",
+    "Jieshan Chen",
+    "Dong Wen",
+    "Shidong Pan"
+   ],
+   "key": "arXiv:2608.04293",
+   "label": "LEGOUI: Designing with UI-DSL Bricks",
+   "method": "arxiv-api",
+   "queried": "2608.04293",
+   "resolved_id": "arXiv:2608.04293v1",
+   "status": "verified",
+   "title": "LEGOUI: Designing with UI-DSL Bricks to Balance Transparency and Controllability",
+   "year": 2026
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Mulong Xie",
+    "Yang Xie"
+   ],
+   "key": "arXiv:2603.21334",
+   "label": "Software as Content",
+   "method": "arxiv-api",
+   "queried": "2603.21334",
+   "resolved_id": "arXiv:2603.21334v2",
+   "status": "verified",
+   "title": "Software as Content: Dynamic Applications as the Human-Agent Interaction Layer",
+   "year": 2026
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "James Thorne",
+    "Andreas Vlachos",
+    "Christos Christodoulopoulos",
+    "Arpit Mittal"
+   ],
+   "key": "arXiv:1803.05355",
+   "label": "FEVER: a large-scale dataset for Fact Extraction and VERification",
+   "method": "arxiv-api",
+   "queried": "1803.05355",
+   "resolved_id": "arXiv:1803.05355v3",
+   "status": "verified",
+   "title": "FEVER: a large-scale dataset for Fact Extraction and VERification",
+   "year": 2018
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Ziwei Ji",
+    "Nayeon Lee",
+    "Rita Frieske",
+    "Tiezheng Yu",
+    "Dan Su",
+    "Yan Xu"
+   ],
+   "key": "arXiv:2202.03629",
+   "label": "Survey of Hallucination in Natural Language Generation",
+   "method": "arxiv-api",
+   "queried": "2202.03629",
+   "resolved_id": "arXiv:2202.03629v7",
+   "status": "verified",
+   "title": "Survey of Hallucination in Natural Language Generation",
+   "year": 2022
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Anant Bhardwaj",
+    "Souvik Bhattacherjee",
+    "Amit Chavan",
+    "Amol Deshpande",
+    "Aaron J. Elmore",
+    "Samuel Madden"
+   ],
+   "key": "arXiv:1409.0798",
+   "label": "DataHub: Collaborative Data Science & Dataset Version Management at Scale",
+   "method": "arxiv-api",
+   "queried": "1409.0798",
+   "resolved_id": "arXiv:1409.0798v1",
+   "status": "verified",
+   "title": "DataHub: Collaborative Data Science &amp; Dataset Version Management at Scale",
+   "year": 2014
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Lee, Kyungho"
+   ],
+   "container": "Companion Publication of the 2025 ACM Designing Interactive Systems Conference",
+   "key": "doi:10.1145/3715668.3736365",
+   "label": "Lee \u2014 Towards a Working Definition of Designing Generative UI",
+   "method": "crossref-doi",
+   "queried": "10.1145/3715668.3736365",
+   "resolved_id": "doi:10.1145/3715668.3736365",
+   "status": "verified",
+   "title": "Towards a Working Definition of Designing Generative User Interfaces",
+   "year": 2025
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Buneman, Peter",
+    "Khanna, Sanjeev",
+    "Wang-Chiew, Tan"
+   ],
+   "container": "Lecture Notes in Computer Science",
+   "key": "doi:10.1007/3-540-44503-X_20",
+   "label": "Buneman et al. \u2014 Why and Where (ICDT 2001)",
+   "method": "crossref-doi",
+   "queried": "10.1007/3-540-44503-X_20",
+   "resolved_id": "doi:10.1007/3-540-44503-x_20",
+   "status": "verified",
+   "title": "Why and Where: A Characterization of Data Provenance",
+   "year": 2001
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Dennis, Jack B.",
+    "Van Horn, Earl C."
+   ],
+   "container": "Communications of the ACM",
+   "key": "doi:10.1145/365230.365252",
+   "label": "Dennis & Van Horn \u2014 Programming semantics (capability security)",
+   "method": "crossref-doi",
+   "queried": "10.1145/365230.365252",
+   "resolved_id": "doi:10.1145/365230.365252",
+   "status": "verified",
+   "title": "Programming semantics for multiprogrammed computations",
+   "year": 1966
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Mitchell, Margaret",
+    "Wu, Simone",
+    "Zaldivar, Andrew",
+    "Barnes, Parker",
+    "Vasserman, Lucy",
+    "Hutchinson, Ben"
+   ],
+   "container": "Proceedings of the Conference on Fairness, Accountability, and Transparency",
+   "key": "doi:10.1145/3287560.3287596",
+   "label": "Mitchell et al. \u2014 Model Cards (FAT* 2019)",
+   "method": "crossref-doi",
+   "queried": "10.1145/3287560.3287596",
+   "resolved_id": "doi:10.1145/3287560.3287596",
+   "status": "verified",
+   "title": "Model Cards for Model Reporting",
+   "year": 2019
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Gebru, Timnit",
+    "Morgenstern, Jamie",
+    "Vecchione, Briana",
+    "Vaughan, Jennifer Wortman",
+    "Wallach, Hanna",
+    "III, Hal Daum\u00e9"
+   ],
+   "container": "Communications of the ACM",
+   "key": "doi:10.1145/3458723",
+   "label": "Gebru et al. \u2014 Datasheets for Datasets (CACM 2021)",
+   "method": "crossref-doi",
+   "queried": "10.1145/3458723",
+   "resolved_id": "doi:10.1145/3458723",
+   "status": "verified",
+   "title": "Datasheets for datasets",
+   "year": 2021
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Garcia-Molina, Hector",
+    "Salem, Kenneth"
+   ],
+   "container": "ACM SIGMOD Record",
+   "key": "doi:10.1145/38714.38742",
+   "label": "Garcia-Molina & Salem \u2014 Sagas (1987)",
+   "method": "crossref-doi",
+   "queried": "10.1145/38714.38742",
+   "resolved_id": "doi:10.1145/38714.38742",
+   "status": "verified",
+   "title": "Sagas",
+   "year": 1987
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Oinn, Tom",
+    "Addis, Matthew",
+    "Ferris, Justin",
+    "Marvin, Darren",
+    "Senger, Martin",
+    "Greenwood, Mark"
+   ],
+   "container": "Bioinformatics",
+   "key": "doi:10.1093/bioinformatics/bth361",
+   "label": "Oinn et al. \u2014 Taverna (2004)",
+   "method": "crossref-doi",
+   "queried": "10.1093/bioinformatics/bth361",
+   "resolved_id": "doi:10.1093/bioinformatics/bth361",
+   "status": "verified",
+   "title": "Taverna: a tool for the composition and enactment of bioinformatics workflows",
+   "year": 2004
+  },
+  {
+   "access_date": "2026-11-05",
+   "authors": [
+    "Zhao, Jun",
+    "Gomez-Perez, Jose Manuel",
+    "Belhajjame, Khalid",
+    "Klyne, Graham",
+    "Garcia-Cuesta, Esteban",
+    "Garrido, Aleix"
+   ],
+   "container": "2012 IEEE 8th International Conference on E-Science",
+   "key": "doi:10.1109/escience.2012.6404482",
+   "label": "Why workflows break \u2014 retrospective provenance (2012)",
+   "method": "crossref-doi",
+   "queried": "10.1109/escience.2012.6404482",
+   "resolved_id": "doi:10.1109/escience.2012.6404482",
+   "status": "verified",
+   "title": "Why workflows break &amp;#x2014; Understanding and combating decay in Taverna workflows",
+   "year": 2012
+  },
+  {
+   "access_date": "2026-11-05",
+   "http_status": 200,
+   "key": "https://www.w3.org/TR/prov-o/",
+   "label": "W3C PROV-O Recommendation",
+   "method": "http",
+   "queried": "https://www.w3.org/TR/prov-o/",
+   "resolved_id": "https://www.w3.org/TR/prov-o/",
+   "status": "verified"
+  },
+  {
+   "access_date": "2026-11-05",
+   "http_status": 200,
+   "key": "https://c2pa.org/",
+   "label": "C2PA content authenticity specification",
+   "method": "http",
+   "queried": "https://c2pa.org/",
+   "resolved_id": "https://c2pa.org/",
+   "status": "verified"
+  },
+  {
+   "access_date": "2026-11-05",
+   "http_status": 200,
+   "key": "https://openlineage.io/",
+   "label": "OpenLineage specification",
+   "method": "http",
+   "queried": "https://openlineage.io/",
+   "resolved_id": "https://openlineage.io/",
+   "status": "verified"
+  },
+  {
+   "access_date": "2026-11-05",
+   "http_status": 200,
+   "key": "https://www.commonwl.org/",
+   "label": "Common Workflow Language specification",
+   "method": "http",
+   "queried": "https://www.commonwl.org/",
+   "resolved_id": "https://www.commonwl.org/",
+   "status": "verified"
+  },
+  {
+   "access_date": "2026-11-05",
+   "http_status": 200,
+   "key": "https://github.com/amundsen-io/amundsen",
+   "label": "Amundsen data catalog",
+   "method": "http",
+   "queried": "https://github.com/amundsen-io/amundsen",
+   "resolved_id": "https://github.com/amundsen-io/amundsen",
+   "status": "verified"
+  }
+ ]
+}

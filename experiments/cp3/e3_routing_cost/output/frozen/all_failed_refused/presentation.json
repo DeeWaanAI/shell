@@ -1,0 +1,24 @@
+{
+  "actual_metered_cost_usd": null,
+  "answer": null,
+  "attempts": [
+    {
+      "error_class": "connection",
+      "model_ref": "mdl_179372735278600007",
+      "triggered_by": null
+    }
+  ],
+  "binding_ref": "b_179372735278900009",
+  "chosen_label": null,
+  "chosen_locus": null,
+  "chosen_model_ref": null,
+  "decision_ref": "dec_179372735278900008",
+  "declared_cost_usd": 0.0,
+  "feasible_count": 1,
+  "metered": false,
+  "outcome": "refused",
+  "privacy_class": "public",
+  "privacy_warning": null,
+  "refusal_reason": "all_connections_failed",
+  "task_class": "open_chat"
+}

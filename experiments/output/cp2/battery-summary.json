@@ -1,0 +1,43 @@
+{
+  "battery": "CP2 functional gates F1-F8",
+  "gates_passed": 8,
+  "gates_run": 8,
+  "python": "3.12.8",
+  "results": [
+    {
+      "gate": "F1",
+      "passed": true
+    },
+    {
+      "gate": "F2",
+      "network_calls": 0,
+      "passed": true
+    },
+    {
+      "gate": "F3",
+      "passed": true
+    },
+    {
+      "gate": "F4",
+      "passed": true
+    },
+    {
+      "gate": "F5",
+      "passed": true
+    },
+    {
+      "gate": "F6",
+      "network_calls": 0,
+      "passed": true
+    },
+    {
+      "gate": "F7",
+      "passed": true
+    },
+    {
+      "gate": "F8",
+      "passed": true
+    }
+  ],
+  "status": "PASS"
+}

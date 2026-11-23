@@ -1,0 +1,13 @@
+{
+  "list_after": [
+    "mdl_179372748465100005"
+  ],
+  "list_before": [
+    "mdl_179372748465100005"
+  ],
+  "list_unchanged": true,
+  "rejected_outcome": {
+    "reason": "action_type_not_granted:connection.retire",
+    "status": "refused"
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "audit_events": 11,
+    "chain_ok": true,
+    "file_written": true,
+    "outcome": "success",
+    "variant": "approve"
+  },
+  {
+    "audit_events": 9,
+    "chain_ok": true,
+    "file_unchanged": true,
+    "intent_ok": true,
+    "variant": "reject"
+  },
+  {
+    "audit_events": 9,
+    "chain_ok": true,
+    "file_absent": true,
+    "outcome": "refused",
+    "reason": "target_out_of_scope:e2/refused.txt",
+    "variant": "refuse"
+  },
+  {
+    "audit_events": 9,
+    "chain_ok": true,
+    "outcome": "refused",
+    "reason": "preconditions_failed:target_exists",
+    "variant": "failure"
+  },
+  {
+    "audit_events": 8,
+    "chain_ok": true,
+    "unresolved_visible": true,
+    "variant": "unresolved",
+    "view_dvr11_clean": true
+  }
+]

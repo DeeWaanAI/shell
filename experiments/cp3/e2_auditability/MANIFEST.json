@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E2 auditability walkthrough (frozen inputs + scripts)",
+  "file_count": 3,
+  "files": {
+    "inputs/spec.json": "81940fc19d8b26ac8057512b5133b3939686aa2a3019fb544999420ce73e5c12",
+    "run.py": "2302607e9bdcca2e4e4f739d9bb7af8a09e2617c86eccd5abda7798e70515a2f",
+    "spine.py": "84d999be86edc3163ab7e24ecd85cc248d07a1406bcfb279f44c9c476a3153f5"
+  }
+}

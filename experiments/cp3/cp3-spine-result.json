@@ -1,0 +1,91 @@
+{
+  "experiments": [
+    {
+      "label": "E1",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/e1_journey/spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "E2",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/e2_auditability/spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "E3",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/e3_routing_cost/spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "E4",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/e4_connection_governance/spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "E5",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/e5_shell_limits/spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "E6",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/e6_realistic_demo/spine.py",
+      "stderr_tail": ""
+    }
+  ],
+  "layer_checks": [
+    {
+      "label": "html_charset",
+      "last_line": "OK: all 47 standalone views carry the charset meta and decode as valid UTF-8",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/cp3/check_html_charset.py",
+      "stderr_tail": ""
+    }
+  ],
+  "python": "3.12.16",
+  "regressions": [
+    {
+      "label": "preflight",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "preflight/spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "cp1_shell_spine",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/shell_spine.py",
+      "stderr_tail": ""
+    },
+    {
+      "label": "cp2_gates_spine",
+      "last_line": "}",
+      "ok": true,
+      "returncode": 0,
+      "script": "experiments/gates_spine.py",
+      "stderr_tail": ""
+    }
+  ],
+  "snapshot_files_verified": 31,
+  "status": "PASS"
+}

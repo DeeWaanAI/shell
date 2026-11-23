@@ -1,0 +1,26 @@
+{
+  "experiment": "E5",
+  "title": "Shell limits",
+  "brief_ref": "brief.md §7.2 E5; brief.md §8 honesty boundaries; sketch.md §4",
+  "description": "Reports the shell's provable limits as results, measured where possible. Three families: (1) the dvr expressibility ceiling — 5 of the 6 original screen classes are expressible under dvr/1.1, with live connection controls as the documented gap, and the ceiling is ENFORCED (specval rejects an invented service-control role) not merely documented; (2) tamper and absence probes — a modified frozen artifact is detected by chain verification and manifest hashing, and a missing dataset produces a typed error rather than a silent pass; (3) uncatchable classes — the things the shell provably cannot do, each stated plainly and demonstrated where a machine-checkable proxy exists.",
+  "screen_classes": {
+    "prompt_and_answer": {"expressible": true, "evidence": "original L2 probe + pre-flight"},
+    "data_table_and_edit": {"expressible": true, "evidence": "real r_051 write-back passed"},
+    "claim_with_evidence": {"expressible": true, "evidence": "21 Q3 source rows returned"},
+    "action_confirmation_and_audit": {"expressible": true, "evidence": "dvr/1.1 action role; frozen A40 + live action rendered"},
+    "memory_inspection": {"expressible": true, "evidence": "L4 note + provenance rendered"},
+    "connection_manager_live_controls": {"expressible": false, "evidence": "dvr/1.1 has no service-control role; native L5-backed settings surface is a documented workaround, not evidence that dvr expresses live service controls"}
+  },
+  "expressibility_ceiling": "5/6",
+  "uncatchable_classes": [
+    {"limit": "the shell cannot prove the model understood the user's intent", "proxy": "no machine-checkable proxy; stated as a boundary"},
+    {"limit": "the shell cannot prove generated prose is true", "proxy": "no machine-checkable proxy; stated as a boundary"},
+    {"limit": "the shell cannot prove a routed answer is optimal", "proxy": "no machine-checkable proxy; stated as a boundary"},
+    {"limit": "L5 default trust_user mode does not classify sensitivity for the user", "proxy": "a trust_user decision record carries classifier_mode='trust_user' and privacy_class='public' by construction, not by computation"},
+    {"limit": "L3 gates normalized actions, not the correctness of normalization", "proxy": "a gate pass does not assert the normalized form matches the user's intent"},
+    {"limit": "L4 cannot retract information absorbed into model weights", "proxy": "deletion removes records from the store; it cannot un-train a provider"},
+    {"limit": "hash chains detect modification, not an attacker who rewrites the store and recomputes every hash", "proxy": "a tamper that recomputes the whole chain would verify; the spine demonstrates detection of a naive tamper only"},
+    {"limit": "closed GUI applications remain outside routing unless they expose a supported endpoint", "proxy": "no connector exists for a closed desktop app; the connect list holds only what the user connected"}
+  ],
+  "headline_result_recomputed_by_spine": "Expressibility ceiling 5/6 with the gap enforced by specval; naive tamper detected by chain verification and manifest hashing; missing dataset produces a typed error; every uncatchable class is reported as a result, with the trust_user proxy demonstrated from a raw decision record."
+}

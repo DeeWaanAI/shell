@@ -1,0 +1,22 @@
+{
+  "base_url": "http://127.0.0.1:11434",
+  "captured_at": "2026-11-03T20:02:33Z",
+  "decision_ref": "dec_179373615370000001",
+  "decoding": "greedy/temperature=0",
+  "finish_reason": "stop",
+  "host": "local mac-m4 (darwin 27.2.0, arm64)",
+  "locus": "local",
+  "meter_label_from_ollama": "provider",
+  "model": "llama3.1:8b-instruct-q4_K_M",
+  "ollama_version": "unknown",
+  "params": "8B",
+  "prompt_chars": 4479,
+  "prompt_sha256": "8646e67fc2a6616778af0281c4468493b2e28760f1a388062f68535b51e1e060",
+  "quant": "q4_K_M",
+  "response_text": "The total Programme expenditure is £14,111,919.19. The supplier type that received the largest total spend is Large, with a total of £13,111,919.19.",
+  "run": "main_journey",
+  "runtime": "ollama",
+  "tokens_in": 1580,
+  "tokens_out": 40,
+  "wall_clock_s": 11.256
+}

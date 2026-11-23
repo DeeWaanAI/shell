@@ -1,0 +1,17 @@
+{
+  "absence_raises_typed_StoreError": true,
+  "ceiling_enforced_by_specval": true,
+  "connection_manager_is_documented_gap": true,
+  "experiment": "E5",
+  "expressibility_ceiling": "5/6",
+  "frozen_files_verified": 3,
+  "honesty_note": "An attacker who rewrites the store and recomputes the WHOLE chain would verify; E5 demonstrates detection of a NAIVE tamper only, and reports the full-rewrite case as an uncatchable class rather than claiming it is caught.",
+  "python": "3.12.16",
+  "status": "PASS",
+  "tamper_detected_by_chain": true,
+  "tamper_detected_by_manifest": true,
+  "trust_user_proxy_demonstrated": true,
+  "uncatchable_classes_reported": 8,
+  "uncatchable_demonstrated_by_proxy": 1,
+  "uncatchable_stated_only": 7
+}

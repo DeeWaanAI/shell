@@ -1,0 +1,36 @@
+{
+  "experiment": "E1",
+  "title": "End-to-end user journey",
+  "brief_ref": "brief.md §7.2 E1",
+  "description": "One prompt across Qafiya, L2, L3, L4 and L5, logged as bound records in ds:shell_audit, including a connection mutation whose successor id lands on the audit graph.",
+  "frozen_inputs": {
+    "qafiya_corpus": "preflight/inputs/qafiya_corpus (referenced read-only via _common.FROZEN_QAFIYA_CORPUS; not duplicated)",
+    "l5_datasets": "05-model-router/datasets (schemas + policy/rules/capabilities seeds copied read-only; models and decision_log start empty)",
+    "l3_l5_code": "shell/vendor/ (frozen snapshot, sha256-pinned in shell/vendor/SNAPSHOT_SHA256.json)"
+  },
+  "scripted_prompt": "Change the 9 August Q3 food expense to 956.14, create an audit note, and remember what happened.",
+  "scripted_edit": {
+    "view_id": "v_exp",
+    "node_id": "cell:r_042",
+    "target_record": "r_051",
+    "new_value": 956.14
+  },
+  "expected": {
+    "q3_total_after": 10481.96,
+    "edited_record": {"id": "r_051", "date": "2026-08-09", "period": "Q3", "amount": 956.14, "category": "food"},
+    "evidence_source_rows": 21,
+    "kernel_states": ["RECEIVED", "ROUTED", "RECALLED", "COMPOSED", "VIEW_VALIDATED", "RENDERED", "WRITE_BACK", "VIEW_VALIDATED", "RENDERED", "AWAITING_USER", "ACTION_GATED", "EXECUTED", "REMEMBERED", "CLOSED"],
+    "audit_event_count": 14,
+    "route_outcome": "planned",
+    "route_metered": false,
+    "declared_cost_usd": 0.0,
+    "actual_metered_cost_usd": null,
+    "action_type": "file.create",
+    "action_reversibility_class": "EXACT",
+    "action_outcome": "success",
+    "connection_mutation": "add then privacy_change (succession)",
+    "successor_distinct_from_allocated": true,
+    "secret_value_absent": true
+  },
+  "headline_result_recomputed_by_spine": "Completion by state; binding/reference coverage; edited values; action and memory outcomes; successor id recorded on the audit graph."
+}

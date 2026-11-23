@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "artifact": "E5 shell limits (frozen inputs + scripts)",
+  "file_count": 3,
+  "files": {
+    "inputs/spec.json": "eedd631db151c50b6befa480101a38f234d11c95d715672e7b6d814d768b8b6e",
+    "run.py": "0449ba4a3f8a75cc9f6f677ca72934d00f162d02e28952ab7bd4a77a80639510",
+    "spine.py": "d481b928db21138762e35430316324448feca1ec24a6ceada101c75405e6eec9"
+  }
+}

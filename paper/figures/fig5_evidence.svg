@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="250" viewBox="0 0 860 250" font-family="Helvetica,Arial,sans-serif">
+<title>Provenance / evidence mechanism</title>
+<rect width="860" height="250" fill="white"/>
+<text x="20" y="30" font-size="18" font-weight="bold">Provenance / evidence mechanism (E6 headline binding)</text>
+<text x="20" y="50" font-size="11" fill="#555">source: headline_evidence.json + verified_values.json (b_programme)</text>
+<defs><marker id="ar2" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#33475b"/></marker></defs>
+<rect x="30" y="100" width="160" height="70" rx="8" fill="#eef3fb" stroke="#33475b"/>
+<text x="110" y="128" font-size="13" font-weight="bold" text-anchor="middle">Displayed value</text>
+<text x="110" y="150" font-size="11" text-anchor="middle">£18,801,701.38</text>
+<line x1="190" y1="135" x2="240" y2="135" stroke="#33475b" stroke-width="1.4" marker-end="url(#ar2)"/>
+<rect x="240" y="100" width="160" height="70" rx="8" fill="#eef3fb" stroke="#33475b"/>
+<text x="320" y="128" font-size="13" font-weight="bold" text-anchor="middle">Binding</text>
+<text x="320" y="150" font-size="11" text-anchor="middle">b_programme · sum(amount) where expenditure_type='Programme'</text>
+<line x1="400" y1="135" x2="470" y2="135" stroke="#33475b" stroke-width="1.4" marker-end="url(#ar2)"/>
+<rect x="470" y="100" width="160" height="70" rx="8" fill="#eef3fb" stroke="#33475b"/>
+<text x="550" y="128" font-size="13" font-weight="bold" text-anchor="middle">Source rows</text>
+<text x="550" y="150" font-size="11" text-anchor="middle">79 amount-bearing rows</text>
+<line x1="630" y1="135" x2="680" y2="135" stroke="#33475b" stroke-width="1.4" marker-end="url(#ar2)"/>
+<rect x="680" y="100" width="160" height="70" rx="8" fill="#e8f4e8" stroke="#33475b"/>
+<text x="760" y="128" font-size="13" font-weight="bold" text-anchor="middle">Recompute</text>
+<text x="760" y="150" font-size="11" text-anchor="middle">sum = £18,801,701.38</text>
+<text x="30" y="210" font-size="12" fill="#555">▸evidence resolves the displayed value to its 79 source rows and recomputes it deterministically; coverage 100%.</text>
+</svg>

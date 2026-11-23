@@ -1,0 +1,300 @@
+{
+  "action_refs": [
+    {
+      "ref": "a_18e499dec5b381080583261c",
+      "resolved": true
+    },
+    {
+      "ref": "a_18e499dec5b381080583261c",
+      "resolved": true
+    },
+    {
+      "ref": "a_18e499dec5b381080583261c",
+      "resolved": true
+    },
+    {
+      "ref": "a_18e499dec5b381080583261c",
+      "resolved": true
+    }
+  ],
+  "connection_refs": [
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773364800014",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    }
+  ],
+  "decision_ref": [
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    },
+    {
+      "ref": "dec_179372773365600016",
+      "resolved": true
+    }
+  ],
+  "memory_refs": [
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773368300006",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773368300007",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773365800005",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773368300006",
+      "resolved": true
+    },
+    {
+      "ref": "m_179372773368300007",
+      "resolved": true
+    }
+  ],
+  "successor_ref": [
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    },
+    {
+      "ref": "mdl_179372773365000015",
+      "resolved": true
+    }
+  ]
+}
